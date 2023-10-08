@@ -1,0 +1,7 @@
+*.nosync*
+rows_*
+columns_*
+*.log
+AAPL.csv
+CRSP/
+output_e*

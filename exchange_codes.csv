@@ -1,0 +1,20 @@
+code, description
+0,Subsidiary/Private
+1,Non-traded Company or Security
+2,Consolidated Parent or Tracking Stock Company
+3,Leveraged Buyout
+4,Additional Company Record-PreSFAS 94
+7,Toronto Stock Exchange
+8,Montreal Stock Exchange
+9,TSX Venture Exchange
+10,Alberta Stock Exchange
+11,New York Stock Exchange
+12,American SE
+13,OTC Bulletin Board
+14,NASDAQ-NMS Stock Market
+15,NASDAQ OMX Boston
+16,Midwest Exchange (Chicago)
+17,NYSE Arca
+18,Philadelphia Exchange
+19,Other-OTC
+20,Unlisted Evaluated Equity
