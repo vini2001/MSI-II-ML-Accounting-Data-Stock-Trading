@@ -5,3 +5,5 @@ columns_*
 AAPL.csv
 CRSP/
 output_e*
+*.mp4
+*DS_Store
