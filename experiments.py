@@ -6,7 +6,7 @@ import yfinance as yf
 
 # exchange codes http://finabase.blogspot.com/2014/09/interantional-stock-exchange-codes-for.html
 
-path = './Compustat data3.csv.nosync.csv'
+path = './Compustat data4.csv.nosync.csv'
 df = pd.read_csv(path, sep=',')
 
 # Filters
@@ -79,6 +79,7 @@ def do_years(year_start, year_end):
 
         date = pd.to_datetime(date, format='%Y%m%d')
         close = None
+        if not 'Date' in hist: return None
         for i in range(0, 5):
             if not 'Date' in hist: continue
             dateStr = date.strftime('%Y-%m-%d')
@@ -151,7 +152,7 @@ def do_years(year_start, year_end):
     df_columns_start.to_csv(path, index=False)
     df_columns_start
 
-    min_tickers_to_select_row = (2800/4740) * len(rows_start['tic'])
+    min_tickers_to_select_row = (4500/4740) * len(rows_start['tic'])
     # select columns with count > min_count
     def select_columns(df, min_count, file_tag):
         vals = df[df_columns_start['FileTag'] == file_tag]
@@ -160,12 +161,14 @@ def do_years(year_start, year_end):
 
     vals_bal_ann_indl = select_columns(df_columns_start, min_tickers_to_select_row, 'BAL_ANN_INDL')
     vals_is_ann_indl = select_columns(df_columns_start, min_tickers_to_select_row, 'IS_ANN_INDL')
+    val_cf_ann = select_columns(df_columns_start, min_tickers_to_select_row, 'CF_ANN')
 
     print(f'{len(vals_bal_ann_indl)} columns in BAL_ANN_INDL')
     print(f'{len(vals_is_ann_indl)} columns in IS_ANN_INDL')
+    print(f'{len(val_cf_ann)} columns in CF_ANN')
 
     # select all rows in rows_start with columns of vals_bal_ann_indl and vals_is_ann_indl different than NaN
-    rows_start_bal_and_is = rows_start[['tic', 'fyear'] + vals_bal_ann_indl + vals_is_ann_indl + ['mkvalt', 'prcc_f']]
+    rows_start_bal_and_is = rows_start[['tic', 'fyear'] + vals_bal_ann_indl + vals_is_ann_indl + val_cf_ann + ['mkvalt', 'prcc_f']]
     rows_start_bal_and_is = rows_start_bal_and_is.dropna()
     rows_start_bal_and_is = rows_start_bal_and_is.reset_index(drop=True)
     # print(len(rows_start_bal_and_is))
@@ -302,7 +305,7 @@ def do_years(year_start, year_end):
     changeYfJune = (sumAllYfJune)*100/(count - len(noyf))
     chnageYfM3 = (sumAllYfMPlus3*100)/(count - len(noyf))
     changeYfM3C = (sumAllYfMPlus3CompletedByMkvalt*100)/(count)
-    changeYfM3Br = (sumAllYfMPlus3*100)/(count)
+    changeYfM3Br = ((sumAllYfMPlus3 -1*(len(noyf) + (30-count)))*100)/(count)
 
     print(f'Average change: {change:.2f}%')
     print(f'Average change yf: {changeYf:.2f}%')
