@@ -1,1859 +1,982 @@
 Column,Count,Description,FileTag
-gvkey,211472.0,Global Company Key - Key Selection,Multiple Files
-datadate,211472.0,Data Date,Multiple Files
-fyear,211472.0,Data Year - Fiscal,DES_ANN
-indfmt,211472.0,Not found,Not found
-consol,211472.0,Level of Consolidation,CCM_FILEDATE
-popsrc,211472.0,Population Source,R_FNDFNTCD
-datafmt,211472.0,Not found,Not found
-tic,211472.0,Historical Ticker/Trading Symbol,SECHIST
-cusip,211472.0,CUSIP,SECLIST
-conm,211472.0,Company Name,COMPANY
-curcd,211472.0,ISO Currency Code,DES_ANN
-fyr,211472.0,Fiscal Year-end Month,DES_ANN
-pddur,211472.0,Period Duration,DES_ANN
-src,211472.0,Source Document,DES_ANN
-upd,211472.0,Update Code,DES_ANN
-exchg,211472.0,Stock Exchange,SECURITY
-costat,211472.0,Active/Inactive Status Marker,COMPANY
-fic,211472.0,ISO Country Code - Incorporation,COMPANY
-mkvalt,211472.0,Market Value - Total,Multiple Files
-add1,211472.0,Address Line 1,COMPANY
-city,211472.0,City,COMPANY
-conml,211472.0,Company Legal Name,COMPANY
-fyrc,211472.0,Fiscal Year-end Month Current,COMPANY
-idbflag,211472.0,"Historical International, Domestic, Both Indicator",COMPHIST
-loc,211472.0,Historical ISO Country Code / Headquarters,COMPHIST
-naics,211472.0,CST History North American Industry Classification,CSTHIST
-priusa,211472.0,Historical Primary Issue Tag / US,COMPHIST
-sic,211472.0,Historical SIC Code,COMPHIST
-busdesc,211471.0,Business Description,COMPANY
-adjex_f,211466.0,Not found,Not found
-prcc_f,211462.0,Not found,Not found
-prch_f,211462.0,Not found,Not found
-prcl_f,211462.0,Not found,Not found
-dvpsp_f,211457.0,Not found,Not found
-dvpsx_f,211457.0,Not found,Not found
-stko,211430.0,Historical Stock Ownership Code,COMPHIST
-cshtr_f,211360.0,Not found,Not found
-dvpsp_c,210890.0,Not found,Not found
-dvpsx_c,210890.0,Not found,Not found
-adjex_c,210890.0,Not found,Not found
-prcc_c,210858.0,Not found,Not found
-prch_c,210858.0,Not found,Not found
-prcl_c,210858.0,Not found,Not found
-cshtr_c,210760.0,Not found,Not found
-ggroup,210532.0,GIC Group,COMPANY
-gind,210532.0,GIC Industry,COMPANY
-gsector,210532.0,GIC Sector,COMPANY
-gsubind,210532.0,GIC Subindustry,COMPANY
-addzip,210489.0,Postal Code,COMPANY
-naicsh,209540.0,North America Industrial Classification System - Historical,DES_ANN
-phone,206319.0,Historical Phone Number,COMPHIST
-cik,205788.0,CIK Number,COMPANY
-sich,203202.0,Standard Industrial Classification - Historical,DES_ANN
-state,200592.0,CST History State Identification Code,CSTHIST
-ein,197094.0,CST History Employer Identification Number,CSTHIST
-incorp,190011.0,CST History Incorporation ISO Country Code,CSTHIST
-xido,182285.0,Extraord Items & Discontinued Operations,IS_ANN_INDL
-seq,182004.0,Stockholders Equity - Parent,IDXANN
-ib,181556.0,Income Bef Extraord Items,IS_ANN_INDL
-at,181024.0,Assets - Total,BAL_ANN_INDL
-txt,180837.0,Income Taxes - Total,IDXANN
-pi,180638.0,Pretax Income,IDXANN
-dltt,178730.0,Long-Term Debt - Total,BAL_ANN_INDL
-weburl,177556.0,Historical Web URL,COMPHIST
-ppent,173512.0,"Property, Plant & Equipment - Total (Net)",IDXANN
-dp,172599.0,Depreciation & Amortization,IS_ANN_INDL
-mii,171600.0,Noncontrolling Interest (Income Account),IDXANN
-sale,164940.0,Sales/Turnover (Net),IDXANN
-cshpri,164515.0,Common Shares Used to Calculate EPS - Basic,IS_ANN_INDL
-ni,163802.0,Net Income (Loss),IDXANN
-cshfd,163402.0,Common Shares Used to Calc EPS - Fully Diluted,IS_ANN_INDL
-epspx,162730.0,EPS (Basic) Excl Extraord Items,IS_ANN_INDL
-epsfi,162659.0,Earnings Per Share (Diluted) - Including Extraordinary items,IS_ANN_INDL
-epspi,162546.0,EPS (Basic) Incl Extraord Items,IS_ANN_INDL
-epsfx,162500.0,Earnings Per Share (Diluted) - Excluding Extraordinary items,IS_ANN_INDL
-spcsrc,161614.0,Not found,Not found
-nopi,160507.0,Nonoperating Income (Expense),IDXANN
-cogs,160216.0,Cost of Goods Sold,IS_ANN_INDL
-reuna,157036.0,Retained Earnings - Unadjusted,BAL_ANN_INDL
-capx,155878.0,Capital Expenditures,CF_ANN
-xint,153738.0,Interest & Related Expense - Total,IDXANN
-spcindcd,150887.0,Historical S&P Industry Sector Code,COMPHIST
-spcseccd,150887.0,Historical S&P Economic Sector Code,COMPHIST
-xsga,134444.0,"Selling, General & Administrative Expense",IDXANN
-wcap,133038.0,Working Capital (Balance Sheet),BAL_ANN_INDL
-icapt,127650.0,Invested Capital - Total,BAL_ANN_INDL
-cstke,127484.0,Com Stk Equiv - Dollar Savings,IS_ANN_INDL
-emp,127013.0,Employees,BAL_ANN_INDL
-curncd,126887.0,Native Currency Code,DES_ANN
-currtr,126887.0,Currency Translation Rate,DES_ANN
-lse,126885.0,Liabilities & Stockholders Equity - Total,BAL_ANN_INDL
-dlc,126878.0,Debt in Current Liabilities - Total,BAL_ANN_INDL
-ao,126876.0,Assets - Other,BAL_ANN_INDL
-lo,126876.0,Liabilities - Other - Total,IDXANN
-ajex,126852.0,Adjustment Factor (Company) - Cumulative by Ex-Date,DES_ANN
-ajp,126846.0,Adjustment Factor (Company) - Cumulative by Payable Date,DES_ANN
-acctstd,126831.0,Accounting Standard,DES_ANN
-pstkr,126766.0,Preferred/Preference Stock - Redeemable,BAL_ANN_INDL
-ceq,126765.0,Common/Ordinary Equity - Total,BAL_ANN_INDL
-final,126747.0,Final Indicator Flag,DES_ANN
-pstk,126681.0,Preferred/Preference Stock (Capital) - Total,IDXANN
-lt,126670.0,Liabilities - Total,IDXANN
-tstkp,126669.0,Treasury Stock - Preferrred,BAL_ANN_INDL
-do,126642.0,Discontinued Operations,IS_ANN_INDL
-revt,126640.0,Revenue - Total,IS_ANN_INDL
-dvp,126634.0,Dividends - Preferred/Preference,IS_ANN_INDL
-pstkn,126593.0,Preferred/Preference Stock - Nonredeemable,BAL_ANN_INDL
-tstk,126456.0,Treasury Stock - Total (All Capital),IDXANN
-tstkc,126352.0,Treasury Stock - Common,BAL_ANN_INDL
-dvc,126324.0,Dividends Common/Ordinary,IS_ANN_INDL
-dvt,126324.0,Dividends - Total,IS_ANN_INDL
-spi,126118.0,Special Items,IDXANN
-ch,125184.0,Cash,BAL_ANN_INDL
-teq,125015.0,Stockholders Equity - Total,IDXANN
-cstk,124677.0,Common/Ordinary Stock (Capital),BAL_ANN_INDL
-ivst,124529.0,Short-Term Investments - Total,BAL_ANN_INDL
-re,124490.0,Retained Earnings,IDXANN
-caps,123876.0,Capital Surplus/Share Premium Reserve,BAL_ANN_INDL
-mib,123441.0,Noncontrolling Interest (Balance Sheet),IDXANN
-intan,122162.0,Intangible Assets - Total,BAL_ANN_INDL
-mibt,121672.0,Noncontrolling Interests - Total - Balance Sheet,IDXANN
-rank,120594.0,ranking,CCM_SEGNAICS
-dd1,119471.0,Long-Term Debt Due in One Year,BAL_ANN_INDL
-xi,119196.0,Extraord Items,IS_ANN_INDL
-gdwl,118686.0,Goodwill,BAL_ANN_INDL
-auop,118207.0,Auditor Opinion,CCM_AAUDIT
-ipodate,118202.0,Historical Company Initial Public Offering Date,COMPHIST
-au,118183.0,Auditor,CCM_AAUDIT
-ivaeq,115642.0,Investment & Advances - Equity,BAL_ANN_INDL
-aox,114236.0,Assets - Other - Sundry,BAL_ANN_INDL
-ap,113756.0,Accounts Payable - Trade,BAL_ANN_INDL
-txdb,113013.0,Deferred Taxes (Balance Sheet),BAL_ANN_INDL
-invt,111560.0,Inventories - Total,IDXANN
-ibadj,109953.0,Income Bef Extraord Items Adj for Com Stk Equiv,IS_ANN_INDL
-ibcom,109953.0,Income Bef Extraord Items Available for Common,IS_ANN_INDL
-csho,109341.0,Common Shares Outstanding,BAL_ANN_INDL
-che,109334.0,Cash & Short-Term Investments,BAL_ANN_INDL
-np,109167.0,Notes Payable,BAL_ANN_INDL
-niadj,109115.0,Net Income Adj for Common/Ordinary Stock (Capital) Equivalents,IS_ANN_INDL
-gp,109113.0,Gross Profit (Loss),IS_ANN_INDL
-xopr,109113.0,Operating Expenses - Total,IS_ANN_INDL
-oiadp,109112.0,Operating Income After Depreciation,IDXANN
-pstkrv,109099.0,Preferred Stock - Redemption Value,BAL_ANN_INDL
-pstkl,109080.0,Preferred Stock - Liquidating Value,BAL_ANN_INDL
-opeps,109028.0,EPS from Operations,IDXANN
-tstkn,108899.0,Treasury Stock - Number of Common Shares,BAL_ANN_INDL
-ceql,108878.0,Common Equity - Liquidation Value,BAL_ANN_INDL
-bkvlps,108875.0,Book Value Per Share,BAL_ANN_INDL
-ismod,108869.0,Income Statement Model Number,DES_ANN
-ceqt,108868.0,Common Equity - Tangible,BAL_ANN_INDL
-cshi,108697.0,Common Shares Issued,BAL_ANN_INDL
-oprepsx,108594.0,EPS - Diluted - from Operations,IS_ANN_INDL
-rect,108509.0,Receivables Total,IDXANN
-dilavx,108446.0,Dilution Available - Excl Extraord Items,IS_ANN_INDL
-diladj,108445.0,Dilution Adjustment,IS_ANN_INDL
-ebit,108240.0,Earnings Before Interest & Taxes,IS_ANN_INDL
-ibmii,106620.0,Income Bef Extraord Items & Noncontrolling Interests,IS_ANN_INDL
-intano,106239.0,Other Intangibles,BAL_ANN_INDL
-ebitda,106128.0,Earnings Before Interest,IS_ANN_INDL
-oibdp,106128.0,Operating Income Before Depreciation,IDXANN
-reajo,105921.0,Retained Earnings - Other Adj,BAL_ANN_INDL
-recta,105560.0,Retained Earnings - Cumulative Translation Adjustment,BAL_ANN_INDL
-cstkcv,105552.0,Common Stock-Carrying Value,BAL_ANN_INDL
-scf,105186.0,Cash Flow Format,DES_ANN
-chech,105110.0,Cash & Cash Equivalents - Increase/(Decrease),CF_ANN
-fopo,105102.0,Funds from Operations - Other,CF_ANN
-ibc,105094.0,Income Bef Extraord Items (Cash Flow),CF_ANN
-xidoc,105067.0,Extraord Items & Discontinued Operations (Cash Flow),CF_ANN
-oancf,105032.0,Operating Activities Net Cash Flow,IDXANN
-fincf,105030.0,Financing Activities Net Cash Flow,CF_ANN
-ivncf,105030.0,Investing Activities Net Cash Flow,IDXANN
-fiao,105029.0,Financing Activities - Other,CF_ANN
-ivaco,105029.0,Investing Activities - Other,CF_ANN
-aoloch,105012.0,Assets & Liabilities - Other - Net Change,CF_ANN
-msa,104963.0,Marketable Securities Adjustment,BAL_ANN_INDL
-exre,104926.0,Exchange Rate Effect,CF_ANN
-ivao,104702.0,Investment & Advances - Other,BAL_ANN_INDL
-dv,103989.0,Cash Dividends (Cash Flow),CF_ANN
-dpc,103403.0,Depreciation & Amortization (Cash Flow),CF_ANN
-sstk,103393.0,Sale of Common & Preferred Stock,IDXANN
-dltr,102936.0,Long-Term Debt - Reduction,CF_ANN
-txdc,102515.0,Deferred Taxes (Cash Flow),CF_ANN
-dcvt,102006.0,Debt - Convertible,BAL_ANN_INDL
-dltis,101853.0,Long-Term Debt - Issuance,CF_ANN
-siv,101487.0,Sale of Investments,CF_ANN
-aqc,101371.0,Acquisitions,CF_ANN
-ivch,100955.0,Increase in Investments,CF_ANN
-sppiv,100804.0,"Sale of Property, Plant & Equipment & Investments - Gain (Loss)",CF_ANN
-txp,100236.0,Income Taxes Payable,IDXANN
-dlto,99790.0,Other Long-term Debt,BAL_ANN_INDL
-esopct,99298.0,ESOP Obligation (Common) - Total,BAL_ANN_INDL
-recco,98750.0,Receivables - Current - Other,BAL_ANN_INDL
-esopt,98697.0,Preferred ESOP Obligation - Total,BAL_ANN_INDL
-xpr,98569.0,Pension & Retirement Expense,IS_ANN_INDL
-acchg,98227.0,Accounting Changes - Cumulative Effect,IS_ANN_INDL
-rectr,97958.0,Receivables - Trade,BAL_ANN_INDL
-ppegt,97812.0,"Property, Plant & Equipment - Total (Gross)",BAL_ANN_INDL
-txo,97769.0,Income Taxes - Other,IS_ANN_INDL
-dpact,97674.0,"Depreciation, Depletion & Amortization (Accumulated)",BAL_ANN_INDL
-prstkc,97571.0,Purchase of Common & Preferred Stock,CF_ANN
-txdi,97407.0,Income Taxes - Deferred,IS_ANN_INDL
-intc,97281.0,Interest Capitalized,IS_ANN_INDL
-lco,97223.0,Current Liabilities Other Total,IDXANN
-aco,97220.0,Current Assets Other Total,BAL_ANN_INDL
-pstkc,97040.0,Preferred Stock - Convertible,BAL_ANN_INDL
-nopio,96997.0,Nonoperating Income (Expense) - Other,IS_ANN_INDL
-itcb,96931.0,Investment Tax Credit (Balance Sheet),BAL_ANN_INDL
-invch,96788.0,Inventory Decrease (Increase),CF_ANN
-dcpstk,96684.0,Convertible Debt & Preferred Stock,BAL_ANN_INDL
-lcox,96680.0,Current Liabilities - Other - Sundry,BAL_ANN_INDL
-dudd,96473.0,Debt - Unamortized Debt Discount & Other,BAL_ANN_INDL
-cshr,96137.0,Common/Ordinary Shareholders,BAL_ANN_INDL
-capxv,95982.0,"Capital Expend Property, Plant & Equipment Schd V",CF_ANN
-acox,95860.0,Current Assets - Other - Sundry,BAL_ANN_INDL
-dvpa,94753.0,Preferred Dividends in Arrears,BAL_ANN_INDL
-dcvsr,94591.0,Debt - Senior Convertible,BAL_ANN_INDL
-dcvsub,94580.0,Debt - Subordinated Convertible,BAL_ANN_INDL
-ds,94492.0,Debt - Subordinated,BAL_ANN_INDL
-dn,93987.0,Debt - Notes,BAL_ANN_INDL
-dd,93863.0,Debt - Debentures,BAL_ANN_INDL
-ceoso,93828.0,Chief Executive Officer SOX Certification,CCM_AAUDIT
-cfoso,93828.0,Chief Financial Officer SOX Certification,CCM_AAUDIT
-acominc,93674.0,Accumulated Other Comprehensive Income (Loss),BAL_ANN_INDL
-apdedate,93409.0,Actual Period End date,DES_ANN
-intpn,93194.0,Interest Paid - Net,CF_ANN
-txr,93139.0,Income Tax Refund,BAL_ANN_INDL
-txditc,92740.0,Deferred Taxes & Investment Tax Credit,IDXANN
-esub,92723.0,Equity in Earnings - Unconsolidated Subsidiaries,IS_ANN_INDL
-ppeveb,92678.0,"Property, Plant, & Equipment - Ending Balance (Schedule V)",BAL_ANN_INDL
-dclo,92517.0,Debt - Capitalized Lease Obligations,BAL_ANN_INDL
-recch,92436.0,Accounts Receivable - Decrease (Increase),CF_ANN
-esubc,91831.0,Equity in Net Loss - Earnings,CF_ANN
-dt,91134.0,Total Debt Including Current,BAL_ANN_INDL
-dpact_fn,91126.0,"Depreciation, Depletion & Amortization (Accumulated) FN",BAL_ANN_INDL
-xrent,91072.0,Rental Expense,IS_ANN_INDL
-lifr,90884.0,LIFO Reserve,BAL_ANN_INDL
-fax,90644.0,Fax Number,COMPANY
-dm,90530.0,Debt - Mortgages & Other Secured,BAL_ANN_INDL
-dpvieb,90471.0,Depreciation (Accumulated) - Ending Balance (Schedule VI),BAL_ANN_INDL
-txpd,90439.0,Income Taxes Paid,CF_ANN
-lifrp,90372.0,LIFO Reserve - Prior,BAL_ANN_INDL
-rea,90308.0,Retained Earnings - Restatement,BAL_ANN_INDL
-lct,89478.0,Current Liabilities - Total,IDXANN
-aociother,89245.0,Accum Other Comp Inc - Other Adj,BAL_ANN_INDL
-aocisecgl,89237.0,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets,BAL_ANN_INDL
-act,89139.0,Current Assets - Total,BAL_ANN_INDL
-txw,88659.0,Excise Taxes,IS_ANN_INDL
-aocipen,88560.0,Accum Other Comp Inc - Min Pension Liab Adj,BAL_ANN_INDL
-txfo,88468.0,Income Taxes - Foreign,IS_ANN_INDL
-dc,88148.0,Deferred Charges,BAL_ANN_INDL
-aocidergl,87883.0,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss,BAL_ANN_INDL
-auopic,87816.0,Auditor Opinion - Internal Control,CCM_AAUDIT
-dlrsn,87297.0,Research Company Reason for Deletion,COMPANY
-dldte,87297.0,Research Company Deletion Date,COMPANY
-txc,86941.0,Income Taxes - Current,IS_ANN_INDL
-txndb,86628.0,Net Deferred Tax Asset (Liab) - Total,BAL_ANN_INDL
-rdip,86288.0,In Process R&D Expense,IS_ANN_INDL
-rdipa,85601.0,In Process R&D Expense After-tax,IS_ANN_INDL
-rdipd,85576.0,In Process R&D Expense Diluted EPS Effect,IS_ANN_INDL
-rdipeps,85576.0,In Process R&D Expense Basic EPS Effect,IS_ANN_INDL
-dd4,84948.0,Debt Due in 4th Year,BAL_ANN_INDL
-mrc1,84645.0,Rental Commitments - Minimum - 1st Year,BAL_ANN_INDL
-dd2,84617.0,Debt Due in 2nd Year,BAL_ANN_INDL
-dd3,84543.0,Debt Due in 3rd Year,BAL_ANN_INDL
-rdipeps_fn,84460.0,In Process R&D Expense Basic EPS Effect FN,IS_ANN_INDL
-rdipd_fn,84254.0,In Process R&D Expense Diluted EPS Effect FN,IS_ANN_INDL
-rdipa_fn,83902.0,In Process R&D Expense After-tax FN,IS_ANN_INDL
-dd5,83891.0,Debt Due in 5th Year,BAL_ANN_INDL
-sppe,83803.0,Sale of Property,IDXANN
-txdba,83457.0,Deferred Tax Asset - Long Term,BAL_ANN_INDL
-donr,83423.0,Nonrecurring Disc Operations,IS_ANN_INDL
-am,82721.0,Amortization of Intangibles,IS_ANN_INDL
-mrc2,82696.0,Rental Commitments - Minimum - 2nd Year,BAL_ANN_INDL
-mrc3,82578.0,Rental Commitments - Minimum - 3rd Year,BAL_ANN_INDL
-mrc4,82535.0,Rental Commitments - Minimum - 4th Year,BAL_ANN_INDL
-txndbr,82401.0,Deferred Tax Residual,BAL_ANN_INDL
-fdate,82341.0,Final Date,DES_ANN
-txfed,82068.0,Income Taxes - Federal,IS_ANN_INDL
-txs,81974.0,Income Taxes - State,IS_ANN_INDL
-fopox,81534.0,Funds from Operations - Other excluding Option Tax Benefit,CF_ANN
-esopnr,81394.0,Preferred ESOP Obligation - Non-Redeemable,BAL_ANN_INDL
-txbco,81256.0,Excess Tax Benefit Stock Options - Cash Flow Operating,CF_ANN
-dcom,81170.0,Deferred Compensation,BAL_ANN_INDL
-seqo,81124.0,Other Stockholders - Equity Adj,BAL_ANN_INDL
-esopr,81008.0,Preferred ESOP Obligation - Redeemable,BAL_ANN_INDL
-loxdr,80897.0,Liabilities - Other - Excluding Deferred Revenue,BAL_ANN_INDL
-aodo,80890.0,Other Assets excluding Discontinued Operations,BAL_ANN_INDL
-lcoxdr,80881.0,Current Liabilities - Other - Excluding Deferred Revenue,BAL_ANN_INDL
-acodo,80826.0,Other Current Assets Excl Discontinued Operations,BAL_ANN_INDL
-aldo,80822.0,Long-term Assets of Discontinued Operations,BAL_ANN_INDL
-acdo,80640.0,Current Assets of Discontinued Operations,BAL_ANN_INDL
-txndba,80485.0,Net Deferred Tax Asset,BAL_ANN_INDL
-txndbl,80474.0,Net Deferred Tax Liability,BAL_ANN_INDL
-mrc5,79680.0,Rental Commitments - Minimum - 5th Year,BAL_ANN_INDL
-prsho,79582.0,Redeem Pfd Shares Outs (000),BAL_ANN_INDL
-mrct,79518.0,Rental Commitments - Minimum - 5 Year Total,BAL_ANN_INDL
-stkco,79431.0,Stock Compensation Expense,IS_ANN_INDL
-pnrsho,79395.0,Nonred Pfd Shares Outs (000),BAL_ANN_INDL
-drlt,78958.0,Deferred Revenue - Long-term,BAL_ANN_INDL
-mrcta,78785.0,Thereafter Portion of Leases,BAL_ANN_INDL
-dltp,78591.0,Long-Term Debt - Tied to Prime,BAL_ANN_INDL
-txdfo,78175.0,Deferred Taxes-Foreign,IS_ANN_INDL
-citotal,78114.0,Comprehensive Income - Parent,IS_ANN_INDL
-cibegni,78076.0,Comp Inc - Beginning Net Income,IS_ANN_INDL
-ciother,78059.0,Comp Inc - Other Adj,IS_ANN_INDL
-cipen,77811.0,Comp Inc - Minimum Pension Adj,IS_ANN_INDL
-ivstch,77766.0,Short-Term Investments - Change,CF_ANN
-cicurr,77509.0,Comp Inc - Currency Trans Adj,IS_ANN_INDL
-cidergl,77475.0,Comp Inc - Derivative Gains/Losses,IS_ANN_INDL
-cisecgl,77458.0,Comp Inc - Securities Gains/Losses,IS_ANN_INDL
-fatn,77429.0,"Property, Plant, & Equipment - Natural Resources at Cost",BAL_ANN_INDL
-dxd4,77152.0,Debt (excl Capitalized Leases) - Due in 4th Year,BAL_ANN_INDL
-xacc,77045.0,Accrued Expenses,BAL_ANN_INDL
-fatc,77005.0,"Property, Plant, & Equipment Construction in Progress at Cost",BAL_ANN_INDL
-dxd2,76756.0,Debt (excl Capitalized Leases) - Due in 2nd Year,BAL_ANN_INDL
-dxd3,76748.0,Debt (excl Capitalized Leases) - Due in 3rd Year,BAL_ANN_INDL
-dxd5,76452.0,Debt (excl Capitalized Leases) - Due in 5th Year,BAL_ANN_INDL
-idit,76099.0,Interest & Related Income - Total,IS_ANN_INDL
-optosey,76066.0,Options Outstanding - End of Year,BAL_ANN_INDL
-drc,75941.0,Deferred Revenue - Current,BAL_ANN_INDL
-fatp,75174.0,"Property, Plant, & Equipment Land & Improvements at Cost",BAL_ANN_INDL
-txbcof,74895.0,Excess Tax Benefit of Stock Options - Cash Flow Financing,CF_ANN
-fatb,74849.0,"Property, Plant, & Equipment Buildings at Cost",BAL_ANN_INDL
-xpp,73925.0,Prepaid Expenses,BAL_ANN_INDL
-txdfed,73828.0,Deferred Taxes-Federal,IS_ANN_INDL
-txds,73236.0,Deferred Taxes-State,IS_ANN_INDL
-txach,73083.0,Income Taxes - Accrued - Increase/(Decrease),CF_ANN
-invo,72016.0,Inventories - Other,BAL_ANN_INDL
-recd,71905.0,Receivables - Estimated Doubtful,BAL_ANN_INDL
-txdbca,71863.0,Deferred Tax Asset - Current,BAL_ANN_INDL
-cld4,71725.0,Capitalized Leases - Due in 4th Year,BAL_ANN_INDL
-cld5,71618.0,Capitalized Leases - Due in 5th Year,BAL_ANN_INDL
-cld3,71370.0,Capitalized Leases - Due in 3rd Year,BAL_ANN_INDL
-cld2,71353.0,Capitalized Leases - Due in 2nd Year,BAL_ANN_INDL
-tlcf,71324.0,Tax Loss Carry Forward,BAL_ANN_INDL
-fatl,71193.0,"Property, Plant, & Equipment - Leases at Cost",BAL_ANN_INDL
-optprcey,71094.0,Options Outstanding End of Year - Price,BAL_ANN_INDL
-invfg,70827.0,Inventories - Finished Goods,BAL_ANN_INDL
-invrm,70494.0,Inventories - Raw Materials,BAL_ANN_INDL
-txdbcl,70468.0,Deferred Tax Liability - Current,BAL_ANN_INDL
-stkco_fn,70010.0,Stock Compensation Expense FN,IS_ANN_INDL
-invwip,69677.0,Inventories - Work In Process,BAL_ANN_INDL
-optgr,69052.0,Options - Granted,BAL_ANN_INDL
-apalch,69041.0,Accounts Payable & Accrued Liabilities - Increase/(Decrease),CF_ANN
-optosby,68965.0,Options Outstanding - Beg of Year,BAL_ANN_INDL
-optca,68791.0,Options - Cancelled (-),BAL_ANN_INDL
-optexd,68787.0,Options - Exercised (-),BAL_ANN_INDL
-itci,67630.0,Investment Tax Credit (Income Account),IS_ANN_INDL
-mibn,67304.0,Noncontrolling Interests - Nonredeemable - Balance Sheet,IDXANN
-optex,67117.0,Options Exercisable (000),BAL_ANN_INDL
-fate,67113.0,"Property, Plant, & Equipment Machinery & Equipment at Cost",BAL_ANN_INDL
-pnca,66219.0,Core Pension Adjustment,PN_ANN
-prca,66125.0,Core Post Retirement Adjustment,PN_ANN
-pncad,66082.0,Core Pension Adjustment Diluted EPS Effect,PN_ANN
-pncaeps,66082.0,Core Pension Adjustment Basic EPS Effect,PN_ANN
-prcad,66073.0,Core Post Retirement Adjustment Diluted EPS Effect,PN_ANN
-prcaeps,66073.0,Core Post Retirement Adjustment Basic EPS Effect,PN_ANN
-ci,64672.0,Comprehensive Income - Total,IS_ANN_INDL
-cimii,64639.0,Comprehensive Income - Noncontrolling Interest,IS_ANN_INDL
-opeps_fn,64358.0,EPS from Operations FN,IS_ANN_INDL
-fato,63914.0,"Property, Plant, & Equipment Other at Cost",BAL_ANN_INDL
-optprcby,63870.0,Options Outstanding Beg of Year - Price,BAL_ANN_INDL
-xintopt,63528.0,Implied Option Expense,IS_ANN_INDL
-xoptd,63306.0,Implied Option EPS Diluted,IS_ANN_INDL
-xopteps,63306.0,Implied Option EPS Basic,IS_ANN_INDL
-optprcwa,61522.0,Options Exercisable - Weighted Avg Price,BAL_ANN_INDL
-xrd,57119.0,Research & Development Expense,IS_ANN_INDL
-oprepsx_fn,56918.0,EPS - Diluted - from Operations FN,IS_ANN_INDL
-esopdlt,56448.0,ESOP Debt - Long Term,BAL_ANN_INDL
-xrdp,56089.0,Research & Development - Prior,IS_ANN_INDL
-optprcca,56017.0,Options Cancelled - Price,BAL_ANN_INDL
-fca,55684.0,Foreign Exchange Income (Loss),IS_ANN_INDL
-dlcch,55543.0,Current Debt - Changes,CF_ANN
-optprcex,53741.0,Options Exercised - Price,BAL_ANN_INDL
-xpp_dc,51397.0,Prepaid Expenses DC,BAL_ANN_INDL
-dlcch_dc,49566.0,Current Debt - Changes DC,CF_ANN
-optprcgr,49347.0,Options Granted - Price,BAL_ANN_INDL
-aqs,49240.0,Acquisitions - Sales Contribution,IS_ANN_INDL
-aqi,49077.0,Acquisitions - Income Contribution,IS_ANN_INDL
-optvol,48014.0,Volatility - Assumption (%),BAL_ANN_INDL
-optrfr,47953.0,Risk Free Rate - Assumption (%),BAL_ANN_INDL
-cogs_fn,47688.0,Cost of Goods Sold FN,IS_ANN_INDL
-optlife,47659.0,Life of Options - Assumption (# yrs),BAL_ANN_INDL
-pdate,47644.0,Preliminary Date,DES_ANN
-optdr,46793.0,Dividend Rate - Assumption (%),BAL_ANN_INDL
-ltcm,45026.0,Long-term Contracts Method,DES_ANN
-ano,44995.0,Assets Netting & Other Adj,BAL_ANN_INDL
-lno,44990.0,Liabilities Netting & Other Adj,BAL_ANN_INDL
-tfva,44989.0,Total Fair Value Assets,BAL_ANN_INDL
-lul3,44979.0,Liabilities Level3 (Unobservable),BAL_ANN_INDL
-aul3,44978.0,Assets Level3 (Unobservable),BAL_ANN_INDL
-lqpl1,44977.0,Liabilities Level1 (Quoted Prices),BAL_ANN_INDL
-tfvl,44971.0,Total Fair Value Liabilities,BAL_ANN_INDL
-aqpl1,44968.0,Assets Level1 (Quoted Prices),BAL_ANN_INDL
-lol2,44962.0,Liabilities Level2 (Observable),BAL_ANN_INDL
-aol2,44951.0,Assets Level2 (Observable),BAL_ANN_INDL
-optfvgr,44844.0,Options - Fair Value of Options Granted,BAL_ANN_INDL
-xad,43197.0,Advertising Expense,IS_ANN_INDL
-spce,42559.0,S&P Core Earnings,IS_ANN_INDL
-spceeps,42512.0,S&P Core Earnings EPS Basic,IS_ANN_INDL
-spced,42509.0,S&P Core Earnings EPS Diluted,IS_ANN_INDL
-txtubend,42196.0,Unrecog Tax Benefits - End of Year,BAL_ANN_INDL
-txtubbegin,41531.0,Unrecog Tax Benefits - Beg of Year,BAL_ANN_INDL
-pidom,41275.0,Pretax Income - Domestic,IS_ANN_INDL
-txtubadjust,41140.0,Other Unrecog Tax Benefit Adj,BAL_ANN_INDL
-txtubposdec,41126.0,Decrease - Current Tax Positions,BAL_ANN_INDL
-txtubpospdec,41124.0,Decrease- Prior Tax Positions,BAL_ANN_INDL
-txtubposinc,41094.0,Increase - Current Tax Positions,BAL_ANN_INDL
-txtubpospinc,41083.0,Increase- Prior Tax Positions,BAL_ANN_INDL
-txtubsettle,41070.0,Settlements with Tax Authorities (-),BAL_ANN_INDL
-txtubsoflimit,41064.0,Lapse of Statute of Limitations (-),BAL_ANN_INDL
-at_fn,41007.0,Assets - Total FN,BAL_ANN_INDL
-pifo,40891.0,Pretax Income - Foreign,IS_ANN_INDL
-bspr,39079.0,Balance Sheet Presentation,DES_ANN
-idit_dc,37170.0,Interest & Related Income - Total DC,IS_ANN_INDL
-xlr,36311.0,Staff Expense - Total,IS_ANN_INDL
-apalch_dc,35974.0,Accounts Payable & Accrued Liabilities - Increase/(Decrease) DC,CF_ANN
-stkcpa,35106.0,After-tax stock compensation,IS_ANN_INDL
-sale_fn,35095.0,Sales/Turnover (Net) FN,IS_ANN_INDL
-txtubtxtr,34869.0,Impact on Effective Tax Rate,BAL_ANN_INDL
-txtubxintbs,32439.0,Interest & Penalties Accrued - B/S,BAL_ANN_INDL
-epspi_fn,32373.0,EPS (Basic) - Incl Extraord Items FN,IS_ANN_INDL
-epspx_fn,32327.0,EPS (Basic) - Excl Extraord Items FN,IS_ANN_INDL
-txach_dc,31932.0,Income Taxes - Accrued - Increase/(Decrease) DC,CF_ANN
-dcs,31826.0,Debt - Consolidated Subsidiary,BAL_ANN_INDL
-xintd,31001.0,Interest Expense - Long-Term Debt,IS_ANN_INDL
-revt_fn,28841.0,Revenue - Total FN,IS_ANN_INDL
-compst,28745.0,Comparability Status,DES_ANN
-dfs,28045.0,Debt - Finance Subsidiary,BAL_ANN_INDL
-glcep,26426.0,Gain/Loss on Sale (Core Earnings Adj) Pretax,IS_ANN_INDL
-glcea,26409.0,Gain/Loss on Sale (Core Earnings Adj) After-tax,IS_ANN_INDL
-xint_dc,26401.0,Interest & Related Expense - Total DC,IS_ANN_INDL
-glceeps,26388.0,Gain/Loss on Sale (Core Earnings Adj) Basic EPS Effect,IS_ANN_INDL
-glced,26387.0,Gain/Loss on Sale (Core Earnings Adj) Diluted EPS,IS_ANN_INDL
-emp_fn,26269.0,Employees FN,BAL_ANN_INDL
-spceeps_fn,25691.0,S&P Core Earnings EPS Basic FN,IS_ANN_INDL
-xsga_dc,25527.0,"Selling, General & Administrative Expense DC",IS_ANN_INDL
-glceeps_fn,25443.0,Gain/Loss On Sale Basic EPS Effect FN,IS_ANN_INDL
-dclo_fn,25390.0,Debt - Capitalized Lease Obligations FN,BAL_ANN_INDL
-dcvsr_fn,25390.0,Debt - Senior Convertible FN,BAL_ANN_INDL
-dcvsub_fn,25390.0,Debt - Subordinated Convertible FN,BAL_ANN_INDL
-dcvt_fn,25390.0,Debt - Convertible FN,BAL_ANN_INDL
-dd_fn,25390.0,Debt - Debentures FN,BAL_ANN_INDL
-dlto_fn,25390.0,Other Long-term Debt FN,BAL_ANN_INDL
-dltp_fn,25390.0,Long-Term Debt - Tied to Prime FN,BAL_ANN_INDL
-dn_fn,25390.0,Debt - Notes FN,BAL_ANN_INDL
-ds_fn,25390.0,Debt-Subordinated FN,BAL_ANN_INDL
-ob,25005.0,Order Backlog,BAL_ANN_INDL
-ivstch_dc,24995.0,Short-Term Investments - Change DC,CF_ANN
-txtubxintis,24993.0,Interest & Penalties Recognized - I/S,BAL_ANN_INDL
-spced_fn,24524.0,S&P Core Earnings EPS Diluted FN,IS_ANN_INDL
-glced_fn,24384.0,Gain/Loss On Sale Diluted EPS FN,IS_ANN_INDL
-rcp,24197.0,Restructuring Costs Pretax,IS_ANN_INDL
-rca,24145.0,Restructuring Costs After-tax,IS_ANN_INDL
-rcd,24130.0,Restructuring Costs Diluted EPS Effect,IS_ANN_INDL
-rceps,24123.0,Restructuring Costs Basic EPS Effect,IS_ANN_INDL
-spce_fn,23097.0,S&P Core Earnings FN,IS_ANN_INDL
-rceps_fn,22811.0,Restructuring Costs Basic EPS Effect FN,IS_ANN_INDL
-tfvce,22209.0,Total Fair Value Changes including Earnings,IS_ANN_INDL
-pncwip,21541.0,Core Pension w/o Interest Adjustment Pretax,PN_ANN
-pncwia,21535.0,Core Pension w/o Interest Adjustment After-tax,PN_ANN
-glcea_fn,21527.0,Gain/Loss On Sale After-tax FN,IS_ANN_INDL
-pncwid,21512.0,Core Pension w/o Interest Adjustment Diluted EPS Effect,PN_ANN
-pncwieps,21512.0,Core Pension w/o Interest Adjustment Basic EPS Effect,PN_ANN
-pncwid_fn,21512.0,Core Pension w/o Interest Adjustment Diluted EPS Effect FN,PN_ANN
-pncwieps_fn,21512.0,Core Pension w/o Interest Adjustment Basic EPS Effect FN,PN_ANN
-sppe_dc,21306.0,"Sale of Property, Plant & Equipment DC",CF_ANN
-pncwia_fn,20963.0,Core Pension w/o Interest Adjustment After-tax FN,PN_ANN
-pncip,20949.0,Core Pension Interest Adjustment Pretax,PN_ANN
-pncia,20943.0,Core Pension Interest Adjustment After-tax,PN_ANN
-pncid,20921.0,Core Pension Interest Adjustment Diluted EPS Effect,PN_ANN
-pncieps,20921.0,Core Pension Interest Adjustment Basic EPS Effect,PN_ANN
-pnca_fn,20406.0,Core Pension Adjustment FN,PN_ANN
-aqp,19732.0,Acquisition/Merger Pretax,IS_ANN_INDL
-pncad_fn,19706.0,Core Pension Adjustment Diluted EPS Effect FN,PN_ANN
-pncaeps_fn,19706.0,Core Pension Adjustment Basic EPS Effect FN,PN_ANN
-aqa,19694.0,Acquisition/Merger After-tax,IS_ANN_INDL
-aqd,19681.0,Acquisition/Merger Diluted EPS Effect,IS_ANN_INDL
-aqeps,19674.0,Acquisition/Merger Basic EPS Effect,IS_ANN_INDL
-xacc_dc,19638.0,Accrued Expenses DC,BAL_ANN_INDL
-acqmeth,19552.0,Acquisition Method,DES_ANN
-rcd_fn,19435.0,Restructuring Costs Diluted EPS Effect FN,IS_ANN_INDL
-aqeps_fn,19246.0,Acquisition/Merger Basic EPS Effect FN,IS_ANN_INDL
-lse_fn,18441.0,Liabilities & Stockholders Equity - Total FN,BAL_ANN_INDL
-aqs_fn,17796.0,Acquisitions - Sales Contribution FN,IS_ANN_INDL
-spieps_fn,17683.0,Other Special Items Basic EPS Effect FN,IS_ANN_INDL
-xt,17525.0,Expense - Total,IS_ANN_FS
-ris,17513.0,Revenue/Income - Sundry,IS_ANN_FS
-xs,17511.0,Expense - Sundry,IS_ANN_FS
-vpo,17328.0,Investments - Permanent - Other,BAL_ANN_FS
-spiop,17285.0,Other Special Items Pretax,IS_ANN_INDL
-ivpt,17275.0,Investments - Permanent - Total,BAL_ANN_FS
-spioa,17247.0,Other Special Items After-tax,IS_ANN_INDL
-spid,17211.0,Other Special Items Diluted EPS Effect,IS_ANN_INDL
-spieps,17202.0,Other Special Items Basic EPS Effect,IS_ANN_INDL
-ragr,17144.0,Resale Agreements,BAL_ANN_FS
-stbo,17127.0,Short-Term Borrowings - Other,BAL_ANN_FS
-transa,17077.0,Cumulative Translation Adjustment,BAL_ANN_FS
-rca_fn,17075.0,Restructuring Costs After-tax FN,IS_ANN_INDL
-aqd_fn,17010.0,Acquisition/Merger Diluted EPS Effect FN,IS_ANN_INDL
-fdfr,16375.0,Federal Funds Purchased,BAL_ANN_FS
-dfxa,16354.0,Depreciation of Tangible Fixed Assets,IS_ANN_INDL
-rpag,16273.0,Repurchase Agreements,BAL_ANN_FS
-lcuacu,16194.0,Loans/Claims/Advances - Customer - Total,BAL_ANN_FS
-secu,16156.0,Securities Gains (Losses) - Unrealized,BAL_ANN_FS
-amgw,16093.0,Amortization of Goodwill,IS_ANN_FS
-xagt,16075.0,Administrative & General Expense - Total,IS_ANN_FS
-rcl,15969.0,Reserves for Credit Losses (Assets),BAL_ANN_FS
-ffs,15946.0,Federal Funds Sold,BAL_ANN_FS
-ap_fn,15936.0,Accounts Payable - Trade FN,BAL_ANN_INDL
-lcao,15860.0,Loans/Claims/Advances - Other,BAL_ANN_FS
-pcl,15820.0,Provision - Credit Losses (Income Account),IS_ANN_FS
-spid_fn,15415.0,Other Special Items Diluted EPS Effect FN,IS_ANN_INDL
-dtep,15297.0,Extinguishment of Debt Pretax,IS_ANN_INDL
-dtea,15279.0,Extinguishment of Debt After-tax,IS_ANN_INDL
-dted,15268.0,Extinguishment of Debt Diluted EPS Effect,IS_ANN_INDL
-dteeps,15262.0,Extinguishment of Debt Basic EPS Effect,IS_ANN_INDL
-cfpdo,15239.0,Commissions & Fees Paid - Other,IS_ANN_FS
-niint,15213.0,Net Interest Income,IS_ANN_FS
-stio,15101.0,Short-Term Investments - Other,BAL_ANN_FS
-recub,15041.0,Unbilled Receivables,BAL_ANN_INDL
-aqa_fn,14979.0,Acquisition/Merger After-tax FN,IS_ANN_INDL
-dd2_fn,14903.0,Debt - Due in 2nd Year FN,BAL_ANN_INDL
-dd3_fn,14903.0,Debt - Due in 3rd Year FN,BAL_ANN_INDL
-dd4_fn,14903.0,Debt - Due in 4th Year FN,BAL_ANN_INDL
-dd5_fn,14903.0,Debt - Due in 5th Year FN,BAL_ANN_INDL
-npat,14799.0,Nonperforming Assets - Total,BAL_ANN_FS
-wdeps_fn,14792.0,Writedowns Basic EPS Effect FN,IS_ANN_INDL
-dteeps_fn,14608.0,Extinguishment of Debt Basic EPS Effect FN,IS_ANN_INDL
-npaore,14539.0,Nonperforming Assets - Other Real Estate Owned,BAL_ANN_FS
-dptc,14403.0,Deposits - Total - Customer,BAL_ANN_FS
-ist,14339.0,Investment Securities -Total,BAL_ANN_FS
-xago,13933.0,Administrative & General Expense - Other,IS_ANN_FS
-tdst,13924.0,Trading/Dealing Account Securities - Total,BAL_ANN_FS
-xstf,13878.0,Staff Expense (Income Account),IS_ANN_FS
-dc_dc,13876.0,Deferred Charges DC,BAL_ANN_INDL
-setp,13755.0,Settlement (Litigation/Insurance) Pretax,IS_ANN_INDL
-seta,13746.0,Settlement (Litigation/Insurance) After-tax,IS_ANN_INDL
-setd,13728.0,Settlement (Litigation/Insurance) Diluted EPS Effect,IS_ANN_INDL
-seteps,13725.0,Settlement (Litigation/Insurance) Basic EPS Effect,IS_ANN_INDL
-cfo,13606.0,Commissions & Fees - Other,IS_ANN_FS
-wdp,13593.0,Writedowns Pretax,IS_ANN_INDL
-wda,13557.0,Writedowns After-tax,IS_ANN_INDL
-wdd,13549.0,Writedowns Diluted EPS Effect,IS_ANN_INDL
-wdeps,13547.0,Writedowns Basic EPS Effect,IS_ANN_INDL
-wdd_fn,13533.0,Writedowns Diluted EPS Effect FN,IS_ANN_INDL
-isgt,13372.0,Investment Securities - Gain (Loss) - Total,IS_ANN_FS
-esubc_dc,13262.0,Equity in Net Loss - Earnings DC,CF_ANN
-seteps_fn,13250.0,Settlement (Litigation/Insurance) Basic EPS Effect FN,IS_ANN_INDL
-xeqo,13220.0,Equipment & Occupancy Expense,IS_ANN_FS
-spioa_fn,13013.0,Other Special Items After-tax FN,IS_ANN_INDL
-dted_fn,12977.0,Extinguishment of Debt Diluted EPS Effect FN,IS_ANN_INDL
-tf,12868.0,Trust Fees,IS_ANN_FS
-gleps_fn,12690.0,Gain/Loss Basic EPS Effect FN,IS_ANN_INDL
-irent,12664.0,Rental Income,IS_ANN_INDL
-hedgegl,12588.0,Gain/Loss on Ineffective Hedges,IS_ANN_INDL
-recch_dc,12579.0,Accounts Receivable - Decrease (Increase) DC,CF_ANN
-derllt,12405.0,Derivative Liabilities Long-Term,BAL_ANN_INDL
-acctchg,12389.0,Adoption of Accounting Changes,DES_ANN
-tdsg,12338.0,Trading/Dealing Securities - Gain (Loss),IS_ANN_FS
-xint_fn,12337.0,Interest & Related Expense - Total FN,IS_ANN_INDL
-initb,12265.0,Income - Non-interest - Total (Bank),IS_ANN_FS
-xnitb,12265.0,Expense - Noninterest - Total (Bank),IS_ANN_FS
-optrfr_fn,12248.0,Risk Free Rate - Assumption (%) - FN,BAL_ANN_INDL
-tie,12111.0,Interest Expense - Total (Financial Services),IS_ANN_INDL
-tii,12111.0,Interest Income - Total (Financial Services),IS_ANN_INDL
-pll,12094.0,Provision for Loan/Asset Losses,IS_ANN_INDL
-rll,12090.0,Reserve for Loan/Asset Losses,BAL_ANN_INDL
-derlc,12053.0,Derivative Liabilities- Current,BAL_ANN_INDL
-nco,12045.0,Net Charge-Offs,IS_ANN_INDL
-nim,12010.0,Net Interest Margin,IS_ANN_INDL
-rstche,11945.0,Restricted Cash & Investments - Current,BAL_ANN_INDL
-capr1,11832.0,Risk-Adj Capital Ratio - Tier 1,BAL_ANN_FS
-capr3,11832.0,Risk-Adj Capital Ratio - Combined,BAL_ANN_FS
-nrtxt,11816.0,Nonrecurring Income Taxes After-tax,IS_ANN_INDL
-nrtxtd,11798.0,Nonrecurring Income Tax Diluted EPS Effect,IS_ANN_INDL
-nrtxteps,11798.0,Nonrecurring Income Tax Basic EPS Effect,IS_ANN_INDL
-ca,11730.0,Customers' Acceptance,BAL_ANN_FS
-derhedgl,11723.0,Gains/Losses on Derivatives & Hedging,IS_ANN_INDL
-capr2,11685.0,Risk-Adj Capital Ratio - Tier 2,BAL_ANN_FS
-acco,11684.0,Acceptances Outstanding,BAL_ANN_FS
-glp,11531.0,Gain/Loss Pretax,IS_ANN_INDL
-gla,11507.0,Gain/Loss After-tax,IS_ANN_INDL
-gld,11493.0,Gain/Loss Diluted EPS Effect,IS_ANN_INDL
-gleps,11491.0,Gain/Loss Basic EPS Effect,IS_ANN_INDL
-setd_fn,11477.0,Settlement (Litigation/Insurance) Diluted EPS Effect FN,IS_ANN_INDL
-wda_fn,11459.0,Writedowns After-tax FN,IS_ANN_INDL
-prcad_fn,11360.0,Core Post Retirement Adjustment Diluted EPS Effect FN,PN_ANN
-prcaeps_fn,11360.0,Core Post Retirement Adjustment Basic EPS Effect FN,PN_ANN
-prca_fn,11310.0,Core Post Retirement Adjustment FN,PN_ANN
-fatl_dc,11220.0,"Property, Plant, & Equipment - Leases at Cost DC",BAL_ANN_INDL
-gld_fn,11133.0,Gain/Loss Diluted EPS Effect FN,IS_ANN_INDL
-clg,11016.0,Contingent Liabilities - Guarantees,BAL_ANN_INDL
-prican,11002.0,Historical Primary Issue Tag / Canada,COMPHIST
-txtubmax,10958.0,Change In Unrecog Tax Benefits - Max,BAL_ANN_INDL
-acqgdwl,10725.0,Acquired Assets - Goodwill,BAL_ANN_INDL
-xstfo_dc,10710.0,Staff Expense - Other DC,IS_ANN_FS
-acqintan,10637.0,Acquired Assets - Intangibles,BAL_ANN_INDL
-deralt,10565.0,Derivative Assets Long-Term,BAL_ANN_INDL
-nrtxteps_fn,10545.0,Nonrecurring Income Tax Basic EPS Effect FN,IS_ANN_INDL
-mii_dc,10501.0,Noncontrolling Interest (Income Account) DC,IS_ANN_INDL
-xrd_fn,10498.0,Research & Development Expense FN,IS_ANN_INDL
-dtea_fn,10492.0,Extinguishment of Debt After-tax FN,IS_ANN_INDL
-reunr,10383.0,Retained Earnings - Unrestricted,BAL_ANN_INDL
-ni_fn,10355.0,Net Income (Loss) FN,IS_ANN_INDL
-derac,10300.0,Derivative Assets - Current,BAL_ANN_INDL
-optvol_fn,9501.0,Volatility - Assumption (%) - FN,BAL_ANN_INDL
-gla_fn,9365.0,Gain/Loss After-tax FN,IS_ANN_INDL
-ivaeq_dc,9324.0,Investment & Advances - Equity DC,BAL_ANN_INDL
-txp_fn,8932.0,Income Taxes Payable FN,BAL_ANN_INDL
-rstchelt,8890.0,Long-Term Restricted Cash & Investments,BAL_ANN_INDL
-pncid_fn,8866.0,Core Pension Interest Adjustment Diluted EPS Effect FN,PN_ANN
-pncieps_fn,8866.0,Core Pension Interest Adjustment Basic EPS Effect FN,PN_ANN
-optprcca_fn,8865.0,Options Cancelled - Price - FN,BAL_ANN_INDL
-pncia_fn,8781.0,Core Pension Interest Adjustment After-tax FN,PN_ANN
-txeqa,8673.0,Tax - Equivalent Adjustment,IS_ANN_FS
-dltt_fn,8626.0,Long-Term Debt - Total FN,BAL_ANN_INDL
-niit,8517.0,Net Interest Income (Tax Equivalent),IS_ANN_INDL
-seta_fn,8442.0,Settlement (Litigation/Insurance) After-tax FN,IS_ANN_INDL
-irent_dc,8430.0,Rental Income DC,IS_ANN_INDL
-bastr,8321.0,Average Short-Term Borrowings Rate,BAL_ANN_INDL
-invch_dc,8227.0,Inventory Decrease (Increase) DC,CF_ANN
-gliv,8180.0,Gains/Losses on investments,IS_ANN_INDL
-txdbcl_dc,8148.0,Deferred Tax Liability - Current - DC,BAL_ANN_INDL
-capx_fn,7942.0,Capital Expenditures FN,CF_ANN
-aqi_dc,7832.0,Acquisitions - Income Contribution DC,IS_ANN_INDL
-aqs_dc,7774.0,Acquisitions - Sales Contribution DC,IS_ANN_INDL
-cmp,7743.0,Commercial Paper,BAL_ANN_INDL
-acqcshi,7701.0,Shares Issued for Acquisition,BAL_ANN_INDL
-ppent_fn,7684.0,"Property, Plant & Equipment - Total (Net) FN",BAL_ANN_INDL
-bast,7681.0,Average Short-Term Borrowings,BAL_ANN_INDL
-prstkc_dc,7538.0,Purchase of Common & Preferred Stock DC,CF_ANN
-optlife_fn,7536.0,Options Life Assumption (# yrs) - FN,BAL_ANN_INDL
-gdwlip,7472.0,Impairments of Goodwill Pretax,IS_ANN_INDL
-gdwlia,7458.0,Impairments of Goodwill After-tax,IS_ANN_INDL
-gdwlid,7452.0,Impairments of Goodwill Diluted EPS Effect,IS_ANN_INDL
-gdwlieps,7448.0,Impairments of Goodwill Basic EPS Effect,IS_ANN_INDL
-nrtxtd_fn,7391.0,Nonrecurring Income Tax Diluted EPS Effect FN,IS_ANN_INDL
-fca_dc,7387.0,Foreign Exchange Income (Loss) DC,IS_ANN_INDL
-txdba_dc,7318.0,Deferred Tax Asset - Long Term - DC,BAL_ANN_INDL
-capsft,7297.0,Capitalized Software,BAL_ANN_INDL
-acqppe,7264.0,"Acquired Assets - Property, Plant & Equipment",BAL_ANN_INDL
-dd1_dc,7056.0,Debt - Due in 1st Year DC,BAL_ANN_INDL
-ib_fn,7020.0,Income Bef Extraord Items FN,IS_ANN_INDL
-gdwlieps_fn,6929.0,Impairments of Goodwill Basic EPS Effect FN,IS_ANN_INDL
-billexce,6826.0,Billings in Excess of Cost & Earnings,BAL_ANN_INDL
-txdbca_dc,6803.0,Deferred Tax Asset - Current - DC,BAL_ANN_INDL
-dp_dc,6692.0,Depreciation & Amortization DC,IS_ANN_INDL
-pvon,6296.0,Provisions - Other (Net),IS_ANN_FS
-gdwlid_fn,6272.0,Impairments of Goodwill Diluted EPS Effect FN,IS_ANN_INDL
-nieci,5978.0,Net Income Effect Capitalized Interest,IS_ANN_INDL
-mibt_dc,5923.0,Noncontrolling Interests - Total - Balance Sheet DC,BAL_ANN_INDL
-ibadj_fn,5782.0,Income Bef Extraord Items - Adj for Com Stk Equiv Footno,IS_ANN_INDL
-xins,5755.0,Interest Expense - Sundry,IS_ANN_FS
-gdwlam,5532.0,Goodwill Amortization,IS_ANN_INDL
-govgr,5327.0,Government Grants,IS_ANN_FS
-ls,5327.0,Liabilities - Other - Sundry,BAL_ANN_FS
-rvutx,5327.0,Reserves - Untaxed,BAL_ANN_FS
-unnpl,5327.0,Unappropriated Net Profit,BAL_ANN_FS
-ea,5326.0,Exchange Adj (Assets),BAL_ANN_FS
-tsa,5326.0,Treasury Stock (Assets),BAL_ANN_FS
-unl,5326.0,Unappropriated Net Loss,BAL_ANN_FS
-excadj,5325.0,Exchange Adj (Liabilities),BAL_ANN_FS
-tso,5318.0,Treasury Stock - Other Share Capital,BAL_ANN_FS
-pvo,5315.0,Provision - Other,BAL_ANN_FS
-autxr,5314.0,Appropriations to Untaxed Reserves,IS_ANN_FS
-cga,5314.0,Capital Gains - After-Tax,IS_ANN_FS
-dvsco,5314.0,Dividends - Share Capital - Other,IS_ANN_FS
-nio,5314.0,Net Items - Other,IS_ANN_FS
-nit,5314.0,Net Item - Total,IS_ANN_FS
-eiea,5313.0,Equity in Earnings - After-Tax,IS_ANN_FS
-rvdo,5312.0,Reserves - Distributable - Other,BAL_ANN_FS
-crv,5311.0,Consolidation Reserves,BAL_ANN_FS
-geqrv,5311.0,Grants - Equity Reserves,BAL_ANN_FS
-lrv,5311.0,Legal Reserves,BAL_ANN_FS
-rvtxr,5311.0,Reserves - Tax-Regulated,BAL_ANN_FS
-prc,5310.0,Participation Rights Certificates,BAL_ANN_FS
-sco,5310.0,Share Capital - Other,BAL_ANN_FS
-rvlrv,5308.0,Revaluation Reserve,BAL_ANN_FS
-rvdt,5306.0,Reserves - Distributable - Total,BAL_ANN_FS
-rveqt,5304.0,Equity Reserves - Total,BAL_ANN_FS
-unnp,5304.0,Unappropriated Net Profit (Stockholders' Equity),BAL_ANN_FS
-txdb_dc,5301.0,Deferred Taxes (Balance Sheet) DC,BAL_ANN_INDL
-dvdnp,5300.0,Dividends Declared & Not Provided,IS_ANN_FS
-gwo,5297.0,Goodwill Written Off,IS_ANN_FS
-pvpl,5297.0,Provision - Pension Liabilities,PN_ANN
-rvnt,5295.0,Reserves - Nondistributable - Total,BAL_ANN_FS
-prodv,5271.0,Proposed Dividends,BAL_ANN_FS
-txva,5267.0,Value Added Taxes,IS_ANN_FS
-lcacr,5262.0,Loans/Claims/Advances - Consumer,BAL_ANN_FS
-li,5258.0,Leasing Income,IS_ANN_FS
-gdwlia_fn,5256.0,Impairments of Goodwill After-tax FN,IS_ANN_INDL
-lcacl,5230.0,Loans/Claims/Advances - Commercial,BAL_ANN_FS
-rvno,5230.0,Reserves - Nondistributable - Other,BAL_ANN_FS
-dltsub,5227.0,Long-Term Debt - Subordinated,BAL_ANN_FS
-nipfc,5217.0,Pro Forma Net Income - Current Year,IS_ANN_INDL
-dvrpiv,5191.0,Dividends Received from Permanent Investments,IS_ANN_FS
-lcam,5176.0,Loans/Claims/Advances - Mortgage,BAL_ANN_FS
-pvt,5169.0,Provisions - Total,BAL_ANN_FS
-govtown,5166.0,Percent of Gov't Owned,OTH_ANN
-rdp,5166.0,Regulatory Deposits,BAL_ANN_FS
-dvpd,5160.0,Cash Dividends Paid,IS_ANN_FS
-artfs,5148.0,Accounts Receivable/Debtors - Total,BAL_ANN_FS
-nipfp,5127.0,Pro Forma Net Income - Prior Year,IS_ANN_INDL
-nfsr,5106.0,Non-Financial Services Revenue,IS_ANN_FS
-xnf,5063.0,Non-Financial Services Expense,IS_ANN_FS
-ivgod,5027.0,Investments Grants & Other Deductions,BAL_ANN_FS
-drc_dc,4940.0,Deferred Revenue - Current DC,BAL_ANN_INDL
-curuscn,4913.0,US Canadian Translation Rate,DES_ANN
-salepfc,4872.0,Pro Forma Net Sales - Current Year,IS_ANN_INDL
-xinst_dc,4857.0,Interest Expense - Short-Term Borrowings DC,IS_ANN_INDL
-llwocr,4822.0,Loan Loss Written Off - Charged to Reserves,IS_ANN_FS
-apofs,4815.0,Accounts Payable/Creditors - Other - FS,BAL_ANN_FS
-llrcr,4782.0,Loan Loss Recoveries - Credited to Reserves,IS_ANN_FS
-lcal,4762.0,Loans/Claims/Advances - Lease,BAL_ANN_FS
-salepfp,4757.0,Pro Forma Net Sales - Prior Year,IS_ANN_INDL
-vpac,4739.0,Investments - Permanent - Associated Companies,BAL_ANN_FS
-ceiexbill_fn,4702.0,Cost & Earnings in Excess of Billings FN,BAL_ANN_INDL
-ceiexbill,4696.0,Cost & Earnings in Excess of Billings,BAL_ANN_INDL
-intan_dc,4671.0,Intangible Assets - Total DC,BAL_ANN_INDL
-arb,4661.0,"Accounts Receivable/Debtors - Brokers, Dealers, & Clearing Organizations",BAL_ANN_FS
-apb,4623.0,"Accounts Payable/Creditors - Brokers, Dealers, & Clearing Organizations",BAL_ANN_FS
-sppiv_dc,4537.0,"Sale of Property, Plant & Equipment & Investments - Gain (Loss) DC",CF_ANN
-ui,4493.0,Unearned Income,BAL_ANN_FS
-txditc_dc,4480.0,Deferred Taxes & Investment Tax Credit DC,BAL_ANN_INDL
-idilc,4467.0,Interest & Dividend Income - Loans/Claims/Advances - Customers,IS_ANN_FS
-ivch_dc,4400.0,Increase in Investments DC,CF_ANN
-apc,4389.0,Accounts Payable/Creditors - Customer,BAL_ANN_FS
-mib_dc,4384.0,Noncontrolling Interest (Balance Sheet) DC,BAL_ANN_INDL
-acqao,4330.0,Acquired Assets - Other Long-Term,BAL_ANN_INDL
-acqsc,4276.0,Acquisitions - Current Sales Contribution,BAL_ANN_INDL
-ivao_dc,4173.0,Investment & Advances - Other DC,BAL_ANN_INDL
-txtubmin,4161.0,Not found,Not found
-hedgegl_dc,4137.0,Gain/Loss on Ineffective Hedges DC,IS_ANN_INDL
-pidom_fn,4112.0,Pretax Income - Domestic FN,IS_ANN_INDL
-pifo_fn,4112.0,Pretax Income - Foreign FN,IS_ANN_INDL
-pvcl,4068.0,Provision - Credit Losses (Balance Sheet),BAL_ANN_FS
-arc,4053.0,Accounts Receivable/Debtors - Customer,BAL_ANN_FS
-txtubxintis_dc,4035.0,Interest & Penalties Recog - I/S DC,BAL_ANN_INDL
-llwoci,4025.0,Loan Loss Written Off - Charged to Income,IS_ANN_FS
-llrci,4023.0,Loan Loss Recoveries - Credited to Income,IS_ANN_FS
-llot,3998.0,LDC Loans Outstanding - Total,BAL_ANN_FS
-clrll,3991.0,Credit Loss Reserve Allocated for LDC Loans,BAL_ANN_FS
-lloml,3989.0,LDC Loans Outstanding - Medium & Long-Term,BAL_ANN_FS
-lloo,3989.0,LDC Loans Outstanding - Other,BAL_ANN_FS
-idist,3966.0,Interest & Dividend Income - Short-Term Investments,IS_ANN_FS
-nipfc_dc,3952.0,Not found,Not found
-nipfp_dc,3949.0,Not found,Not found
-acqinvt,3923.0,Acquired Assets - Inventory,BAL_ANN_INDL
-salepfc_dc,3908.0,Not found,Not found
-salepfp_dc,3907.0,Not found,Not found
-acqic_dc,3902.0,Not found,Not found
-rrp,3884.0,Reversal - Restructruring/Acquisition Pretax,IS_ANN_INDL
-rra,3882.0,Reversal - Restructruring/Acquisition Aftertax,IS_ANN_INDL
-rrd,3882.0,Reversal - Restructuring/Acq Diluted EPS Effect,IS_ANN_INDL
-rreps,3881.0,Reversal - Restructuring/Acq Basic EPS Effect,IS_ANN_INDL
-siv_dc,3868.0,Sale of Investments DC,CF_ANN
-amdc,3867.0,Amortization of Deferred Charges,IS_ANN_FS
-dclo_dc,3853.0,Debt - Capitalized Lease Obligations DC,BAL_ANN_INDL
-accrt,3786.0,ARO Accretion Expense,IS_ANN_INDL
-rreps_fn,3741.0,Reversal - Restructuring/Acq Basic EPS Effect FN,IS_ANN_INDL
-aqc_dc,3738.0,Acquisitions DC,CF_ANN
-ppent_dc,3731.0,"Property, Plant & Equipment - Total (Net) DC",BAL_ANN_INDL
-dp_fn,3724.0,Depreciation & Amortization FN,IS_ANN_INDL
-acqsc_dc,3689.0,Not found,Not found
-rrd_fn,3623.0,Reversal - Restructuring/Acq Diluted EPS Effect FN,IS_ANN_INDL
-updvp,3603.0,Preference Dividend Requirements,IS_ANN_INDL
-uniami,3600.0,Net Income Bef Extraord Items & after Noncontrolling Interest,IS_ANN_INDL
-upmpfs,3597.0,Premium on Preference Stock,BAL_ANN_INDL
-upstkc,3597.0,Preference Stock at Carrying Value,BAL_ANN_INDL
-uceq,3586.0,Common Equity Total - Utility,BAL_ANN_INDL
-upstk,3585.0,Preferred Stock at Carrying Value,BAL_ANN_INDL
-ugi,3573.0,Gross Income (Income Before Interest Charges),IS_ANN_INDL
-uopi,3564.0,Operating Income - Total - Utility,IS_ANN_INDL
-udvp,3561.0,Preferred Dividend Requirements,IS_ANN_INDL
-usubpstk,3550.0,Subsidiary Preferred Stock at Carrying Value,BAL_ANN_INDL
-esub_fn,3548.0,Equity in Earnings - Unconsolidated Subsidiaries FN,IS_ANN_INDL
-intc_dc,3477.0,Interest Capitalized DC,IS_ANN_INDL
-upmpf,3458.0,Premium on Preferred Stock,BAL_ANN_INDL
-ip,3442.0,Investment Property,BAL_ANN_FS
-optprcwa_fn,3429.0,Options Exercisable - Weighted Avg Price - FN,BAL_ANN_INDL
-dptic,3408.0,Deposits - Time - Customer,BAL_ANN_FS
-dpdc,3398.0,Deposits - Demand - Customer,BAL_ANN_FS
-usubdvp,3372.0,Subsidiary Preferred Dividends,IS_ANN_INDL
-invofs,3370.0,Inventory/Stock - Other,BAL_ANN_FS
-invres,3362.0,Inventory/Stock - Real Estate Held for Sale,BAL_ANN_FS
-xindc,3359.0,Interest Expense - Deposits - Customer,IS_ANN_FS
-invrei,3350.0,Inventory/Stock - Real Estate Under Development,BAL_ANN_FS
-invreh,3344.0,Inventory/Stock - Real Estate Held for Development,BAL_ANN_FS
-rra_fn,3333.0,Reversal - Restructruring/Acquisition Aftertax FN,IS_ANN_INDL
-utxfed,3318.0,Current Taxes - Federal (Operating),IS_ANN_INDL
-ipti,3288.0,Insurance Premiums - Total (Insurance),IS_ANN_INDL
-ipc,3286.0,Investment Property (Cost),BAL_ANN_FS
-rectr_dc,3285.0,Receivables - Trade DC,BAL_ANN_INDL
-intano_dc,3276.0,Other Intangibles DC,BAL_ANN_INDL
-dltis_dc,3256.0,Long-Term Debt - Issuance DC,CF_ANN
-optprcey_fn,3221.0,Options Outstanding End of Year - Price - FN,BAL_ANN_INDL
-dm_dc,3199.0,Debt - Mortgages & Other Secured DC,BAL_ANN_INDL
-upmsubp,3186.0,Premium on Subsidiary Preferred Stock,BAL_ANN_INDL
-prirow,3135.0,Historical Primary Issue Tag / Rest of World,COMPHIST
-optprcby_fn,3130.0,Options Outstanding Beg of Year - Price - FN,BAL_ANN_INDL
-idis,3095.0,Interest & Dividend Income - Sundry,IS_ANN_FS
-dpsc,3063.0,Deposits - Savings - Customer,BAL_ANN_FS
-dvintf,3020.0,Dividends & Interest Receivable (Cash Flow),CF_ANN
-utme_dc,2949.0,Maintenance Expense - Total DC,IS_ANN_INDL
-msa_dc,2915.0,Marketable Securities Adjustment DC,BAL_ANN_INDL
-ob_dc,2896.0,Order Backlog DC,BAL_ANN_INDL
-npanl,2894.0,Nonperforming Assets - Nonaccrual Loans,BAL_ANN_FS
-txtubxintbs_dc,2891.0,Interest & Penalties Accrued - B/S,BAL_ANN_INDL
-ivi,2839.0,Investment Income - Total (Insurance),IS_ANN_INDL
-nparl,2746.0,Nonperforming Assets - Restructured Loans,BAL_ANN_FS
-idiis,2738.0,Interest & Dividend Income - Investment Securities,IS_ANN_FS
-xad_dc,2718.0,Advertising Expense DC,IS_ANN_INDL
-aedi,2703.0,Accrued Expenses & Deferred Income,BAL_ANN_FS
-ret,2693.0,Total RE Property,BAL_ANN_INDL
-sret,2666.0,Gain/Loss on Sale of Property,IS_ANN_INDL
-dpret,2662.0,Depr/Amort of Property,IS_ANN_INDL
-acqic,2661.0,Acquisitions - Current Income Contribution,BAL_ANN_INDL
-udpl,2637.0,Utility - Liberalized Depreciation Code,DES_ANN
-depc,2635.0,Depreciation & Depletion (Cash Flow),CF_ANN
-ulco,2635.0,Current Liabilities - Other - Utility,BAL_ANN_INDL
-uois,2635.0,Other Internal Sources - Net (Cash Flow),CF_ANN
-urect,2634.0,Receivables (Net),BAL_ANN_INDL
-uaoloch,2632.0,Other Assets & Liabilities - Net Change (Statement of Cash Flows),CF_ANN
-udcopres,2631.0,Deferred Credits & Operating Reserves - Other,BAL_ANN_INDL
-cdvc,2629.0,Cash Dividends on Common Stock (Cash Flow),CF_ANN
-aedi_dc,2624.0,Accrued Expenses & Deferred Income DC,BAL_ANN_FS
-unopinc,2622.0,Nonoperating Income (Net) - Other,IS_ANN_INDL
-spstkc,2621.0,Sale of Preferred/Preference Stock (Cash Flow),CF_ANN
-udolt,2615.0,Debt (Other Long-Term) - Utility,BAL_ANN_INDL
-tfvce_dc,2614.0,Not found,Not found
-scstkc,2601.0,Sale of Common Stock (Cash Flow),CF_ANN
+gvkey,112789.0,Global Company Key - Key Selection,Multiple Files
+datadate,112789.0,Data Date,Multiple Files
+fyear,112789.0,Data Year - Fiscal,DES_ANN
+indfmt,112789.0,Not found,Not found
+consol,112789.0,Level of Consolidation,CCM_FILEDATE
+popsrc,112789.0,Population Source,R_FNDFNTCD
+datafmt,112789.0,Not found,Not found
+tic,112789.0,Historical Ticker/Trading Symbol,SECHIST
+cusip,112789.0,CUSIP,SECLIST
+conm,112789.0,Company Name,COMPANY
+ajp,112789.0,Adjustment Factor (Company) - Cumulative by Payable Date,DES_ANN
+curcd,112789.0,ISO Currency Code,DES_ANN
+curncd,112789.0,Native Currency Code,DES_ANN
+currtr,112789.0,Currency Translation Rate,DES_ANN
+fyr,112789.0,Fiscal Year-end Month,DES_ANN
+pddur,112789.0,Period Duration,DES_ANN
+src,112789.0,Source Document,DES_ANN
+upd,112789.0,Update Code,DES_ANN
+at,112789.0,Assets - Total,BAL_ANN_INDL
+lse,112789.0,Liabilities & Stockholders Equity - Total,BAL_ANN_INDL
+seq,112789.0,Stockholders Equity - Parent,IDXANN
+exchg,112789.0,Stock Exchange,SECURITY
+costat,112789.0,Active/Inactive Status Marker,COMPANY
+fic,112789.0,ISO Country Code - Incorporation,COMPANY
+mkvalt,112789.0,Market Value - Total,Multiple Files
+add1,112789.0,Address Line 1,COMPANY
+busdesc,112789.0,Business Description,COMPANY
+city,112789.0,City,COMPANY
+conml,112789.0,Company Legal Name,COMPANY
+fyrc,112789.0,Fiscal Year-end Month Current,COMPANY
+idbflag,112789.0,"Historical International, Domestic, Both Indicator",COMPHIST
+loc,112789.0,Historical ISO Country Code / Headquarters,COMPHIST
+naics,112789.0,CST History North American Industry Classification,CSTHIST
+priusa,112789.0,Historical Primary Issue Tag / US,COMPHIST
+sic,112789.0,Historical SIC Code,COMPHIST
+ajex,112788.0,Adjustment Factor (Company) - Cumulative by Ex-Date,DES_ANN
+adjex_f,112786.0,Not found,Not found
+lo,112785.0,Liabilities - Other - Total,IDXANN
+prcc_f,112785.0,Not found,Not found
+prch_f,112785.0,Not found,Not found
+prcl_f,112785.0,Not found,Not found
+ao,112784.0,Assets - Other,BAL_ANN_INDL
+dvpsp_f,112782.0,Not found,Not found
+dvpsx_f,112782.0,Not found,Not found
+icapt,112766.0,Invested Capital - Total,BAL_ANN_INDL
+stko,112762.0,Historical Stock Ownership Code,COMPHIST
+acctstd,112739.0,Accounting Standard,DES_ANN
+cshtr_f,112735.0,Not found,Not found
+pstkr,112699.0,Preferred/Preference Stock - Redeemable,BAL_ANN_INDL
+ceq,112674.0,Common/Ordinary Equity - Total,BAL_ANN_INDL
+final,112669.0,Final Indicator Flag,DES_ANN
+tstkp,112598.0,Treasury Stock - Preferrred,BAL_ANN_INDL
+pstk,112594.0,Preferred/Preference Stock (Capital) - Total,IDXANN
+lt,112591.0,Liabilities - Total,IDXANN
+do,112578.0,Discontinued Operations,IS_ANN_INDL
+dvp,112577.0,Dividends - Preferred/Preference,IS_ANN_INDL
+revt,112577.0,Revenue - Total,IS_ANN_INDL
+ib,112576.0,Income Bef Extraord Items,IS_ANN_INDL
+pi,112576.0,Pretax Income,IDXANN
+cstke,112575.0,Com Stk Equiv - Dollar Savings,IS_ANN_INDL
+xido,112575.0,Extraord Items & Discontinued Operations,IS_ANN_INDL
+txt,112559.0,Income Taxes - Total,IDXANN
+pstkn,112525.0,Preferred/Preference Stock - Nonredeemable,BAL_ANN_INDL
+dvpsp_c,112474.0,Not found,Not found
+dvpsx_c,112474.0,Not found,Not found
+adjex_c,112474.0,Not found,Not found
+dltt,112470.0,Long-Term Debt - Total,BAL_ANN_INDL
+prcc_c,112456.0,Not found,Not found
+prch_c,112456.0,Not found,Not found
+prcl_c,112456.0,Not found,Not found
+cshtr_c,112407.0,Not found,Not found
+tstk,112388.0,Treasury Stock - Total (All Capital),IDXANN
+naicsh,112323.0,North America Industrial Classification System - Historical,DES_ANN
+dvc,112311.0,Dividends Common/Ordinary,IS_ANN_INDL
+dvt,112311.0,Dividends - Total,IS_ANN_INDL
+tstkc,112301.0,Treasury Stock - Common,BAL_ANN_INDL
+ggroup,112294.0,GIC Group,COMPANY
+gind,112294.0,GIC Industry,COMPANY
+gsector,112294.0,GIC Sector,COMPANY
+gsubind,112294.0,GIC Subindustry,COMPANY
+addzip,112235.0,Postal Code,COMPANY
+dlc,111975.0,Debt in Current Liabilities - Total,BAL_ANN_INDL
+spi,111482.0,Special Items,IDXANN
+ch,111402.0,Cash,BAL_ANN_INDL
+phone,110929.0,Historical Phone Number,COMPHIST
+ivst,110805.0,Short-Term Investments - Total,BAL_ANN_INDL
+cstk,110700.0,Common/Ordinary Stock (Capital),BAL_ANN_INDL
+re,110565.0,Retained Earnings,IDXANN
+emp,110092.0,Employees,BAL_ANN_INDL
+caps,110009.0,Capital Surplus/Share Premium Reserve,BAL_ANN_INDL
+cik,109976.0,CIK Number,COMPANY
+intan,109593.0,Intangible Assets - Total,BAL_ANN_INDL
+ppent,109522.0,"Property, Plant & Equipment - Total (Net)",IDXANN
+mib,109322.0,Noncontrolling Interest (Balance Sheet),IDXANN
+rank,109011.0,ranking,CCM_SEGNAICS
+sich,108500.0,Standard Industrial Classification - Historical,DES_ANN
+mibt,107835.0,Noncontrolling Interests - Total - Balance Sheet,IDXANN
+dp,107510.0,Depreciation & Amortization,IS_ANN_INDL
+gdwl,107237.0,Goodwill,BAL_ANN_INDL
+ein,107149.0,CST History Employer Identification Number,CSTHIST
+state,106893.0,CST History State Identification Code,CSTHIST
+auop,106639.0,Auditor Opinion,CCM_AAUDIT
+au,106619.0,Auditor,CCM_AAUDIT
+dd1,106397.0,Long-Term Debt Due in One Year,BAL_ANN_INDL
+mii,105814.0,Noncontrolling Interest (Income Account),IDXANN
+xi,105217.0,Extraord Items,IS_ANN_INDL
+incorp,103869.0,CST History Incorporation ISO Country Code,CSTHIST
+ivaeq,102962.0,Investment & Advances - Equity,BAL_ANN_INDL
+aox,101464.0,Assets - Other - Sundry,BAL_ANN_INDL
+intano,101401.0,Other Intangibles,BAL_ANN_INDL
+ap,101145.0,Accounts Payable - Trade,BAL_ANN_INDL
+txdb,101039.0,Deferred Taxes (Balance Sheet),BAL_ANN_INDL
+invt,99141.0,Inventories - Total,IDXANN
+csho,96994.0,Common Shares Outstanding,BAL_ANN_INDL
+che,96991.0,Cash & Short-Term Investments,BAL_ANN_INDL
+np,96844.0,Notes Payable,BAL_ANN_INDL
+sale,96799.0,Sales/Turnover (Net),IDXANN
+cogs,96798.0,Cost of Goods Sold,IS_ANN_INDL
+gp,96798.0,Gross Profit (Loss),IS_ANN_INDL
+ibadj,96798.0,Income Bef Extraord Items Adj for Com Stk Equiv,IS_ANN_INDL
+ibcom,96798.0,Income Bef Extraord Items Available for Common,IS_ANN_INDL
+ni,96798.0,Net Income (Loss),IDXANN
+niadj,96798.0,Net Income Adj for Common/Ordinary Stock (Capital) Equivalents,IS_ANN_INDL
+xopr,96798.0,Operating Expenses - Total,IS_ANN_INDL
+oiadp,96797.0,Operating Income After Depreciation,IDXANN
+nopi,96777.0,Nonoperating Income (Expense),IDXANN
+pstkrv,96765.0,Preferred Stock - Redemption Value,BAL_ANN_INDL
+cshpri,96745.0,Common Shares Used to Calculate EPS - Basic,IS_ANN_INDL
+pstkl,96742.0,Preferred Stock - Liquidating Value,BAL_ANN_INDL
+epsfi,96738.0,Earnings Per Share (Diluted) - Including Extraordinary items,IS_ANN_INDL
+epsfx,96738.0,Earnings Per Share (Diluted) - Excluding Extraordinary items,IS_ANN_INDL
+epspi,96738.0,EPS (Basic) Incl Extraord Items,IS_ANN_INDL
+epspx,96738.0,EPS (Basic) Excl Extraord Items,IS_ANN_INDL
+opeps,96736.0,EPS from Operations,IDXANN
+dilavx,96732.0,Dilution Available - Excl Extraord Items,IS_ANN_INDL
+diladj,96731.0,Dilution Adjustment,IS_ANN_INDL
+oprepsx,96722.0,EPS - Diluted - from Operations,IS_ANN_INDL
+cshfd,96707.0,Common Shares Used to Calc EPS - Fully Diluted,IS_ANN_INDL
+cshi,96692.0,Common Shares Issued,BAL_ANN_INDL
+tstkn,96623.0,Treasury Stock - Number of Common Shares,BAL_ANN_INDL
+ismod,96549.0,Income Statement Model Number,DES_ANN
+bkvlps,96548.0,Book Value Per Share,BAL_ANN_INDL
+ceql,96548.0,Common Equity - Liquidation Value,BAL_ANN_INDL
+ceqt,96544.0,Common Equity - Tangible,BAL_ANN_INDL
+rect,96383.0,Receivables Total,IDXANN
+ebit,96327.0,Earnings Before Interest & Taxes,IS_ANN_INDL
+weburl,96219.0,Historical Web URL,COMPHIST
+xint,95402.0,Interest & Related Expense - Total,IDXANN
+ebitda,94210.0,Earnings Before Interest,IS_ANN_INDL
+oibdp,94210.0,Operating Income Before Depreciation,IDXANN
+scf,94129.0,Cash Flow Format,DES_ANN
+chech,94064.0,Cash & Cash Equivalents - Increase/(Decrease),CF_ANN
+fopo,94063.0,Funds from Operations - Other,CF_ANN
+ibc,94056.0,Income Bef Extraord Items (Cash Flow),CF_ANN
+oancf,94043.0,Operating Activities Net Cash Flow,IDXANN
+fincf,94041.0,Financing Activities Net Cash Flow,CF_ANN
+ivncf,94041.0,Investing Activities Net Cash Flow,IDXANN
+fiao,94040.0,Financing Activities - Other,CF_ANN
+ivaco,94040.0,Investing Activities - Other,CF_ANN
+xidoc,94035.0,Extraord Items & Discontinued Operations (Cash Flow),CF_ANN
+aoloch,94031.0,Assets & Liabilities - Other - Net Change,CF_ANN
+recta,93974.0,Retained Earnings - Cumulative Translation Adjustment,BAL_ANN_INDL
+exre,93964.0,Exchange Rate Effect,CF_ANN
+reajo,93912.0,Retained Earnings - Other Adj,BAL_ANN_INDL
+capx,93697.0,Capital Expenditures,CF_ANN
+cstkcv,93694.0,Common Stock-Carrying Value,BAL_ANN_INDL
+msa,93360.0,Marketable Securities Adjustment,BAL_ANN_INDL
+dv,93117.0,Cash Dividends (Cash Flow),CF_ANN
+reuna,93005.0,Retained Earnings - Unadjusted,BAL_ANN_INDL
+ivao,92960.0,Investment & Advances - Other,BAL_ANN_INDL
+dpc,92549.0,Depreciation & Amortization (Cash Flow),CF_ANN
+sstk,92536.0,Sale of Common & Preferred Stock,IDXANN
+dltr,92211.0,Long-Term Debt - Reduction,CF_ANN
+txdc,91659.0,Deferred Taxes (Cash Flow),CF_ANN
+ceoso,91586.0,Chief Executive Officer SOX Certification,CCM_AAUDIT
+cfoso,91586.0,Chief Financial Officer SOX Certification,CCM_AAUDIT
+dltis,91179.0,Long-Term Debt - Issuance,CF_ANN
+apdedate,91168.0,Actual Period End date,DES_ANN
+acominc,90977.0,Accumulated Other Comprehensive Income (Loss),BAL_ANN_INDL
+siv,90920.0,Sale of Investments,CF_ANN
+aqc,90878.0,Acquisitions,CF_ANN
+dcvt,90617.0,Debt - Convertible,BAL_ANN_INDL
+ivch,90446.0,Increase in Investments,CF_ANN
+xpr,90315.0,Pension & Retirement Expense,IS_ANN_INDL
+sppiv,89974.0,"Sale of Property, Plant & Equipment & Investments - Gain (Loss)",CF_ANN
+spcsrc,89247.0,Not found,Not found
+txp,88872.0,Income Taxes Payable,IDXANN
+dlto,88625.0,Other Long-term Debt,BAL_ANN_INDL
+esopct,87759.0,ESOP Obligation (Common) - Total,BAL_ANN_INDL
+recco,87688.0,Receivables - Current - Other,BAL_ANN_INDL
+prstkc,87567.0,Purchase of Common & Preferred Stock,CF_ANN
+esopt,87463.0,Preferred ESOP Obligation - Total,BAL_ANN_INDL
+cshr,87395.0,Common/Ordinary Shareholders,BAL_ANN_INDL
+rectr,87112.0,Receivables - Trade,BAL_ANN_INDL
+invch,87009.0,Inventory Decrease (Increase),CF_ANN
+acchg,86982.0,Accounting Changes - Cumulative Effect,IS_ANN_INDL
+txo,86975.0,Income Taxes - Other,IS_ANN_INDL
+aociother,86922.0,Accum Other Comp Inc - Other Adj,BAL_ANN_INDL
+aocisecgl,86911.0,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets,BAL_ANN_INDL
+ppegt,86869.0,"Property, Plant & Equipment - Total (Gross)",BAL_ANN_INDL
+txdi,86545.0,Income Taxes - Deferred,IS_ANN_INDL
+intc,86276.0,Interest Capitalized,IS_ANN_INDL
+aocipen,86233.0,Accum Other Comp Inc - Min Pension Liab Adj,BAL_ANN_INDL
+lco,86116.0,Current Liabilities Other Total,IDXANN
+aco,86113.0,Current Assets Other Total,BAL_ANN_INDL
+dpact,86024.0,"Depreciation, Depletion & Amortization (Accumulated)",BAL_ANN_INDL
+pstkc,85949.0,Preferred Stock - Convertible,BAL_ANN_INDL
+nopio,85920.0,Nonoperating Income (Expense) - Other,IS_ANN_INDL
+auopic,85738.0,Auditor Opinion - Internal Control,CCM_AAUDIT
+dcpstk,85683.0,Convertible Debt & Preferred Stock,BAL_ANN_INDL
+lcox,85647.0,Current Liabilities - Other - Sundry,BAL_ANN_INDL
+aocidergl,85561.0,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss,BAL_ANN_INDL
+dudd,85499.0,Debt - Unamortized Debt Discount & Other,BAL_ANN_INDL
+itcb,85354.0,Investment Tax Credit (Balance Sheet),BAL_ANN_INDL
+capxv,85149.0,"Capital Expend Property, Plant & Equipment Schd V",CF_ANN
+acox,84759.0,Current Assets - Other - Sundry,BAL_ANN_INDL
+dvpa,83887.0,Preferred Dividends in Arrears,BAL_ANN_INDL
+dcvsr,83809.0,Debt - Senior Convertible,BAL_ANN_INDL
+dcvsub,83800.0,Debt - Subordinated Convertible,BAL_ANN_INDL
+intpn,83745.0,Interest Paid - Net,CF_ANN
+ds,83721.0,Debt - Subordinated,BAL_ANN_INDL
+dt,83717.0,Total Debt Including Current,BAL_ANN_INDL
+dn,83299.0,Debt - Notes,BAL_ANN_INDL
+xsga,83280.0,"Selling, General & Administrative Expense",IDXANN
+dd,83182.0,Debt - Debentures,BAL_ANN_INDL
+recch,83067.0,Accounts Receivable - Decrease (Increase),CF_ANN
+xrent,83005.0,Rental Expense,IS_ANN_INDL
+esub,82661.0,Equity in Earnings - Unconsolidated Subsidiaries,IS_ANN_INDL
+txr,82411.0,Income Tax Refund,BAL_ANN_INDL
+teq,82408.0,Stockholders Equity - Total,IDXANN
+esubc,82406.0,Equity in Net Loss - Earnings,CF_ANN
+ppeveb,82145.0,"Property, Plant, & Equipment - Ending Balance (Schedule V)",BAL_ANN_INDL
+txditc,82015.0,Deferred Taxes & Investment Tax Credit,IDXANN
+dclo,81854.0,Debt - Capitalized Lease Obligations,BAL_ANN_INDL
+txndb,81698.0,Net Deferred Tax Asset (Liab) - Total,BAL_ANN_INDL
+txpd,81496.0,Income Taxes Paid,CF_ANN
+rdip,80770.0,In Process R&D Expense,IS_ANN_INDL
+lifr,80699.0,LIFO Reserve,BAL_ANN_INDL
+rdipa,80524.0,In Process R&D Expense After-tax,IS_ANN_INDL
+rdipd,80501.0,In Process R&D Expense Diluted EPS Effect,IS_ANN_INDL
+rdipeps,80501.0,In Process R&D Expense Basic EPS Effect,IS_ANN_INDL
+fdate,80444.0,Final Date,DES_ANN
+dm,80268.0,Debt - Mortgages & Other Secured,BAL_ANN_INDL
+lifrp,80267.0,LIFO Reserve - Prior,BAL_ANN_INDL
+dpvieb,80135.0,Depreciation (Accumulated) - Ending Balance (Schedule VI),BAL_ANN_INDL
+rea,80059.0,Retained Earnings - Restatement,BAL_ANN_INDL
+txfo,79596.0,Income Taxes - Foreign,IS_ANN_INDL
+fopox,79409.0,Funds from Operations - Other excluding Option Tax Benefit,CF_ANN
+txbco,79131.0,Excess Tax Benefit Stock Options - Cash Flow Operating,CF_ANN
+esopnr,78979.0,Preferred ESOP Obligation - Non-Redeemable,BAL_ANN_INDL
+txw,78870.0,Excise Taxes,IS_ANN_INDL
+dcom,78746.0,Deferred Compensation,BAL_ANN_INDL
+seqo,78741.0,Other Stockholders - Equity Adj,BAL_ANN_INDL
+lct,78725.0,Current Liabilities - Total,IDXANN
+esopr,78598.0,Preferred ESOP Obligation - Redeemable,BAL_ANN_INDL
+donr,78508.0,Nonrecurring Disc Operations,IS_ANN_INDL
+loxdr,78483.0,Liabilities - Other - Excluding Deferred Revenue,BAL_ANN_INDL
+aodo,78471.0,Other Assets excluding Discontinued Operations,BAL_ANN_INDL
+act,78464.0,Current Assets - Total,BAL_ANN_INDL
+lcoxdr,78464.0,Current Liabilities - Other - Excluding Deferred Revenue,BAL_ANN_INDL
+spcindcd,78442.0,Historical S&P Industry Sector Code,COMPHIST
+spcseccd,78442.0,Historical S&P Economic Sector Code,COMPHIST
+acodo,78406.0,Other Current Assets Excl Discontinued Operations,BAL_ANN_INDL
+aldo,78404.0,Long-term Assets of Discontinued Operations,BAL_ANN_INDL
+txc,78269.0,Income Taxes - Current,IS_ANN_INDL
+acdo,78222.0,Current Assets of Discontinued Operations,BAL_ANN_INDL
+dc,78172.0,Deferred Charges,BAL_ANN_INDL
+txdba,78021.0,Deferred Tax Asset - Long Term,BAL_ANN_INDL
+txndbr,78020.0,Deferred Tax Residual,BAL_ANN_INDL
+wcap,77845.0,Working Capital (Balance Sheet),BAL_ANN_INDL
+prsho,77582.0,Redeem Pfd Shares Outs (000),BAL_ANN_INDL
+pnrsho,77395.0,Nonred Pfd Shares Outs (000),BAL_ANN_INDL
+stkco,77336.0,Stock Compensation Expense,IS_ANN_INDL
+drlt,76599.0,Deferred Revenue - Long-term,BAL_ANN_INDL
+citotal,76395.0,Comprehensive Income - Parent,IS_ANN_INDL
+cibegni,76357.0,Comp Inc - Beginning Net Income,IS_ANN_INDL
+ciother,76340.0,Comp Inc - Other Adj,IS_ANN_INDL
+txndba,76241.0,Net Deferred Tax Asset,BAL_ANN_INDL
+txndbl,76232.0,Net Deferred Tax Liability,BAL_ANN_INDL
+cipen,76098.0,Comp Inc - Minimum Pension Adj,IS_ANN_INDL
+dd4,76000.0,Debt Due in 4th Year,BAL_ANN_INDL
+mrc1,75999.0,Rental Commitments - Minimum - 1st Year,BAL_ANN_INDL
+cicurr,75797.0,Comp Inc - Currency Trans Adj,IS_ANN_INDL
+cidergl,75767.0,Comp Inc - Derivative Gains/Losses,IS_ANN_INDL
+cisecgl,75740.0,Comp Inc - Securities Gains/Losses,IS_ANN_INDL
+dd2,75674.0,Debt Due in 2nd Year,BAL_ANN_INDL
+dd3,75623.0,Debt Due in 3rd Year,BAL_ANN_INDL
+am,75507.0,Amortization of Intangibles,IS_ANN_INDL
+dd5,75091.0,Debt Due in 5th Year,BAL_ANN_INDL
+sppe,74910.0,Sale of Property,IDXANN
+mrcta,74804.0,Thereafter Portion of Leases,BAL_ANN_INDL
+mrc2,74367.0,Rental Commitments - Minimum - 2nd Year,BAL_ANN_INDL
+mrc3,74274.0,Rental Commitments - Minimum - 3rd Year,BAL_ANN_INDL
+mrc4,74248.0,Rental Commitments - Minimum - 4th Year,BAL_ANN_INDL
+txfed,73775.0,Income Taxes - Federal,IS_ANN_INDL
+drc,73607.0,Deferred Revenue - Current,BAL_ANN_INDL
+txs,73115.0,Income Taxes - State,IS_ANN_INDL
+txbcof,73000.0,Excess Tax Benefit of Stock Options - Cash Flow Financing,CF_ANN
+optosey,72012.0,Options Outstanding - End of Year,BAL_ANN_INDL
+mrc5,71775.0,Rental Commitments - Minimum - 5th Year,BAL_ANN_INDL
+mrct,71608.0,Rental Commitments - Minimum - 5 Year Total,BAL_ANN_INDL
+txdfo,70550.0,Deferred Taxes-Foreign,IS_ANN_INDL
+dltp,70341.0,Long-Term Debt - Tied to Prime,BAL_ANN_INDL
+fatn,69827.0,"Property, Plant, & Equipment - Natural Resources at Cost",BAL_ANN_INDL
+xacc,69449.0,Accrued Expenses,BAL_ANN_INDL
+fatc,69411.0,"Property, Plant, & Equipment Construction in Progress at Cost",BAL_ANN_INDL
+dxd4,69141.0,Debt (excl Capitalized Leases) - Due in 4th Year,BAL_ANN_INDL
+dxd3,68774.0,Debt (excl Capitalized Leases) - Due in 3rd Year,BAL_ANN_INDL
+dxd2,68770.0,Debt (excl Capitalized Leases) - Due in 2nd Year,BAL_ANN_INDL
+dxd5,68520.0,Debt (excl Capitalized Leases) - Due in 5th Year,BAL_ANN_INDL
+ivstch,68450.0,Short-Term Investments - Change,CF_ANN
+fatp,67926.0,"Property, Plant, & Equipment Land & Improvements at Cost",BAL_ANN_INDL
+fatb,67632.0,"Property, Plant, & Equipment Buildings at Cost",BAL_ANN_INDL
+idit,67624.0,Interest & Related Income - Total,IS_ANN_INDL
+txdbca,67567.0,Deferred Tax Asset - Current,BAL_ANN_INDL
+optprcey,67202.0,Options Outstanding End of Year - Price,BAL_ANN_INDL
+optgr,67163.0,Options - Granted,BAL_ANN_INDL
+optosby,67079.0,Options Outstanding - Beg of Year,BAL_ANN_INDL
+optca,66920.0,Options - Cancelled (-),BAL_ANN_INDL
+optexd,66914.0,Options - Exercised (-),BAL_ANN_INDL
+txdfed,66808.0,Deferred Taxes-Federal,IS_ANN_INDL
+txdbcl,66312.0,Deferred Tax Liability - Current,BAL_ANN_INDL
+txds,66290.0,Deferred Taxes-State,IS_ANN_INDL
+ibmii,65377.0,Income Bef Extraord Items & Noncontrolling Interests,IS_ANN_INDL
+recd,65350.0,Receivables - Estimated Doubtful,BAL_ANN_INDL
+optex,65322.0,Options Exercisable (000),BAL_ANN_INDL
+mibn,65138.0,Noncontrolling Interests - Nonredeemable - Balance Sheet,IDXANN
+xpp,65026.0,Prepaid Expenses,BAL_ANN_INDL
+txach,64894.0,Income Taxes - Accrued - Increase/(Decrease),CF_ANN
+fatl,64351.0,"Property, Plant, & Equipment - Leases at Cost",BAL_ANN_INDL
+invo,64346.0,Inventories - Other,BAL_ANN_INDL
+tlcf,63998.0,Tax Loss Carry Forward,BAL_ANN_INDL
+invfg,63404.0,Inventories - Finished Goods,BAL_ANN_INDL
+ci,63195.0,Comprehensive Income - Total,IS_ANN_INDL
+cimii,63163.0,Comprehensive Income - Noncontrolling Interest,IS_ANN_INDL
+invrm,63038.0,Inventories - Raw Materials,BAL_ANN_INDL
+cld4,62738.0,Capitalized Leases - Due in 4th Year,BAL_ANN_INDL
+cld5,62653.0,Capitalized Leases - Due in 5th Year,BAL_ANN_INDL
+cld3,62420.0,Capitalized Leases - Due in 3rd Year,BAL_ANN_INDL
+cld2,62391.0,Capitalized Leases - Due in 2nd Year,BAL_ANN_INDL
+invwip,62387.0,Inventories - Work In Process,BAL_ANN_INDL
+ipodate,62234.0,Historical Company Initial Public Offering Date,COMPHIST
+optprcby,62100.0,Options Outstanding Beg of Year - Price,BAL_ANN_INDL
+pnca,61246.0,Core Pension Adjustment,PN_ANN
+prca,61164.0,Core Post Retirement Adjustment,PN_ANN
+pncad,61122.0,Core Pension Adjustment Diluted EPS Effect,PN_ANN
+pncaeps,61122.0,Core Pension Adjustment Basic EPS Effect,PN_ANN
+prcad,61113.0,Core Post Retirement Adjustment Diluted EPS Effect,PN_ANN
+prcaeps,61113.0,Core Post Retirement Adjustment Basic EPS Effect,PN_ANN
+apalch,61080.0,Accounts Payable & Accrued Liabilities - Increase/(Decrease),CF_ANN
+fate,60027.0,"Property, Plant, & Equipment Machinery & Equipment at Cost",BAL_ANN_INDL
+optprcwa,59869.0,Options Exercisable - Weighted Avg Price,BAL_ANN_INDL
+itci,59217.0,Investment Tax Credit (Income Account),IS_ANN_INDL
+xintopt,58808.0,Implied Option Expense,IS_ANN_INDL
+xoptd,58694.0,Implied Option EPS Diluted,IS_ANN_INDL
+xopteps,58694.0,Implied Option EPS Basic,IS_ANN_INDL
+fato,57001.0,"Property, Plant, & Equipment Other at Cost",BAL_ANN_INDL
+optprcca,54422.0,Options Cancelled - Price,BAL_ANN_INDL
+optprcex,52280.0,Options Exercised - Price,BAL_ANN_INDL
+xrd,51691.0,Research & Development Expense,IS_ANN_INDL
+xrdp,50839.0,Research & Development - Prior,IS_ANN_INDL
+fca,50178.0,Foreign Exchange Income (Loss),IS_ANN_INDL
+dlcch,49819.0,Current Debt - Changes,CF_ANN
+optprcgr,47702.0,Options Granted - Price,BAL_ANN_INDL
+fax,46882.0,Fax Number,COMPANY
+pdate,46801.0,Preliminary Date,DES_ANN
+optvol,46437.0,Volatility - Assumption (%),BAL_ANN_INDL
+optrfr,46379.0,Risk Free Rate - Assumption (%),BAL_ANN_INDL
+optlife,46102.0,Life of Options - Assumption (# yrs),BAL_ANN_INDL
+esopdlt,45983.0,ESOP Debt - Long Term,BAL_ANN_INDL
+optdr,45338.0,Dividend Rate - Assumption (%),BAL_ANN_INDL
+ano,44215.0,Assets Netting & Other Adj,BAL_ANN_INDL
+lno,44206.0,Liabilities Netting & Other Adj,BAL_ANN_INDL
+tfva,44204.0,Total Fair Value Assets,BAL_ANN_INDL
+aul3,44198.0,Assets Level3 (Unobservable),BAL_ANN_INDL
+lul3,44195.0,Liabilities Level3 (Unobservable),BAL_ANN_INDL
+lqpl1,44193.0,Liabilities Level1 (Quoted Prices),BAL_ANN_INDL
+aqpl1,44188.0,Assets Level1 (Quoted Prices),BAL_ANN_INDL
+tfvl,44183.0,Total Fair Value Liabilities,BAL_ANN_INDL
+lol2,44181.0,Liabilities Level2 (Observable),BAL_ANN_INDL
+aol2,44172.0,Assets Level2 (Observable),BAL_ANN_INDL
+dlrsn,43850.0,Research Company Reason for Deletion,COMPANY
+dldte,43850.0,Research Company Deletion Date,COMPANY
+ltcm,43846.0,Long-term Contracts Method,DES_ANN
+optfvgr,43472.0,Options - Fair Value of Options Granted,BAL_ANN_INDL
+txtubend,42039.0,Unrecog Tax Benefits - End of Year,BAL_ANN_INDL
+txtubbegin,41375.0,Unrecog Tax Benefits - Beg of Year,BAL_ANN_INDL
+aqs,41244.0,Acquisitions - Sales Contribution,IS_ANN_INDL
+aqi,41102.0,Acquisitions - Income Contribution,IS_ANN_INDL
+txtubadjust,40984.0,Other Unrecog Tax Benefit Adj,BAL_ANN_INDL
+txtubposdec,40970.0,Decrease - Current Tax Positions,BAL_ANN_INDL
+txtubpospdec,40968.0,Decrease- Prior Tax Positions,BAL_ANN_INDL
+txtubposinc,40938.0,Increase - Current Tax Positions,BAL_ANN_INDL
+txtubpospinc,40927.0,Increase- Prior Tax Positions,BAL_ANN_INDL
+txtubsettle,40914.0,Settlements with Tax Authorities (-),BAL_ANN_INDL
+txtubsoflimit,40908.0,Lapse of Statute of Limitations (-),BAL_ANN_INDL
+xad,40337.0,Advertising Expense,IS_ANN_INDL
+pidom,38623.0,Pretax Income - Domestic,IS_ANN_INDL
+pifo,38298.0,Pretax Income - Foreign,IS_ANN_INDL
+spce,38019.0,S&P Core Earnings,IS_ANN_INDL
+spced,37973.0,S&P Core Earnings EPS Diluted,IS_ANN_INDL
+spceeps,37973.0,S&P Core Earnings EPS Basic,IS_ANN_INDL
+bspr,34846.0,Balance Sheet Presentation,DES_ANN
+txtubtxtr,34745.0,Impact on Effective Tax Rate,BAL_ANN_INDL
+stkcpa,34469.0,After-tax stock compensation,IS_ANN_INDL
+txtubxintbs,32337.0,Interest & Penalties Accrued - B/S,BAL_ANN_INDL
+xlr,31866.0,Staff Expense - Total,IS_ANN_INDL
+dcs,28478.0,Debt - Consolidated Subsidiary,BAL_ANN_INDL
+xintd,27133.0,Interest Expense - Long-Term Debt,IS_ANN_INDL
+txtubxintis,24890.0,Interest & Penalties Recognized - I/S,BAL_ANN_INDL
+compst,24789.0,Comparability Status,DES_ANN
+glcep,24366.0,Gain/Loss on Sale (Core Earnings Adj) Pretax,IS_ANN_INDL
+glcea,24349.0,Gain/Loss on Sale (Core Earnings Adj) After-tax,IS_ANN_INDL
+glceeps,24328.0,Gain/Loss on Sale (Core Earnings Adj) Basic EPS Effect,IS_ANN_INDL
+glced,24327.0,Gain/Loss on Sale (Core Earnings Adj) Diluted EPS,IS_ANN_INDL
+rcp,23726.0,Restructuring Costs Pretax,IS_ANN_INDL
+rca,23675.0,Restructuring Costs After-tax,IS_ANN_INDL
+rcd,23660.0,Restructuring Costs Diluted EPS Effect,IS_ANN_INDL
+rceps,23653.0,Restructuring Costs Basic EPS Effect,IS_ANN_INDL
+dfs,23652.0,Debt - Finance Subsidiary,BAL_ANN_INDL
+ob,22303.0,Order Backlog,BAL_ANN_INDL
+tfvce,22199.0,Total Fair Value Changes including Earnings,IS_ANN_INDL
+pncwip,19395.0,Core Pension w/o Interest Adjustment Pretax,PN_ANN
+pncwia,19389.0,Core Pension w/o Interest Adjustment After-tax,PN_ANN
+pncwid,19367.0,Core Pension w/o Interest Adjustment Diluted EPS Effect,PN_ANN
+pncwieps,19367.0,Core Pension w/o Interest Adjustment Basic EPS Effect,PN_ANN
+aqp,19360.0,Acquisition/Merger Pretax,IS_ANN_INDL
+aqa,19323.0,Acquisition/Merger After-tax,IS_ANN_INDL
+aqd,19310.0,Acquisition/Merger Diluted EPS Effect,IS_ANN_INDL
+aqeps,19304.0,Acquisition/Merger Basic EPS Effect,IS_ANN_INDL
+pncip,18846.0,Core Pension Interest Adjustment Pretax,PN_ANN
+pncia,18840.0,Core Pension Interest Adjustment After-tax,PN_ANN
+pncid,18819.0,Core Pension Interest Adjustment Diluted EPS Effect,PN_ANN
+pncieps,18819.0,Core Pension Interest Adjustment Basic EPS Effect,PN_ANN
+spiop,16884.0,Other Special Items Pretax,IS_ANN_INDL
+spioa,16846.0,Other Special Items After-tax,IS_ANN_INDL
+spid,16811.0,Other Special Items Diluted EPS Effect,IS_ANN_INDL
+spieps,16802.0,Other Special Items Basic EPS Effect,IS_ANN_INDL
+acqmeth,16725.0,Acquisition Method,DES_ANN
+xt,15778.0,Expense - Total,IS_ANN_FS
+ris,15767.0,Revenue/Income - Sundry,IS_ANN_FS
+xs,15765.0,Expense - Sundry,IS_ANN_FS
+vpo,15600.0,Investments - Permanent - Other,BAL_ANN_FS
+ivpt,15550.0,Investments - Permanent - Total,BAL_ANN_FS
+stbo,15489.0,Short-Term Borrowings - Other,BAL_ANN_FS
+ragr,15432.0,Resale Agreements,BAL_ANN_FS
+transa,15369.0,Cumulative Translation Adjustment,BAL_ANN_FS
+dtep,15032.0,Extinguishment of Debt Pretax,IS_ANN_INDL
+dtea,15015.0,Extinguishment of Debt After-tax,IS_ANN_INDL
+dted,15004.0,Extinguishment of Debt Diluted EPS Effect,IS_ANN_INDL
+dteeps,14998.0,Extinguishment of Debt Basic EPS Effect,IS_ANN_INDL
+fdfr,14828.0,Federal Funds Purchased,BAL_ANN_FS
+amgw,14814.0,Amortization of Goodwill,IS_ANN_FS
+rpag,14727.0,Repurchase Agreements,BAL_ANN_FS
+dfxa,14721.0,Depreciation of Tangible Fixed Assets,IS_ANN_INDL
+secu,14582.0,Securities Gains (Losses) - Unrealized,BAL_ANN_FS
+lcuacu,14575.0,Loans/Claims/Advances - Customer - Total,BAL_ANN_FS
+xagt,14511.0,Administrative & General Expense - Total,IS_ANN_FS
+recub,14494.0,Unbilled Receivables,BAL_ANN_INDL
+ffs,14388.0,Federal Funds Sold,BAL_ANN_FS
+rcl,14365.0,Reserves for Credit Losses (Assets),BAL_ANN_FS
+lcao,14303.0,Loans/Claims/Advances - Other,BAL_ANN_FS
+pcl,14227.0,Provision - Credit Losses (Income Account),IS_ANN_FS
+niint,13653.0,Net Interest Income,IS_ANN_FS
+cfpdo,13639.0,Commissions & Fees Paid - Other,IS_ANN_FS
+stio,13637.0,Short-Term Investments - Other,BAL_ANN_FS
+setp,13334.0,Settlement (Litigation/Insurance) Pretax,IS_ANN_INDL
+seta,13325.0,Settlement (Litigation/Insurance) After-tax,IS_ANN_INDL
+setd,13307.0,Settlement (Litigation/Insurance) Diluted EPS Effect,IS_ANN_INDL
+seteps,13305.0,Settlement (Litigation/Insurance) Basic EPS Effect,IS_ANN_INDL
+npat,13287.0,Nonperforming Assets - Total,BAL_ANN_FS
+wdp,13214.0,Writedowns Pretax,IS_ANN_INDL
+wda,13179.0,Writedowns After-tax,IS_ANN_INDL
+wdd,13171.0,Writedowns Diluted EPS Effect,IS_ANN_INDL
+wdeps,13169.0,Writedowns Basic EPS Effect,IS_ANN_INDL
+npaore,13092.0,Nonperforming Assets - Other Real Estate Owned,BAL_ANN_FS
+dptc,12900.0,Deposits - Total - Customer,BAL_ANN_FS
+ist,12856.0,Investment Securities -Total,BAL_ANN_FS
+tdst,12492.0,Trading/Dealing Account Securities - Total,BAL_ANN_FS
+xago,12489.0,Administrative & General Expense - Other,IS_ANN_FS
+xstf,12433.0,Staff Expense (Income Account),IS_ANN_FS
+hedgegl,12226.0,Gain/Loss on Ineffective Hedges,IS_ANN_INDL
+acctchg,12194.0,Adoption of Accounting Changes,DES_ANN
+cfo,12182.0,Commissions & Fees - Other,IS_ANN_FS
+isgt,12005.0,Investment Securities - Gain (Loss) - Total,IS_ANN_FS
+derllt,11992.0,Derivative Liabilities Long-Term,BAL_ANN_INDL
+xeqo,11814.0,Equipment & Occupancy Expense,IS_ANN_FS
+rstche,11769.0,Restricted Cash & Investments - Current,BAL_ANN_INDL
+irent,11729.0,Rental Income,IS_ANN_INDL
+derlc,11635.0,Derivative Liabilities- Current,BAL_ANN_INDL
+nrtxt,11608.0,Nonrecurring Income Taxes After-tax,IS_ANN_INDL
+nrtxtd,11590.0,Nonrecurring Income Tax Diluted EPS Effect,IS_ANN_INDL
+nrtxteps,11590.0,Nonrecurring Income Tax Basic EPS Effect,IS_ANN_INDL
+tf,11486.0,Trust Fees,IS_ANN_FS
+derhedgl,11302.0,Gains/Losses on Derivatives & Hedging,IS_ANN_INDL
+glp,11141.0,Gain/Loss Pretax,IS_ANN_INDL
+gla,11118.0,Gain/Loss After-tax,IS_ANN_INDL
+gld,11105.0,Gain/Loss Diluted EPS Effect,IS_ANN_INDL
+gleps,11103.0,Gain/Loss Basic EPS Effect,IS_ANN_INDL
+tdsg,11075.0,Trading/Dealing Securities - Gain (Loss),IS_ANN_FS
+txtubmax,10907.0,Change In Unrecog Tax Benefits - Max,BAL_ANN_INDL
+initb,10901.0,Income - Non-interest - Total (Bank),IS_ANN_FS
+xnitb,10901.0,Expense - Noninterest - Total (Bank),IS_ANN_FS
+tie,10874.0,Interest Expense - Total (Financial Services),IS_ANN_INDL
+tii,10874.0,Interest Income - Total (Financial Services),IS_ANN_INDL
+pll,10857.0,Provision for Loan/Asset Losses,IS_ANN_INDL
+rll,10854.0,Reserve for Loan/Asset Losses,BAL_ANN_INDL
+nco,10819.0,Net Charge-Offs,IS_ANN_INDL
+nim,10781.0,Net Interest Margin,IS_ANN_INDL
+acqgdwl,10544.0,Acquired Assets - Goodwill,BAL_ANN_INDL
+capr1,10511.0,Risk-Adj Capital Ratio - Tier 1,BAL_ANN_FS
+capr3,10505.0,Risk-Adj Capital Ratio - Combined,BAL_ANN_FS
+acqintan,10460.0,Acquired Assets - Intangibles,BAL_ANN_INDL
+ca,10420.0,Customers' Acceptance,BAL_ANN_FS
+acco,10372.0,Acceptances Outstanding,BAL_ANN_FS
+capr2,10368.0,Risk-Adj Capital Ratio - Tier 2,BAL_ANN_FS
+deralt,10221.0,Derivative Assets Long-Term,BAL_ANN_INDL
+derac,9935.0,Derivative Assets - Current,BAL_ANN_INDL
+clg,9889.0,Contingent Liabilities - Guarantees,BAL_ANN_INDL
+reunr,9048.0,Retained Earnings - Unrestricted,BAL_ANN_INDL
+rstchelt,8690.0,Long-Term Restricted Cash & Investments,BAL_ANN_INDL
+gliv,7902.0,Gains/Losses on investments,IS_ANN_INDL
+txeqa,7639.0,Tax - Equivalent Adjustment,IS_ANN_FS
+niit,7584.0,Net Interest Income (Tax Equivalent),IS_ANN_INDL
+acqcshi,7523.0,Shares Issued for Acquisition,BAL_ANN_INDL
+gdwlip,7274.0,Impairments of Goodwill Pretax,IS_ANN_INDL
+gdwlia,7260.0,Impairments of Goodwill After-tax,IS_ANN_INDL
+gdwlid,7254.0,Impairments of Goodwill Diluted EPS Effect,IS_ANN_INDL
+gdwlieps,7250.0,Impairments of Goodwill Basic EPS Effect,IS_ANN_INDL
+acqppe,7063.0,"Acquired Assets - Property, Plant & Equipment",BAL_ANN_INDL
+capsft,6934.0,Capitalized Software,BAL_ANN_INDL
+billexce,6712.0,Billings in Excess of Cost & Earnings,BAL_ANN_INDL
+cmp,6702.0,Commercial Paper,BAL_ANN_INDL
+bastr,6678.0,Average Short-Term Borrowings Rate,BAL_ANN_INDL
+bast,6171.0,Average Short-Term Borrowings,BAL_ANN_INDL
+pvon,5617.0,Provisions - Other (Net),IS_ANN_FS
+gdwlam,5383.0,Goodwill Amortization,IS_ANN_INDL
+xins,5187.0,Interest Expense - Sundry,IS_ANN_FS
+nipfc,5168.0,Pro Forma Net Income - Current Year,IS_ANN_INDL
+nipfp,5116.0,Pro Forma Net Income - Prior Year,IS_ANN_INDL
+ea,4916.0,Exchange Adj (Assets),BAL_ANN_FS
+excadj,4916.0,Exchange Adj (Liabilities),BAL_ANN_FS
+govgr,4916.0,Government Grants,IS_ANN_FS
+ls,4916.0,Liabilities - Other - Sundry,BAL_ANN_FS
+rvutx,4916.0,Reserves - Untaxed,BAL_ANN_FS
+tsa,4916.0,Treasury Stock (Assets),BAL_ANN_FS
+unl,4916.0,Unappropriated Net Loss,BAL_ANN_FS
+unnpl,4916.0,Unappropriated Net Profit,BAL_ANN_FS
+tso,4907.0,Treasury Stock - Other Share Capital,BAL_ANN_FS
+pvo,4906.0,Provision - Other,BAL_ANN_FS
+autxr,4903.0,Appropriations to Untaxed Reserves,IS_ANN_FS
+cga,4903.0,Capital Gains - After-Tax,IS_ANN_FS
+dvsco,4903.0,Dividends - Share Capital - Other,IS_ANN_FS
+nio,4903.0,Net Items - Other,IS_ANN_FS
+nit,4903.0,Net Item - Total,IS_ANN_FS
+eiea,4902.0,Equity in Earnings - After-Tax,IS_ANN_FS
+rvdo,4901.0,Reserves - Distributable - Other,BAL_ANN_FS
+crv,4900.0,Consolidation Reserves,BAL_ANN_FS
+geqrv,4900.0,Grants - Equity Reserves,BAL_ANN_FS
+lrv,4900.0,Legal Reserves,BAL_ANN_FS
+rvtxr,4900.0,Reserves - Tax-Regulated,BAL_ANN_FS
+prc,4899.0,Participation Rights Certificates,BAL_ANN_FS
+sco,4899.0,Share Capital - Other,BAL_ANN_FS
+rvlrv,4897.0,Revaluation Reserve,BAL_ANN_FS
+rvdt,4895.0,Reserves - Distributable - Total,BAL_ANN_FS
+unnp,4894.0,Unappropriated Net Profit (Stockholders' Equity),BAL_ANN_FS
+rveqt,4893.0,Equity Reserves - Total,BAL_ANN_FS
+dvdnp,4889.0,Dividends Declared & Not Provided,IS_ANN_FS
+gwo,4888.0,Goodwill Written Off,IS_ANN_FS
+pvpl,4886.0,Provision - Pension Liabilities,PN_ANN
+rvnt,4884.0,Reserves - Nondistributable - Total,BAL_ANN_FS
+prodv,4872.0,Proposed Dividends,BAL_ANN_FS
+txva,4856.0,Value Added Taxes,IS_ANN_FS
+li,4853.0,Leasing Income,IS_ANN_FS
+dltsub,4843.0,Long-Term Debt - Subordinated,BAL_ANN_FS
+rvno,4830.0,Reserves - Nondistributable - Other,BAL_ANN_FS
+dvrpiv,4819.0,Dividends Received from Permanent Investments,IS_ANN_FS
+salepfc,4814.0,Pro Forma Net Sales - Current Year,IS_ANN_INDL
+rdp,4806.0,Regulatory Deposits,BAL_ANN_FS
+govtown,4770.0,Percent of Gov't Owned,OTH_ANN
+pvt,4763.0,Provisions - Total,BAL_ANN_FS
+dvpd,4756.0,Cash Dividends Paid,IS_ANN_FS
+lcacr,4753.0,Loans/Claims/Advances - Consumer,BAL_ANN_FS
+artfs,4752.0,Accounts Receivable/Debtors - Total,BAL_ANN_FS
+salepfp,4747.0,Pro Forma Net Sales - Prior Year,IS_ANN_INDL
+lcacl,4720.0,Loans/Claims/Advances - Commercial,BAL_ANN_FS
+nfsr,4720.0,Non-Financial Services Revenue,IS_ANN_FS
+xnf,4673.0,Non-Financial Services Expense,IS_ANN_FS
+lcam,4658.0,Loans/Claims/Advances - Mortgage,BAL_ANN_FS
+ivgod,4636.0,Investments Grants & Other Deductions,BAL_ANN_FS
+ceiexbill,4611.0,Cost & Earnings in Excess of Billings,BAL_ANN_INDL
+apofs,4432.0,Accounts Payable/Creditors - Other - FS,BAL_ANN_FS
+vpac,4378.0,Investments - Permanent - Associated Companies,BAL_ANN_FS
+lcal,4361.0,Loans/Claims/Advances - Lease,BAL_ANN_FS
+arb,4335.0,"Accounts Receivable/Debtors - Brokers, Dealers, & Clearing Organizations",BAL_ANN_FS
+llwocr,4311.0,Loan Loss Written Off - Charged to Reserves,IS_ANN_FS
+apb,4293.0,"Accounts Payable/Creditors - Brokers, Dealers, & Clearing Organizations",BAL_ANN_FS
+llrcr,4273.0,Loan Loss Recoveries - Credited to Reserves,IS_ANN_FS
+acqao,4258.0,Acquired Assets - Other Long-Term,BAL_ANN_INDL
+ui,4147.0,Unearned Income,BAL_ANN_FS
+acqsc,4136.0,Acquisitions - Current Sales Contribution,BAL_ANN_INDL
+txtubmin,4123.0,Not found,Not found
+apc,4086.0,Accounts Payable/Creditors - Customer,BAL_ANN_FS
+idilc,3995.0,Interest & Dividend Income - Loans/Claims/Advances - Customers,IS_ANN_FS
+acqinvt,3858.0,Acquired Assets - Inventory,BAL_ANN_INDL
+pvcl,3778.0,Provision - Credit Losses (Balance Sheet),BAL_ANN_FS
+arc,3772.0,Accounts Receivable/Debtors - Customer,BAL_ANN_FS
+llwoci,3747.0,Loan Loss Written Off - Charged to Income,IS_ANN_FS
+llrci,3745.0,Loan Loss Recoveries - Credited to Income,IS_ANN_FS
+clrll,3732.0,Credit Loss Reserve Allocated for LDC Loans,BAL_ANN_FS
+lloml,3732.0,LDC Loans Outstanding - Medium & Long-Term,BAL_ANN_FS
+lloo,3732.0,LDC Loans Outstanding - Other,BAL_ANN_FS
+llot,3732.0,LDC Loans Outstanding - Total,BAL_ANN_FS
+rrp,3681.0,Reversal - Restructruring/Acquisition Pretax,IS_ANN_INDL
+rra,3679.0,Reversal - Restructruring/Acquisition Aftertax,IS_ANN_INDL
+rrd,3679.0,Reversal - Restructuring/Acq Diluted EPS Effect,IS_ANN_INDL
+rreps,3678.0,Reversal - Restructuring/Acq Basic EPS Effect,IS_ANN_INDL
+idist,3583.0,Interest & Dividend Income - Short-Term Investments,IS_ANN_FS
+amdc,3509.0,Amortization of Deferred Charges,IS_ANN_FS
+accrt,3425.0,ARO Accretion Expense,IS_ANN_INDL
+ip,3223.0,Investment Property,BAL_ANN_FS
+prican,3210.0,Historical Primary Issue Tag / Canada,COMPHIST
+invofs,3159.0,Inventory/Stock - Other,BAL_ANN_FS
+invres,3152.0,Inventory/Stock - Real Estate Held for Sale,BAL_ANN_FS
+invrei,3139.0,Inventory/Stock - Real Estate Under Development,BAL_ANN_FS
+invreh,3134.0,Inventory/Stock - Real Estate Held for Development,BAL_ANN_FS
+ipc,3131.0,Investment Property (Cost),BAL_ANN_FS
+dptic,3002.0,Deposits - Time - Customer,BAL_ANN_FS
+dpdc,2991.0,Deposits - Demand - Customer,BAL_ANN_FS
+xindc,2945.0,Interest Expense - Deposits - Customer,IS_ANN_FS
+ipti,2841.0,Insurance Premiums - Total (Insurance),IS_ANN_INDL
+dpsc,2818.0,Deposits - Savings - Customer,BAL_ANN_FS
+idis,2763.0,Interest & Dividend Income - Sundry,IS_ANN_FS
+npanl,2706.0,Nonperforming Assets - Nonaccrual Loans,BAL_ANN_FS
+ret,2680.0,Total RE Property,BAL_ANN_INDL
+dpret,2655.0,Depr/Amort of Property,IS_ANN_INDL
+sret,2653.0,Gain/Loss on Sale of Property,IS_ANN_INDL
+ivi,2625.0,Investment Income - Total (Insurance),IS_ANN_INDL
 dpacre,2584.0,Accumulated Depreciation of RE Property,BAL_ANN_INDL
-fatd,2580.0,Fixed Assets & Investments - Disposals - Gain (Loss),IS_ANN_FS
-txdc_dc,2579.0,Deferred Taxes (Cash Flow) DC,CF_ANN
-prstkpc,2574.0,Purchase of Preferred/Preference Stock (Cash Flow),CF_ANN
-upstksf,2563.0,Preferred/Preference Stock Sinking Fund Requirement,BAL_ANN_INDL
-udmb,2557.0,Debt (Mortgage Bonds) - Utility,BAL_ANN_INDL
-tdc,2555.0,Deferred Income Taxes - Net (Cash Flow),CF_ANN
-xrent_fn,2530.0,Rental Expense FN,IS_ANN_INDL
-recco_dc,2505.0,Receivables - Current - Other DC,BAL_ANN_INDL
-prstkcc,2485.0,Purchase of Common Stock (Cash Flow),CF_ANN
-uinvt,2476.0,Inventories - Utility,BAL_ANN_INDL
-udd,2467.0,Debt (Debentures),BAL_ANN_INDL
-uapt,2419.0,Accounts Payable - Utility,BAL_ANN_INDL
-ucaps,2401.0,Paid in Capital - Other,BAL_ANN_INDL
-ogm,2397.0,OIL & GAS METHOD,DES_ANN
-idilb,2376.0,Interest & Dividend Income - Loans/Claims/Advances - Banks,IS_ANN_FS
-ivst_dc,2349.0,Short-Term Investments DC,BAL_ANN_INDL
-amc_dc,2340.0,Amortization (Cash Flow) - Utility DC,CF_ANN
-udpco,2337.0,Debt (Pollution Control Obligations) - Utility,BAL_ANN_INDL
-urectr,2335.0,Accounts Receivable - Trade - Utility,BAL_ANN_INDL
-xopteps_fn,2323.0,Implied Option EPS Basic FN,IS_ANN_INDL
-recta_dc,2319.0,Retained Earning - Cumulative Translation Adjustment DC,BAL_ANN_INDL
-txp_dc,2317.0,Income Taxes Payable DC,BAL_ANN_INDL
-stkcpa_fn,2311.0,After-tax stock compensation - FN,IS_ANN_INDL
-iore,2297.0,Income - Other (Real Estate),IS_ANN_FS
-cfpdo_dc,2284.0,Commissions & Fees Paid - Other DC,IS_ANN_FS
-dvrre,2255.0,Development Revenue (Real Estate),IS_ANN_FS
-iire,2255.0,Investment Income (Real Estate),IS_ANN_FS
-optprcgr_fn,2245.0,Options Granted - Price - FN,BAL_ANN_INDL
-uspi,2229.0,Special Items,IS_ANN_INDL
-cfere,2223.0,Commissions & Fees - (Real Estate),IS_ANN_FS
-xore,2206.0,Expense - Other (Real Estate),IS_ANN_FS
-idits,2193.0,Interest & Dividend Income - Trading Securities,IS_ANN_FS
-xdvre,2175.0,Expense - Development (Real Estate),IS_ANN_FS
-dltr_dc,2173.0,Long-Term Debt - Reduction DC,CF_ANN
-xivre,2155.0,Expense - Investment (Real Estate),IS_ANN_FS
-ulcm,2141.0,Current Liabilities - Miscellaneous,BAL_ANN_INDL
-txtubend_dc,2141.0,Unrecog Tax Benefits - End of Year,BAL_ANN_INDL
-uaox,2054.0,Other Assets - Utility,BAL_ANN_INDL
-optprcex_fn,2019.0,Options Exercised - Price - FN,BAL_ANN_INDL
-xpr_fn,1984.0,Not found,Not found
-tdsng,1980.0,Trading/Dealing Account Securities - National Governments,BAL_ANN_FS
-istm,1979.0,Investment Securities - Total (Market),BAL_ANN_FS
-tdss,1976.0,Trading/Dealing Account Securities - Sundry,BAL_ANN_FS
-tstkc_fn,1975.0,Treasury Stock - Common FN,BAL_ANN_INDL
-tdsce,1971.0,Trading/Dealing Account Securities - Corporate Equity,BAL_ANN_FS
-tdso,1970.0,Trading/Dealing Account Securities - Other,BAL_ANN_FS
-tdscd,1968.0,Trading/Dealing Account Securities - Corporate Debt,BAL_ANN_FS
-isng,1957.0,Investment Securities - National Governments,BAL_ANN_FS
-urevub,1957.0,Accrued Unbilled Revenues (Balance Sheet),BAL_ANN_INDL
-drlt_dc,1940.0,Deferred Revenue - Long-term DC,BAL_ANN_INDL
-issu,1936.0,Investment Securities - Sundry,BAL_ANN_FS
-tdsmm,1934.0,Trading/Dealing Account Securities - Money Market,BAL_ANN_FS
-isngm,1926.0,Investment Securities - National Governments (Market),BAL_ANN_FS
-issm,1924.0,Investment Securities - Sundry (Market),BAL_ANN_FS
-optfvgr_fn,1924.0,Options - Fair Value of Options Granted - FN,BAL_ANN_INDL
-islg,1911.0,Investment Securities - Local Governments,BAL_ANN_FS
-isoth,1911.0,Investment Securities - Other,BAL_ANN_FS
-islgm,1910.0,Investment Securities - Local Governments (Market),BAL_ANN_FS
-tdslg,1910.0,Trading/Dealing Account Securities - Local Governments,BAL_ANN_FS
-islgc,1907.0,Investment Securities - Local Governments (Cost),BAL_ANN_FS
-derlc_dc,1897.0,Derivative Liabilities- Current DC,BAL_ANN_INDL
-txtubbegin_dc,1896.0,Unrecog Tax Benefits - Beg of Year,BAL_ANN_INDL
-iseq,1885.0,Investment Securities - Equity,BAL_ANN_FS
-issc,1884.0,Investment Securities - Sundry (Cost),BAL_ANN_FS
-isngc,1863.0,Investment Securities - National Governments (Cost),BAL_ANN_FS
-derac_dc,1856.0,Derivative Assets - Current DC,BAL_ANN_INDL
-iseqm,1855.0,Investment Securities - Equity (Market),BAL_ANN_FS
-isfi,1848.0,Investment Securities - Fixed Income,BAL_ANN_FS
-xpr_dc,1847.0,Pension Expense DC,IS_ANN_INDL
-xstfo,1845.0,Staff Expense - Other,IS_ANN_INDL
-isotm,1828.0,Invetsment Securities - Other (Market),BAL_ANN_FS
-ppenc,1825.0,"Property, Plant, & Equipment - Construction in Progress (Net)",BAL_ANN_INDL
-txr_dc,1817.0,Income Tax Refund DC,BAL_ANN_INDL
-ppevbb,1807.0,"Property, Plant & Equipment - Beginning Balance (Schedule V)",BAL_ANN_INDL
-isfxm,1804.0,Investment Securities - Fixed Income (Market),BAL_ANN_FS
-rectr_fn,1765.0,Not found,Not found
-iseqc,1758.0,Investment Securities - Equity (Cost),BAL_ANN_FS
-pdvc,1749.0,Cash Dividends on Preferred/Preference Stock (Cash Flow),CF_ANN
-txtubpospdec_dc,1743.0,Decrease- Prior Tax Positions,BAL_ANN_INDL
-txtubpospinc_dc,1743.0,Increase- Prior Tax Positions,BAL_ANN_INDL
-txtubsettle_dc,1743.0,Settlements with Tax Authorities (-) DC,BAL_ANN_INDL
-txtubsoflimit_dc,1743.0,Lapse of Statute of Limitations (-) DC,BAL_ANN_INDL
-istc,1737.0,Investment Securities - Total (Cost),BAL_ANN_FS
-txtubposdec_dc,1735.0,Decrease- Current Tax Positions,BAL_ANN_INDL
-txtubposinc_dc,1735.0,Increase- Current Tax Positions,BAL_ANN_INDL
-txtubadjust_dc,1733.0,Other Unrecog Tax Benefit Adj,BAL_ANN_INDL
-sstk_dc,1716.0,Sale of Common & Preferred Stock DC,CF_ANN
-dpc_dc,1691.0,Depreciation & Amortization (Cash Flow) DC,CF_ANN
-saa,1683.0,Separate Account Assets,BAL_ANN_FS
-rvti,1680.0,Reserves - Total,BAL_ANN_FS
-upmcstk,1680.0,Premium on Common Stock,BAL_ANN_INDL
-sal,1679.0,Separate Account Liabilities,BAL_ANN_FS
-isfxc,1676.0,Investment Securities - Fixed Income (Cost),BAL_ANN_FS
-iati,1672.0,Investment Assets - Total (Insurance),BAL_ANN_FS
-bct,1667.0,Benefits & Claims - Total (Insurance),IS_ANN_FS
-xoi,1666.0,Expenses - Other (Insurance),IS_ANN_FS
-ioi,1661.0,Income - Other (Insurance),IS_ANN_FS
-rati,1661.0,Reinsurance Assets - Total (Insurance),BAL_ANN_FS
-dfpac,1655.0,Deferred Policy Acquisition Costs,BAL_ANN_FS
-xinst,1654.0,Interest Expense - Short-Term Borrowings,IS_ANN_INDL
-rvsi,1653.0,Reserves - Sundry (Insurance),BAL_ANN_FS
-cld2_dc,1653.0,Capitalized Leases - Due in 2nd Year - DC,BAL_ANN_INDL
-rlri,1651.0,Reinsurers' Liability for Reserves (Insurance),BAL_ANN_FS
-isotc,1650.0,Invetsment Securities - Other (Cost),BAL_ANN_FS
-radp,1650.0,Reinsurance Assets - Deposits & Other (Insurance),BAL_ANN_FS
-ffo,1649.0,Funds From Operations (REIT),IS_ANN_INDL
-rvbti,1649.0,Reserves for Benefits - Life - Total (Insurance),BAL_ANN_FS
-cld3_dc,1642.0,Capitalized Leases - Due in 3rd Year - DC,BAL_ANN_INDL
-rari,1635.0,Reinsurance Assets - Receivable/Debtors (Insurance),BAL_ANN_FS
-mibn_dc,1626.0,Noncontrolling Interests - Nonredeemable - Balance Sheet DC,BAL_ANN_INDL
-rvupi,1618.0,Reserves for Unearned Premiums (Insurance),BAL_ANN_FS
-txt_fn,1616.0,Income Taxes - Total FN,IS_ANN_INDL
-rlt,1613.0,Reinsurance Liabilities - Total,BAL_ANN_FS
-xnbi,1607.0,Other Insurance Expense,IS_ANN_INDL
-acqinvt_dc,1597.0,Not found,Not found
-rlo,1586.0,Reinsurance Liabilities - Other,BAL_ANN_FS
-udfcc,1585.0,Deferred Fuel - Increase (Decrease) (Statement of Cash Flows),CF_ANN
-cld4_dc,1584.0,Capitalized Leases - Due in 4th Year - DC,BAL_ANN_INDL
-rlp,1578.0,Reinsurance Liabilities - Payables/Creditors,BAL_ANN_FS
-ch_dc,1573.0,Cash DC,BAL_ANN_INDL
-cld5_dc,1567.0,Capitalized Leases - Due in 5th Year - DC,BAL_ANN_INDL
-crvnli,1566.0,Reserves for Claims (Losses) - Nonlife (Insurance),BAL_ANN_FS
-dvpdp,1539.0,Dividends & Bonuses Paid Policyholders,IS_ANN_FS
-xrd_dc,1535.0,Research & Development Expense DC,IS_ANN_INDL
-rvri,1532.0,Reserves - Reinsurance (Insurance),BAL_ANN_FS
-acqao_dc,1520.0,Not found,Not found
-depc_fn,1517.0,Depreciation & Depletion (Cash Flow) FN,CF_ANN
-rvbpi,1515.0,Reserves for Benefits - Life - Policy (Insurance),BAL_ANN_FS
-rvbci,1511.0,Reserves for Benefits - Life - Claims (Insurance),BAL_ANN_FS
-xivi,1500.0,Investment Expense (Insurance),IS_ANN_FS
-adpac,1489.0,Amortization of Deferred Policy Acquisition Costs,IS_ANN_FS
-isgu,1475.0,Investment Securities - Gain (Loss) - Unrealized,IS_ANN_FS
-ipv,1461.0,Investment Property (Valuation),BAL_ANN_FS
-xnins,1454.0,Other Expense - Noninsurance,IS_ANN_INDL
-xagt_dc,1449.0,Administrative & General Expense - Total DC,IS_ANN_FS
-ptbl,1436.0,Premiums - Total (Business Line),IS_ANN_FS
-iaoi,1430.0,Investment Assets - Other (Insurance),BAL_ANN_FS
-iasti,1429.0,Investment Assets - Securities - Total (Insurance),BAL_ANN_FS
-iassi,1422.0,Investment Assets - Securities - Sundry (Insurance),BAL_ANN_FS
-bcltbl,1420.0,Benefits & Claims - Total (Business Line),IS_ANN_FS
-iafxi,1419.0,Investment Assets - Fixed Income Securities (Insurance),BAL_ANN_FS
-xrdp_dc,1418.0,Research & Development - Prior DC,IS_ANN_INDL
-ppegt_fn,1414.0,"Property, Plant & Equipment - Total (Gross) FN",BAL_ANN_INDL
-ppeveb_fn,1414.0,"Property, Plant, & Equipment - Ending Balance (Schedule V) FN",BAL_ANN_INDL
-xlr_fn,1413.0,Staff Expense - Total FN,IS_ANN_INDL
-iafxmi,1410.0,Investment Assets (Insurance) - Fixed Income Securities (Market),BAL_ANN_FS
-iasmi,1410.0,Investment Assets (Insurance) - Securities - Sundry (Market),BAL_ANN_FS
-iaeq,1407.0,Investment Assets - Equity Securities (Insurance),BAL_ANN_FS
-ialoi,1401.0,Investment Assets - Loans - Other (Insurance),BAL_ANN_FS
-lcuacu_fn,1400.0,Loans/Claims/Advances - Customer FN,BAL_ANN_FS
-iatmi,1397.0,Investment Assets (Insurance) - Securities - Total (Market),BAL_ANN_FS
-iaeqmi,1396.0,Investment Assets (Insurance) - Equity Securities (Market),BAL_ANN_FS
-iapli,1395.0,Investment Assets - Policy Loans (Insurance),BAL_ANN_FS
-pobl,1395.0,Premiums - Other (Business Line),IS_ANN_FS
-txeqii,1393.0,Tax - Equivalent Interest Income (Gross),IS_ANN_FS
-ialti,1392.0,Investment Assets - Loans - Total (Insurance),BAL_ANN_FS
-aocidergl_dc,1390.0,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss DC,BAL_ANN_INDL
-cgui,1387.0,Capital Gains - Unrealized (Insurance),IS_ANN_FS
-pltbl,1374.0,Premiums - Life - Total (Business Line),IS_ANN_FS
-pnlbl,1374.0,Premiums - Nonlife - Total (Business Line),IS_ANN_FS
-iamli,1372.0,Investment Assets - Mortgage Loans (Insurance),BAL_ANN_FS
-pnli,1370.0,Premiums Written - Non-Life,IS_ANN_FS
-itcc_dc,1367.0,Investment Tax Credit - Net (Cash Flow) - Utility,CF_ANN
-iafici,1365.0,Investment Assets (Insurance) - Fixed Income Securities (Cost),BAL_ANN_FS
-isgr,1361.0,Investment Securities - Gain (Loss) - Realized,IS_ANN_FS
-txtubtxtr_dc,1358.0,Impact on Effective Tax Rate,BAL_ANN_INDL
-iarei,1356.0,Investment Assets - Real Estate (Insurance),BAL_ANN_FS
-bctbl,1349.0,Benefits & Claims - Other (Business Line),IS_ANN_FS
-cgti,1339.0,Capital Gains - Total (Insurance),IS_ANN_FS
-cnltbl,1338.0,Claims - Non-Life - Total (Business Line),IS_ANN_FS
-acqppe_dc,1338.0,Not found,Not found
-iasci,1336.0,Investment Assets (Insurance) - Securities - Sundry (Cost),BAL_ANN_FS
-irii,1334.0,Interest & Related Income (Insurance),IS_ANN_FS
-prebl,1331.0,Premiums - Reinsurance (Business Line),IS_ANN_FS
-bltbl,1325.0,Benefits - Life - Total (Business Line),IS_ANN_FS
-iaeqci,1322.0,Investment Assets (Insurance) - Equity Securities (Cost),BAL_ANN_FS
-cgri,1316.0,Capital Gains - Realized (Insurance),IS_ANN_FS
-irsi,1311.0,Interest & Related Income - Sundry (Insurance),IS_ANN_FS
-xuwoi,1310.0,Underwriting Expense - Other,IS_ANN_FS
-pri,1309.0,Premiums Written - Reinsurance,IS_ANN_FS
-tdsg_dc,1293.0,Trading/Dealing Securities - Gain (Loss) DC,IS_ANN_FS
-bcrbl,1288.0,Benefits & Claims - Reinsurance (Business Line),IS_ANN_FS
-mrc1_fn,1283.0,Rental Commitments - Minimum - 1st Year FN,BAL_ANN_INDL
-mrc2_fn,1283.0,Rental Commitments - Minimum - 2nd Year FN,BAL_ANN_INDL
-mrc3_fn,1283.0,Rental Commitments - Minimum - 3rd Year FN,BAL_ANN_INDL
-mrc4_fn,1283.0,Rental Commitments - Minimum - 4th Year FN,BAL_ANN_INDL
-mrc5_fn,1283.0,Rental Commitments - Minimum - 5th Year FN,BAL_ANN_INDL
-pwoi,1282.0,Premiums Written - Other,IS_ANN_FS
-xuwrei,1279.0,Underwriting Expense - Reinsurance,IS_ANN_FS
-xuwti,1275.0,Underwriting Expense - Total,IS_ANN_FS
-secu_dc,1273.0,Securities Gains (Losses) - Unrealized DC,BAL_ANN_FS
-itcc,1269.0,Investment Tax Credit - Net (Cash Flow) - Utility,CF_ANN
-pctr,1267.0,Premiums Ceded - Total,IS_ANN_FS
-spi_dc,1264.0,Special Items DC,IS_ANN_INDL
-pcnlr,1263.0,Premiums Ceded - Nonlife,IS_ANN_FS
-lif,1257.0,Life Insurance in Force,BAL_ANN_FS
-iatci,1255.0,Investment Assets (Insurance) - Securities - Total (Cost),BAL_ANN_FS
-irei,1251.0,Interest & Related Income - Reinsurance (Insurance),IS_ANN_FS
-cpdoi,1248.0,Claims Paid - Other,IS_ANN_FS
-invt_dc,1245.0,Inventories - Total DC,BAL_ANN_INDL
-amgw_dc,1243.0,Amortization of Goodwill DC,IS_ANN_FS
-cpnli,1242.0,Claims Paid - Non-Life,IS_ANN_FS
-opiri,1225.0,Operating Income - Reinsurance,IS_ANN_FS
-xoprar,1224.0,Operatings Expenses - As Reported,IS_ANN_FS
-xuwli,1212.0,Underwriting Expense - Life,IS_ANN_FS
-cprei,1209.0,Claims Paid - Reinsurance,IS_ANN_FS
-panlr,1209.0,Premiums Assumed - Nonlife,IS_ANN_FS
-lcabg,1207.0,Loans/Claims/Advances - Banks & Government - Total,BAL_ANN_FS
-irli,1205.0,Interest & Related Income - Life (Insurance),IS_ANN_FS
-cbi,1204.0,Claims Incurred - Insurance,IS_ANN_INDL
-irnli,1201.0,Interest & Related Income - Non-Life (Insurance),IS_ANN_FS
-tdc_fn,1201.0,Deferred Income Taxes - Net (Cash Flow) FN,CF_ANN
-xuwnli,1196.0,Underwriting Expense - Non-Life,IS_ANN_FS
-opincar,1191.0,Operating Income - As Reported,IS_ANN_FS
-opioi,1190.0,Operating Income - Other,IS_ANN_FS
-pclr,1177.0,Premiums Ceded - Life,IS_ANN_FS
-optdr_fn,1173.0,Dividend Rate - Assumption (%) - FN,BAL_ANN_INDL
-patr,1164.0,Premiums Assumed - Total,IS_ANN_FS
-srt,1163.0,Surplus - Total (Statutory),BAL_ANN_FS
-cdvc_fn,1162.0,Cash Dividends on Common Stock (Cash Flow) FN,CF_ANN
-hedgegl_fn,1157.0,Gain/Loss on Ineffective Hedges FN,IS_ANN_INDL
-lcag,1154.0,Loans/Claims/Advances - Government,BAL_ANN_FS
-palr,1145.0,Premiums Assumed - Life,IS_ANN_FS
-capr3_fn,1123.0,Risk-Adj Capital Ratio - Combined FN,BAL_ANN_FS
-capr1_fn,1121.0,Risk-Adj Capital Ratio - Tier 1 FN,BAL_ANN_FS
-dv_dc,1121.0,Cash Dividends (Cash Flow) DC,CF_ANN
-xoptd_fn,1113.0,Implied Option EPS Diluted FN,IS_ANN_INDL
-lcat_dc,1112.0,Loans/Claims/Advances - Total DC,BAL_ANN_FS
-ucustad_dc,1110.0,Customer Advances for Construction DC,BAL_ANN_INDL
-opini,1077.0,Operating Income - Non-Life,IS_ANN_FS
-udfcc_dc,1050.0,Deferred Fuel - Increase (Decrease) (Statement of Cash Flows) DC,CF_ANN
-nits,1045.0,Net Income - Total (Statutory),IS_ANN_FS
-itci_fn,1045.0,Investment Tax Credit (Income Account) FN,IS_ANN_INDL
-itcb_dc,1042.0,Investment Tax Credit (Balance Sheet) DC,BAL_ANN_INDL
-ssnp,1008.0,Securities Sold Not Yet Purchased,BAL_ANN_FS
-opili,988.0,Operating Income - Life,IS_ANN_FS
-afudcc,987.0,Allowance for Funds Used During Construction (Cash Flow),CF_ANN
-afudci,987.0,Allowance for Funds Used During Construction (Investing) (Cash Flow),CF_ANN
-mtl,983.0,Loans From Securities Finance Companies for Margin Transactions,BAL_ANN_FS
-sc,981.0,Securities In Custody,BAL_ANN_FS
-sbdc,978.0,Securities Borrowed & Deposited by Customers,BAL_ANN_FS
-xcomi,975.0,Commissions Expense (Insurance),IS_ANN_FS
-cdpac,972.0,Capitalized Deferred Polcy Acquisition Costs,BAL_ANN_FS
-chs,969.0,Cash & Deposits - Segregated,BAL_ANN_FS
-iobd,944.0,Income - Other (Broker Dealer),IS_ANN_FS
-ibki,936.0,Investment Banking Income,IS_ANN_FS
-dpc_fn,931.0,Depreciation & Amortization (Cash Flow) FN,CF_ANN
-ipobl,927.0,Individual Premiums - Other (Business Line),IS_ANN_FS
-ipabl,918.0,Individual Premiums - Annuity (Business Line),IS_ANN_FS
-gpobl,916.0,Group Premiums - Other (Business Line),IS_ANN_FS
-recd_dc,916.0,Receivables - Estimated Doubtful DC,BAL_ANN_INDL
-ap_dc,912.0,Accounts Payable - Trade DC,BAL_ANN_INDL
-cfbd,909.0,Commissions & Fees - (Broker/Dealer),IS_ANN_FS
-iplbl,904.0,Individual Premiums - Life (Business Line),IS_ANN_FS
-gprbl,903.0,Group Premiums - Retirement Benefits (Business Line),IS_ANN_FS
-gplbl,887.0,Group Premiums - Life (Business Line),IS_ANN_FS
-pdvc_dc,887.0,Cash Dividends on Preferred/Preference Stock (Cash Flow) DC,CF_ANN
-rcl_fn,877.0,Reserves for Credit Losses (Assets) FN,BAL_ANN_FS
-xcom,866.0,Communications Expense,IS_ANN_FS
-gliv_dc,864.0,Gains/Losses on investments DC,IS_ANN_INDL
-bcef,859.0,"Brokerage, Clearing & Exchange Fees",IS_ANN_FS
-idilc_fn,845.0,Interest & Dividend Income - Loans/Claims/Advances - Customers FN,IS_ANN_FS
+nparl,2580.0,Nonperforming Assets - Restructured Loans,BAL_ANN_FS
+acqic,2556.0,Acquisitions - Current Income Contribution,BAL_ANN_INDL
+fatd,2451.0,Fixed Assets & Investments - Disposals - Gain (Loss),IS_ANN_FS
+aedi,2405.0,Accrued Expenses & Deferred Income,BAL_ANN_FS
+idiis,2386.0,Interest & Dividend Income - Investment Securities,IS_ANN_FS
+udpl,2352.0,Utility - Liberalized Depreciation Code,DES_ANN
+uceq,2352.0,Common Equity Total - Utility,BAL_ANN_INDL
+ugi,2352.0,Gross Income (Income Before Interest Charges),IS_ANN_INDL
+uniami,2352.0,Net Income Bef Extraord Items & after Noncontrolling Interest,IS_ANN_INDL
+uopi,2352.0,Operating Income - Total - Utility,IS_ANN_INDL
+ulco,2351.0,Current Liabilities - Other - Utility,BAL_ANN_INDL
+uois,2351.0,Other Internal Sources - Net (Cash Flow),CF_ANN
+updvp,2351.0,Preference Dividend Requirements,IS_ANN_INDL
+depc,2350.0,Depreciation & Depletion (Cash Flow),CF_ANN
+upmpfs,2350.0,Premium on Preference Stock,BAL_ANN_INDL
+upstkc,2350.0,Preference Stock at Carrying Value,BAL_ANN_INDL
+urect,2350.0,Receivables (Net),BAL_ANN_INDL
+uaoloch,2349.0,Other Assets & Liabilities - Net Change (Statement of Cash Flows),CF_ANN
+udcopres,2349.0,Deferred Credits & Operating Reserves - Other,BAL_ANN_INDL
+cdvc,2344.0,Cash Dividends on Common Stock (Cash Flow),CF_ANN
+upstk,2344.0,Preferred Stock at Carrying Value,BAL_ANN_INDL
+unopinc,2343.0,Nonoperating Income (Net) - Other,IS_ANN_INDL
+spstkc,2336.0,Sale of Preferred/Preference Stock (Cash Flow),CF_ANN
+udolt,2335.0,Debt (Other Long-Term) - Utility,BAL_ANN_INDL
+usubpstk,2321.0,Subsidiary Preferred Stock at Carrying Value,BAL_ANN_INDL
+udvp,2319.0,Preferred Dividend Requirements,IS_ANN_INDL
+scstkc,2316.0,Sale of Common Stock (Cash Flow),CF_ANN
+dvintf,2308.0,Dividends & Interest Receivable (Cash Flow),CF_ANN
+prstkpc,2303.0,Purchase of Preferred/Preference Stock (Cash Flow),CF_ANN
+upstksf,2289.0,Preferred/Preference Stock Sinking Fund Requirement,BAL_ANN_INDL
+tdc,2279.0,Deferred Income Taxes - Net (Cash Flow),CF_ANN
+udmb,2277.0,Debt (Mortgage Bonds) - Utility,BAL_ANN_INDL
+upmpf,2264.0,Premium on Preferred Stock,BAL_ANN_INDL
+utxfed,2222.0,Current Taxes - Federal (Operating),IS_ANN_INDL
+uspi,2219.0,Special Items,IS_ANN_INDL
+uinvt,2210.0,Inventories - Utility,BAL_ANN_INDL
+prstkcc,2202.0,Purchase of Common Stock (Cash Flow),CF_ANN
+udd,2191.0,Debt (Debentures),BAL_ANN_INDL
+usubdvp,2185.0,Subsidiary Preferred Dividends,IS_ANN_INDL
+uapt,2159.0,Accounts Payable - Utility,BAL_ANN_INDL
+ucaps,2129.0,Paid in Capital - Other,BAL_ANN_INDL
+urectr,2128.0,Accounts Receivable - Trade - Utility,BAL_ANN_INDL
+iore,2104.0,Income - Other (Real Estate),IS_ANN_FS
+udpco,2083.0,Debt (Pollution Control Obligations) - Utility,BAL_ANN_INDL
+ogm,2082.0,OIL & GAS METHOD,DES_ANN
+iire,2068.0,Investment Income (Real Estate),IS_ANN_FS
+dvrre,2066.0,Development Revenue (Real Estate),IS_ANN_FS
+upmsubp,2061.0,Premium on Subsidiary Preferred Stock,BAL_ANN_INDL
+curuscn,2055.0,US Canadian Translation Rate,DES_ANN
+idilb,2039.0,Interest & Dividend Income - Loans/Claims/Advances - Banks,IS_ANN_FS
+cfere,2035.0,Commissions & Fees - (Real Estate),IS_ANN_FS
+xore,2018.0,Expense - Other (Real Estate),IS_ANN_FS
+xdvre,1994.0,Expense - Development (Real Estate),IS_ANN_FS
+idits,1984.0,Interest & Dividend Income - Trading Securities,IS_ANN_FS
+xivre,1974.0,Expense - Investment (Real Estate),IS_ANN_FS
+uaox,1873.0,Other Assets - Utility,BAL_ANN_INDL
+ulcm,1860.0,Current Liabilities - Miscellaneous,BAL_ANN_INDL
+istm,1853.0,Investment Securities - Total (Market),BAL_ANN_FS
+tdss,1836.0,Trading/Dealing Account Securities - Sundry,BAL_ANN_FS
+tdsce,1833.0,Trading/Dealing Account Securities - Corporate Equity,BAL_ANN_FS
+tdsng,1833.0,Trading/Dealing Account Securities - National Governments,BAL_ANN_FS
+tdscd,1831.0,Trading/Dealing Account Securities - Corporate Debt,BAL_ANN_FS
+isng,1827.0,Investment Securities - National Governments,BAL_ANN_FS
+tdso,1826.0,Trading/Dealing Account Securities - Other,BAL_ANN_FS
+issu,1809.0,Investment Securities - Sundry,BAL_ANN_FS
+islg,1807.0,Investment Securities - Local Governments,BAL_ANN_FS
+islgm,1807.0,Investment Securities - Local Governments (Market),BAL_ANN_FS
+islgc,1804.0,Investment Securities - Local Governments (Cost),BAL_ANN_FS
+isngm,1804.0,Investment Securities - National Governments (Market),BAL_ANN_FS
+issm,1800.0,Investment Securities - Sundry (Market),BAL_ANN_FS
+tdsmm,1798.0,Trading/Dealing Account Securities - Money Market,BAL_ANN_FS
+isoth,1784.0,Investment Securities - Other,BAL_ANN_FS
+tdslg,1783.0,Trading/Dealing Account Securities - Local Governments,BAL_ANN_FS
+issc,1764.0,Investment Securities - Sundry (Cost),BAL_ANN_FS
+urevub,1761.0,Accrued Unbilled Revenues (Balance Sheet),BAL_ANN_INDL
+iseq,1758.0,Investment Securities - Equity,BAL_ANN_FS
+isngc,1751.0,Investment Securities - National Governments (Cost),BAL_ANN_FS
+iseqm,1738.0,Investment Securities - Equity (Market),BAL_ANN_FS
+isfi,1726.0,Investment Securities - Fixed Income,BAL_ANN_FS
+prirow,1722.0,Historical Primary Issue Tag / Rest of World,COMPHIST
+isotm,1715.0,Invetsment Securities - Other (Market),BAL_ANN_FS
+isfxm,1690.0,Investment Securities - Fixed Income (Market),BAL_ANN_FS
+ppenc,1667.0,"Property, Plant, & Equipment - Construction in Progress (Net)",BAL_ANN_INDL
+iseqc,1657.0,Investment Securities - Equity (Cost),BAL_ANN_FS
+ffo,1636.0,Funds From Operations (REIT),IS_ANN_INDL
+istc,1632.0,Investment Securities - Total (Cost),BAL_ANN_FS
+ppevbb,1632.0,"Property, Plant & Equipment - Beginning Balance (Schedule V)",BAL_ANN_INDL
+pdvc,1583.0,Cash Dividends on Preferred/Preference Stock (Cash Flow),CF_ANN
+isfxc,1576.0,Investment Securities - Fixed Income (Cost),BAL_ANN_FS
+xstfo,1567.0,Staff Expense - Other,IS_ANN_INDL
+isotc,1551.0,Invetsment Securities - Other (Cost),BAL_ANN_FS
+upmcstk,1508.0,Premium on Common Stock,BAL_ANN_INDL
+rvti,1497.0,Reserves - Total,BAL_ANN_FS
+saa,1494.0,Separate Account Assets,BAL_ANN_FS
+iati,1491.0,Investment Assets - Total (Insurance),BAL_ANN_FS
+sal,1489.0,Separate Account Liabilities,BAL_ANN_FS
+bct,1484.0,Benefits & Claims - Total (Insurance),IS_ANN_FS
+xoi,1479.0,Expenses - Other (Insurance),IS_ANN_FS
+ioi,1478.0,Income - Other (Insurance),IS_ANN_FS
+rati,1474.0,Reinsurance Assets - Total (Insurance),BAL_ANN_FS
+rvsi,1474.0,Reserves - Sundry (Insurance),BAL_ANN_FS
+rlri,1472.0,Reinsurers' Liability for Reserves (Insurance),BAL_ANN_FS
+radp,1471.0,Reinsurance Assets - Deposits & Other (Insurance),BAL_ANN_FS
+rvbti,1470.0,Reserves for Benefits - Life - Total (Insurance),BAL_ANN_FS
+dfpac,1469.0,Deferred Policy Acquisition Costs,BAL_ANN_FS
+rari,1458.0,Reinsurance Assets - Receivable/Debtors (Insurance),BAL_ANN_FS
+rvupi,1442.0,Reserves for Unearned Premiums (Insurance),BAL_ANN_FS
+xinst,1432.0,Interest Expense - Short-Term Borrowings,IS_ANN_INDL
+rlt,1429.0,Reinsurance Liabilities - Total,BAL_ANN_FS
+udfcc,1406.0,Deferred Fuel - Increase (Decrease) (Statement of Cash Flows),CF_ANN
+rlo,1405.0,Reinsurance Liabilities - Other,BAL_ANN_FS
+rlp,1397.0,Reinsurance Liabilities - Payables/Creditors,BAL_ANN_FS
+crvnli,1396.0,Reserves for Claims (Losses) - Nonlife (Insurance),BAL_ANN_FS
+isgu,1391.0,Investment Securities - Gain (Loss) - Unrealized,IS_ANN_FS
+ipv,1374.0,Investment Property (Valuation),BAL_ANN_FS
+dvpdp,1372.0,Dividends & Bonuses Paid Policyholders,IS_ANN_FS
+rvbpi,1364.0,Reserves for Benefits - Life - Policy (Insurance),BAL_ANN_FS
+rvbci,1361.0,Reserves for Benefits - Life - Claims (Insurance),BAL_ANN_FS
+rvri,1360.0,Reserves - Reinsurance (Insurance),BAL_ANN_FS
+xnbi,1348.0,Other Insurance Expense,IS_ANN_INDL
+adpac,1344.0,Amortization of Deferred Policy Acquisition Costs,IS_ANN_FS
+xivi,1340.0,Investment Expense (Insurance),IS_ANN_FS
+isgr,1281.0,Investment Securities - Gain (Loss) - Realized,IS_ANN_FS
+iaoi,1278.0,Investment Assets - Other (Insurance),BAL_ANN_FS
+iasti,1277.0,Investment Assets - Securities - Total (Insurance),BAL_ANN_FS
+ptbl,1277.0,Premiums - Total (Business Line),IS_ANN_FS
+iassi,1270.0,Investment Assets - Securities - Sundry (Insurance),BAL_ANN_FS
+bcltbl,1267.0,Benefits & Claims - Total (Business Line),IS_ANN_FS
+iafxi,1267.0,Investment Assets - Fixed Income Securities (Insurance),BAL_ANN_FS
+iafxmi,1259.0,Investment Assets (Insurance) - Fixed Income Securities (Market),BAL_ANN_FS
+ialoi,1258.0,Investment Assets - Loans - Other (Insurance),BAL_ANN_FS
+iasmi,1258.0,Investment Assets (Insurance) - Securities - Sundry (Market),BAL_ANN_FS
+iaeq,1256.0,Investment Assets - Equity Securities (Insurance),BAL_ANN_FS
+iapli,1255.0,Investment Assets - Policy Loans (Insurance),BAL_ANN_FS
+ialti,1249.0,Investment Assets - Loans - Total (Insurance),BAL_ANN_FS
+iaeqmi,1246.0,Investment Assets (Insurance) - Equity Securities (Market),BAL_ANN_FS
+iatmi,1245.0,Investment Assets (Insurance) - Securities - Total (Market),BAL_ANN_FS
+xnins,1245.0,Other Expense - Noninsurance,IS_ANN_INDL
+cgui,1243.0,Capital Gains - Unrealized (Insurance),IS_ANN_FS
+pobl,1240.0,Premiums - Other (Business Line),IS_ANN_FS
+iamli,1236.0,Investment Assets - Mortgage Loans (Insurance),BAL_ANN_FS
+iafici,1226.0,Investment Assets (Insurance) - Fixed Income Securities (Cost),BAL_ANN_FS
+pnli,1221.0,Premiums Written - Non-Life,IS_ANN_FS
+pnlbl,1220.0,Premiums - Nonlife - Total (Business Line),IS_ANN_FS
+iarei,1219.0,Investment Assets - Real Estate (Insurance),BAL_ANN_FS
+pltbl,1219.0,Premiums - Life - Total (Business Line),IS_ANN_FS
+bctbl,1203.0,Benefits & Claims - Other (Business Line),IS_ANN_FS
+cgti,1201.0,Capital Gains - Total (Insurance),IS_ANN_FS
+xoprar,1200.0,Operatings Expenses - As Reported,IS_ANN_FS
+irii,1196.0,Interest & Related Income (Insurance),IS_ANN_FS
+cnltbl,1194.0,Claims - Non-Life - Total (Business Line),IS_ANN_FS
+prebl,1190.0,Premiums - Reinsurance (Business Line),IS_ANN_FS
+iaeqci,1185.0,Investment Assets (Insurance) - Equity Securities (Cost),BAL_ANN_FS
+iasci,1185.0,Investment Assets (Insurance) - Securities - Sundry (Cost),BAL_ANN_FS
+bltbl,1183.0,Benefits - Life - Total (Business Line),IS_ANN_FS
+cgri,1181.0,Capital Gains - Realized (Insurance),IS_ANN_FS
+pri,1172.0,Premiums Written - Reinsurance,IS_ANN_FS
+irsi,1164.0,Interest & Related Income - Sundry (Insurance),IS_ANN_FS
+xuwoi,1163.0,Underwriting Expense - Other,IS_ANN_FS
+opincar,1160.0,Operating Income - As Reported,IS_ANN_FS
+bcrbl,1159.0,Benefits & Claims - Reinsurance (Business Line),IS_ANN_FS
+pwoi,1143.0,Premiums Written - Other,IS_ANN_FS
+xuwrei,1143.0,Underwriting Expense - Reinsurance,IS_ANN_FS
+xuwti,1136.0,Underwriting Expense - Total,IS_ANN_FS
+txeqii,1131.0,Tax - Equivalent Interest Income (Gross),IS_ANN_FS
+pctr,1129.0,Premiums Ceded - Total,IS_ANN_FS
+pcnlr,1125.0,Premiums Ceded - Nonlife,IS_ANN_FS
+lif,1121.0,Life Insurance in Force,BAL_ANN_FS
+itcc,1120.0,Investment Tax Credit - Net (Cash Flow) - Utility,CF_ANN
+iatci,1117.0,Investment Assets (Insurance) - Securities - Total (Cost),BAL_ANN_FS
+cpdoi,1113.0,Claims Paid - Other,IS_ANN_FS
+irei,1109.0,Interest & Related Income - Reinsurance (Insurance),IS_ANN_FS
+cpnli,1100.0,Claims Paid - Non-Life,IS_ANN_FS
+opiri,1089.0,Operating Income - Reinsurance,IS_ANN_FS
+panlr,1083.0,Premiums Assumed - Nonlife,IS_ANN_FS
+irli,1081.0,Interest & Related Income - Life (Insurance),IS_ANN_FS
+cprei,1080.0,Claims Paid - Reinsurance,IS_ANN_FS
+xuwli,1080.0,Underwriting Expense - Life,IS_ANN_FS
+irnli,1078.0,Interest & Related Income - Non-Life (Insurance),IS_ANN_FS
+srt,1076.0,Surplus - Total (Statutory),BAL_ANN_FS
+xuwnli,1067.0,Underwriting Expense - Non-Life,IS_ANN_FS
+pclr,1049.0,Premiums Ceded - Life,IS_ANN_FS
+patr,1045.0,Premiums Assumed - Total,IS_ANN_FS
+opioi,1044.0,Operating Income - Other,IS_ANN_FS
+cbi,1038.0,Claims Incurred - Insurance,IS_ANN_INDL
+palr,1025.0,Premiums Assumed - Life,IS_ANN_FS
+lcabg,1008.0,Loans/Claims/Advances - Banks & Government - Total,BAL_ANN_FS
+lcag,964.0,Loans/Claims/Advances - Government,BAL_ANN_FS
+nits,953.0,Net Income - Total (Statutory),IS_ANN_FS
+opini,947.0,Operating Income - Non-Life,IS_ANN_FS
+afudcc,893.0,Allowance for Funds Used During Construction (Cash Flow),CF_ANN
+afudci,893.0,Allowance for Funds Used During Construction (Investing) (Cash Flow),CF_ANN
+cdpac,882.0,Capitalized Deferred Polcy Acquisition Costs,BAL_ANN_FS
+ssnp,875.0,Securities Sold Not Yet Purchased,BAL_ANN_FS
+mtl,869.0,Loans From Securities Finance Companies for Margin Transactions,BAL_ANN_FS
+sc,869.0,Securities In Custody,BAL_ANN_FS
+sbdc,868.0,Securities Borrowed & Deposited by Customers,BAL_ANN_FS
+opili,863.0,Operating Income - Life,IS_ANN_FS
+xcomi,861.0,Commissions Expense (Insurance),IS_ANN_FS
+chs,859.0,Cash & Deposits - Segregated,BAL_ANN_FS
+iobd,842.0,Income - Other (Broker Dealer),IS_ANN_FS
+ibki,841.0,Investment Banking Income,IS_ANN_FS
+ipobl,841.0,Individual Premiums - Other (Business Line),IS_ANN_FS
 acqlntal,840.0,Acquired Loans,BAL_ANN_INDL
-tf_dc,839.0,Trust Fees DC,IS_ANN_FS
-rect_dc,830.0,Receivables - Total DC,BAL_ANN_INDL
-ptran,814.0,Principal Transactions,IS_ANN_FS
-islt,812.0,Investment Securities - Listed - Total,BAL_ANN_FS
-isut,812.0,Investment Securities - Unlisted - Total,BAL_ANN_FS
-aqa_dc,809.0,Acquisition/Merger After-tax DC,IS_ANN_INDL
-cppbl,806.0,Commercial Property & Casualty Premiums (Business Line),IS_ANN_FS
-iphbl,806.0,Individual Premiums - Health (Business Line),IS_ANN_FS
-ppptbl,806.0,Personal Property & Casualty Premiums - Total (Business Line),IS_ANN_FS
-aqp_dc,804.0,Acquisition/Merger Pretax DC,IS_ANN_INDL
-gphbl,801.0,Group Premiums - Health (Business Line),IS_ANN_FS
-lst,794.0,Life Insurance Surrenders & Terminations,IS_ANN_FS
-dlc_dc,793.0,Debt in Current Liabilities - Total DC,BAL_ANN_INDL
-rca_dc,793.0,Restructuring Costs After-tax DC,IS_ANN_INDL
-rcp_dc,790.0,Restructuring Costs Pretax DC,IS_ANN_INDL
-gptbl,787.0,Group Premiums - Total (Business Line),IS_ANN_FS
-iptbl,787.0,Individual Premiums - Total (Business Line),IS_ANN_FS
-mib_fn,787.0,Not found,Not found
-cb,786.0,Compensating Balance,BAL_ANN_INDL
-ucustad,785.0,Customer Advances for Construction,BAL_ANN_INDL
-gbbl,781.0,Group Benefits (Business Line),IS_ANN_FS
-ibbl,781.0,Individual Benefits (Business Line),IS_ANN_FS
-xobd,773.0,Expense - Other (Broker/Dealer),IS_ANN_FS
-xuw_dc,768.0,Other Underwriting Expenses - Insurance DC,IS_ANN_INDL
-dcs_fn,766.0,Debt - Consolidated Subsidiary FN,BAL_ANN_INDL
-opiti,756.0,Operating Income - Total,IS_ANN_FS
-oancf_fn,751.0,Operating Activities - Net Cash Flow FN,CF_ANN
-cpcbl,744.0,Commercial Property & Casualty Claims (Business Line),IS_ANN_FS
-ppcbl,744.0,Personal Property & Casualty Claims (Business Line),IS_ANN_FS
-ppphbl,741.0,Personal Property & Casualty Premiums - Homeowners (Business Line),IS_ANN_FS
-pppabl,739.0,Personal Property & Casualty Premiums - Automobile (Business Line),IS_ANN_FS
-bclr,735.0,Benefits Ceded - Life,IS_ANN_FS
-pppobl,733.0,Personal Property & Casualty Premiums - Other (Business Line),IS_ANN_FS
-uxintd,733.0,Interest on Long-Term Debt,IS_ANN_INDL
-upmcstk_dc,732.0,Premium on Common Stock DC,BAL_ANN_INDL
-dd_dc,729.0,Debt - Debentures DC,BAL_ANN_INDL
-xeqo_dc,724.0,Equipment & Occupancy Expense DC,IS_ANN_FS
-bcnlr,721.0,Benefits Ceded - Nonlife,IS_ANN_FS
-balr,714.0,Benefits Assumed - Life,IS_ANN_FS
-xcomi_dc,714.0,Commissions Expense (Insurance) DC,IS_ANN_FS
-aocipen_dc,708.0,Accum Other Comp Inc - Min Pension Liab Adj DC,BAL_ANN_INDL
-txfed_fn,706.0,Income Taxes - Federal FN,IS_ANN_INDL
-txfo_fn,706.0,Income Taxes - Foreign FN,IS_ANN_INDL
-txo_fn,706.0,Income Taxes - Other FN,IS_ANN_INDL
-txs_fn,706.0,Income Taxes - State FN,IS_ANN_INDL
-acqintan_dc,699.0,Not found,Not found
-cshfd_fn,679.0,Common Shares Used to Calc EPS - Fully Diluted FN,IS_ANN_INDL
-urevub_dc,678.0,Accrued Unbilled Revenues (Balance Sheet) DC,BAL_ANN_INDL
-cshpri_fn,677.0,Common Shares Used to Calculate EPS - Basic FN,IS_ANN_INDL
-uxinst_dc,674.0,Interest On Short-Term Debt - Utility DC,IS_ANN_INDL
-fatc_dc,661.0,"Property, Plant, & Equipment Construction in Progress at Cost DC",BAL_ANN_INDL
-lcat,659.0,Loans/Claims/Advances - Total,BAL_ANN_FS
-cstk_fn,655.0,Common/Ordinary Stock (Capital) FN,BAL_ANN_INDL
-banlr,637.0,Benefits Assumed - Nonlife,IS_ANN_FS
-utme,633.0,Maintenance Expense - Total,IS_ANN_INDL
-acqgdwl_dc,623.0,Not found,Not found
-pstkl_fn,621.0,Preferred Stock Liquidating Value FN,BAL_ANN_INDL
-pstkrv_fn,621.0,Preferred Stock - Redemption Value FN,BAL_ANN_INDL
-dbi,612.0,Death Benefits - Insurance,IS_ANN_INDL
-txbcof_dc,612.0,Excess Tax Benefit of Stock Options - Cash Flow Financing - DC,CF_ANN
-spioa_dc,603.0,Other Special Items After-tax DC,IS_ANN_INDL
-spiop_dc,602.0,Other Special Items Pretax DC,IS_ANN_INDL
-caps_dc,599.0,Capital Surplus/Share Premium Reserve DC,BAL_ANN_INDL
-afudcc_fn,596.0,Allowance for Funds Used During Construction (Cash Flow) FN,CF_ANN
-cisecgl_dc,594.0,Comp Inc - Securities Gains/Losses - DC,IS_ANN_INDL
-dn_dc,591.0,Debt - Notes DC,BAL_ANN_INDL
-caps_fn,589.0,Capital Surplus/Share Premium Reserve FN,BAL_ANN_INDL
-lcabg_dc,582.0,Loans/Claims/Advances - Banks & Government - Total DC,BAL_ANN_FS
-cidergl_dc,578.0,Comp Inc - Derivative Gains/Losses - DC,IS_ANN_INDL
-capx_dc,553.0,Capital Expenditures DC,CF_ANN
-cicurr_dc,544.0,Comp Inc - Currency Trans Adj - DC,IS_ANN_INDL
-fate_dc,530.0,"Property, Plant, & Equipment Machinery & Equipment at Cost DC",BAL_ANN_INDL
-idilb_dc,530.0,Interest & Dividend Income - Loans/Claims/Advances - Banks DC,IS_ANN_FS
-uopres,512.0,Operating Reserves,BAL_ANN_INDL
-apofs_dc,512.0,Accounts Payable/Creditors - Other - FS DC,BAL_ANN_FS
-bctr,505.0,Benefits Ceded - Total,IS_ANN_FS
-dptic_fn,500.0,Deposits - Time - Customer FN,BAL_ANN_FS
-fea,478.0,Foreign Exchange Assets,BAL_ANN_FS
-fel,478.0,Foreign Exchange Liabilities,BAL_ANN_FS
-dptb,475.0,Deposits - Total - Banks,BAL_ANN_FS
-isgt_dc,474.0,Investment Securities - Gain (Loss) - Total DC,IS_ANN_FS
-uopres_dc,473.0,Operating Reserves DC,BAL_ANN_INDL
-acoxar,464.0,Current Assets - Other - Total As Reported,BAL_ANN_FS
-esub_dc,464.0,Equity in Earnings - Unconsolidated Subsidiaries DC,IS_ANN_INDL
-xuw,458.0,Other Underwriting Expenses - Insurance,IS_ANN_INDL
-pcl_dc,452.0,Provision - Credit Losses (Income Account) DC,IS_ANN_FS
-dpltb,451.0,Deposits - Long-Term Time - Bank,BAL_ANN_FS
-dpstb,451.0,Deposits - Short-Term Demand - Bank,BAL_ANN_FS
-npaore_dc,448.0,Nonperforming Assets - Other Real Estate Owned DC,BAL_ANN_FS
-gdwlam_fn,441.0,Goodwill Amortization FN,IS_ANN_INDL
-cmp_dc,438.0,Commercial Paper DC,BAL_ANN_INDL
-transa_dc,427.0,Cumulative Translation Adjustment DC,BAL_ANN_FS
-upmsubp_dc,412.0,Premium on Subsidiary Preferred Stock DC,BAL_ANN_INDL
-dltt_dc,409.0,Long-Term Debt - Total DC,BAL_ANN_INDL
-xindb,405.0,Interest Expense - Deposits - Banks,IS_ANN_FS
-ui_fn,405.0,Unearned Income FN,BAL_ANN_FS
-idist_dc,402.0,Interest & Dividend Income - Short-Term Investments DC,IS_ANN_FS
-lcalt,399.0,Loans/Claims/Advances - Long-Term (Banks),BAL_ANN_FS
-lcast,399.0,Loans/Claims/Advances - Short-Term - Banks,BAL_ANN_FS
-add2,397.0,Address Line 2,COMPANY
-uccons,388.0,Contributions in Aid of Construction,BAL_ANN_INDL
+ipabl,832.0,Individual Premiums - Annuity (Business Line),IS_ANN_FS
+gpobl,831.0,Group Premiums - Other (Business Line),IS_ANN_FS
+gprbl,819.0,Group Premiums - Retirement Benefits (Business Line),IS_ANN_FS
+iplbl,819.0,Individual Premiums - Life (Business Line),IS_ANN_FS
+cfbd,804.0,Commissions & Fees - (Broker/Dealer),IS_ANN_FS
+gplbl,804.0,Group Premiums - Life (Business Line),IS_ANN_FS
+xcom,775.0,Communications Expense,IS_ANN_FS
+bcef,768.0,"Brokerage, Clearing & Exchange Fees",IS_ANN_FS
+islt,762.0,Investment Securities - Listed - Total,BAL_ANN_FS
+isut,762.0,Investment Securities - Unlisted - Total,BAL_ANN_FS
+iphbl,728.0,Individual Premiums - Health (Business Line),IS_ANN_FS
+ptran,726.0,Principal Transactions,IS_ANN_FS
+gphbl,724.0,Group Premiums - Health (Business Line),IS_ANN_FS
+cppbl,720.0,Commercial Property & Casualty Premiums (Business Line),IS_ANN_FS
+ppptbl,720.0,Personal Property & Casualty Premiums - Total (Business Line),IS_ANN_FS
+lst,718.0,Life Insurance Surrenders & Terminations,IS_ANN_FS
+gbbl,709.0,Group Benefits (Business Line),IS_ANN_FS
+gptbl,709.0,Group Premiums - Total (Business Line),IS_ANN_FS
+ibbl,709.0,Individual Benefits (Business Line),IS_ANN_FS
+iptbl,709.0,Individual Premiums - Total (Business Line),IS_ANN_FS
+ucustad,690.0,Customer Advances for Construction,BAL_ANN_INDL
+xobd,680.0,Expense - Other (Broker/Dealer),IS_ANN_FS
+bclr,670.0,Benefits Ceded - Life,IS_ANN_FS
+cpcbl,666.0,Commercial Property & Casualty Claims (Business Line),IS_ANN_FS
+ppcbl,666.0,Personal Property & Casualty Claims (Business Line),IS_ANN_FS
+bcnlr,663.0,Benefits Ceded - Nonlife,IS_ANN_FS
+ppphbl,658.0,Personal Property & Casualty Premiums - Homeowners (Business Line),IS_ANN_FS
+balr,657.0,Benefits Assumed - Life,IS_ANN_FS
+pppabl,655.0,Personal Property & Casualty Premiums - Automobile (Business Line),IS_ANN_FS
+pppobl,650.0,Personal Property & Casualty Premiums - Other (Business Line),IS_ANN_FS
+opiti,638.0,Operating Income - Total,IS_ANN_FS
+cb,588.0,Compensating Balance,BAL_ANN_INDL
+uxintd,585.0,Interest on Long-Term Debt,IS_ANN_INDL
+banlr,582.0,Benefits Assumed - Nonlife,IS_ANN_FS
+lcat,529.0,Loans/Claims/Advances - Total,BAL_ANN_FS
+dbi,502.0,Death Benefits - Insurance,IS_ANN_INDL
+bctr,473.0,Benefits Ceded - Total,IS_ANN_FS
+uopres,472.0,Operating Reserves,BAL_ANN_INDL
+acoxar,444.0,Current Assets - Other - Total As Reported,BAL_ANN_FS
+utme,392.0,Maintenance Expense - Total,IS_ANN_INDL
+xuw,392.0,Other Underwriting Expenses - Insurance,IS_ANN_INDL
+fea,388.0,Foreign Exchange Assets,BAL_ANN_FS
+fel,388.0,Foreign Exchange Liabilities,BAL_ANN_FS
 finrev,387.0,Finance Division Revenue,IS_ANN_INDL
-lcoxar,385.0,Current Liabilities - Other - Total As Reported,BAL_ANN_FS
-recta_fn,384.0,Retained Earning - Cumulative Translation Adjustment FN,BAL_ANN_INDL
-batr,381.0,Benefits Assumed - Total,IS_ANN_FS
-pifo_dc,362.0,Pretax Income - Foreign DC,IS_ANN_INDL
-pnrsho_dc,353.0,Nonred Pfd Shares Outs (000) - DC,BAL_ANN_INDL
-cll,345.0,Contingent Liabilities - Letters of Credit,BAL_ANN_FS
-ragr_dc,341.0,Resale Agreements DC,BAL_ANN_FS
-dpsc_dc,337.0,Deposits - Savings - Customer DC,BAL_ANN_FS
-xstfws,330.0,Staff Expense - Wages & Salaries,IS_ANN_FS
+dptb,385.0,Deposits - Total - Banks,BAL_ANN_FS
+dpltb,375.0,Deposits - Long-Term Time - Bank,BAL_ANN_FS
+dpstb,375.0,Deposits - Short-Term Demand - Bank,BAL_ANN_FS
+lcoxar,366.0,Current Liabilities - Other - Total As Reported,BAL_ANN_FS
+batr,364.0,Benefits Assumed - Total,IS_ANN_FS
+xindb,343.0,Interest Expense - Deposits - Banks,IS_ANN_FS
+lcalt,341.0,Loans/Claims/Advances - Long-Term (Banks),BAL_ANN_FS
+lcast,341.0,Loans/Claims/Advances - Short-Term - Banks,BAL_ANN_FS
 niintpfp,327.0,Not found,Not found
-xintopt_dc,326.0,Implied Option Expense DC,IS_ANN_INDL
 niintpfc,321.0,Not found,Not found
-vpac_dc,318.0,Investments - Permanent - Associated Companies DC,BAL_ANN_FS
-xoptd_dc,315.0,Implied Option EPS Diluted DC,IS_ANN_INDL
-xopteps_dc,315.0,Implied Option EPS Basic DC,IS_ANN_INDL
 finrecc,312.0,Finance Division Current Receivables,BAL_ANN_INDL
-lcal_dc,312.0,Loans/Claims/Advances - Lease DC,BAL_ANN_FS
-clis,305.0,Contingent Liabilities - Interest Rate Swaps,BAL_ANN_FS
-derhedgl_dc,304.0,Gains/Losses on Derivatives & Hedging DC,IS_ANN_INDL
-tdst_dc,304.0,Trading/Dealing Account Securities - Total DC,BAL_ANN_FS
-wda_dc,303.0,Writedowns After-tax DC,IS_ANN_INDL
-wdp_dc,300.0,Writedowns Pretax DC,IS_ANN_INDL
-amc,296.0,Amortization (Cash Flow) - Utility,CF_ANN
-ca_dc,295.0,Customers' Acceptance DC,BAL_ANN_FS
-xsga_fn,290.0,"Selling, General & Administrative Expense FN",IS_ANN_INDL
+xstfws,308.0,Staff Expense - Wages & Salaries,IS_ANN_FS
+cll,290.0,Contingent Liabilities - Letters of Credit,BAL_ANN_FS
 finxopr,287.0,Finance Division Operating Expense,IS_ANN_INDL
-acco_dc,285.0,Acceptances Outstanding DC,BAL_ANN_FS
 finxint,278.0,Finance Division Interest Expense,IS_ANN_INDL
-udpco_dc,278.0,Debt (Pollution Control Obligations) DC,BAL_ANN_INDL
-lifrp_dc,277.0,LIFO Reserve - Prior DC,BAL_ANN_INDL
-txbco_dc,273.0,Excess Tax Benefit Stock Options - Cash Flow Operating DC,CF_ANN
-cllc,265.0,Contingent Liabilities - Loan Commitments,BAL_ANN_FS
-ivpt_dc,265.0,Investments - Permanent - Total DC,BAL_ANN_FS
-lifr_dc,265.0,LIFO Reserve DC,BAL_ANN_INDL
-tie_fn,255.0,Interest Expense - Total (Financial Services) FN,IS_ANN_INDL
-udpfa,252.0,Depreciation of Fixed Assets,IS_ANN_INDL
-setp_dc,252.0,Settlement (Litigation/Insurance) Pretax DC,IS_ANN_INDL
-spiop_fn,251.0,Other Special Items Pretax FN,IS_ANN_INDL
-fatb_dc,251.0,"Property, Plant, & Equipment Buildings at Cost DC",BAL_ANN_INDL
-seta_dc,251.0,Settlement (Litigation/Insurance) After-tax DC,IS_ANN_INDL
-txs_dc,251.0,Income Taxes - State DC,IS_ANN_INDL
+amc,263.0,Amortization (Cash Flow) - Utility,CF_ANN
+uccons,260.0,Contributions in Aid of Construction,BAL_ANN_INDL
 findlt,243.0,Finance Division Debt Long-Term,BAL_ANN_INDL
-mrc5_dc,241.0,Rental Commitments - Minimum - 5th Year DC,BAL_ANN_INDL
-cfo_dc,240.0,Commissions & Fees - Other DC,IS_ANN_FS
-mrc4_dc,240.0,Rental Commitments - Minimum - 4th Year DC,BAL_ANN_INDL
-cipen_dc,239.0,Comp Inc - Minimum Pension Adj - DC,IS_ANN_INDL
-mrc3_dc,234.0,Rental Commitments - Minimum - 3rd Year DC,BAL_ANN_INDL
-fatn_dc,233.0,"Property, Plant, & Equipment - Natural Resources at Cost DC",BAL_ANN_INDL
 finreclt,231.0,Finance Division Long-Term Receivables,BAL_ANN_INDL
-mrc2_dc,230.0,Rental Commitments - Minimum - 2nd Year DC,BAL_ANN_INDL
-mrc1_dc,220.0,Rental Commitments - Minimum - 1st Year DC,BAL_ANN_INDL
-usubdvp_dc,220.0,Subsidiary Preferred Dividends DC,IS_ANN_INDL
+clis,229.0,Contingent Liabilities - Interest Rate Swaps,BAL_ANN_FS
 finch,219.0,Finance Division - Cash,BAL_ANN_INDL
-mrcta_dc,217.0,Thereafter Portion of Leases DC,BAL_ANN_INDL
-ffs_dc,216.0,Federal Funds Sold DC,BAL_ANN_FS
-uapt_dc,216.0,Accounts Payable - Utility DC,BAL_ANN_INDL
-clfx,215.0,Contingent Liabilities - Foreign Exchange Commitments,BAL_ANN_FS
-rcd_dc,215.0,Restructuring Costs Diluted EPS Effect DC,IS_ANN_INDL
-lt_dc,213.0,Liabilities - Total DC,BAL_ANN_INDL
 findlc,211.0,Finance Division Long-Term Debt Current,BAL_ANN_INDL
-xobd_dc,210.0,Expense - Other (Broker/Dealer) DC,IS_ANN_FS
+cllc,209.0,Contingent Liabilities - Loan Commitments,BAL_ANN_FS
 finao,206.0,"Finance Division Other Long-Term Assets, Total",BAL_ANN_INDL
-adpac_dc,200.0,Amortization of Deferred Policy Acquisition Costs DC,IS_ANN_FS
-cb_dc,198.0,Compensating Balance DC,BAL_ANN_INDL
-aqd_dc,196.0,Acquisition/Merger Diluted EPS Effect DC,IS_ANN_INDL
-gdwl_dc,192.0,Goodwill DC,BAL_ANN_INDL
-stalt,190.0,Status Alert,DES_ANN
-xivi_dc,189.0,Investment Expense (Insurance) DC,IS_ANN_FS
-emol,187.0,Directors' Emoluments,IS_ANN_FS
 finnp,186.0,Finance Division Notes Payable,BAL_ANN_INDL
-acdo_dc,186.0,Current Assets of Discontinued Operations DC,BAL_ANN_INDL
+emol,181.0,Directors' Emoluments,IS_ANN_FS
 finaco,181.0,"Finance Division Other Current Assets, Total",BAL_ANN_INDL
-artfs_dc,179.0,Accounts Receivable/Debtors - Total DC,BAL_ANN_FS
-am_dc,178.0,Amortization of Intangibles DC,IS_ANN_INDL
-drci,173.0,Deduction From Policy & Claims Reserves for Reinsurance Ceded,BAL_ANN_FS
-aqp_fn,170.0,Acquisition/Merger Pretax FN,IS_ANN_INDL
-msa_fn,169.0,Marketable Securities Adjustment FN,BAL_ANN_INDL
-dd2_dc,169.0,Debt Due in 2nd Year DC,BAL_ANN_INDL
-ptran_dc,169.0,Principal Transactions DC,IS_ANN_FS
-dd3_dc,168.0,Debt Due in 3rd Year DC,BAL_ANN_INDL
-idilc_dc,168.0,Interest & Dividend Income - Loans/Claims/Advances - Customers DC,IS_ANN_FS
-county,166.0,County Code,COMPANY
-gla_dc,162.0,Gain/Loss After-tax DC,IS_ANN_INDL
-glp_dc,162.0,Gain/Loss Pretax DC,IS_ANN_INDL
-uinvt_dc,159.0,Inventories - Utility DC,BAL_ANN_INDL
-pvt_dc,158.0,Provisions - Total DC,BAL_ANN_FS
-txndbl_dc,158.0,Net Deferred Tax Liability - DC,BAL_ANN_INDL
-txndba_dc,157.0,Net Deferred Tax Asset - DC,BAL_ANN_INDL
-xivre_dc,157.0,Expense - Investment (Real Estate) DC,IS_ANN_FS
-clfc,155.0,Contingent Liabilities - Forward & Future Contracts,BAL_ANN_FS
-dd5_dc,155.0,Debt Due in 5th Year DC,BAL_ANN_INDL
-dd4_dc,152.0,Debt Due in 4th Year DC,BAL_ANN_INDL
-prstkcc_dc,151.0,Purchase of Common Stock (Cash Flow) DC,CF_ANN
-dvpdp_dc,150.0,Dividends & Bonuses Paid Policyholders DC,IS_ANN_FS
-stio_dc,149.0,Short-Term Investments - Other DC,BAL_ANN_FS
-udd_dc,148.0,Debt (Debentures) DC,BAL_ANN_INDL
-rpag_dc,143.0,Repurchase Agreements DC,BAL_ANN_FS
+udpfa,178.0,Depreciation of Fixed Assets,IS_ANN_INDL
+stalt,174.0,Status Alert,DES_ANN
+add2,164.0,Address Line 2,COMPANY
+drci,163.0,Deduction From Policy & Claims Reserves for Reinsurance Ceded,BAL_ANN_FS
+clfx,160.0,Contingent Liabilities - Foreign Exchange Commitments,BAL_ANN_FS
 finlto,142.0,"Finance Division Other Long Term Liabilities, Total",BAL_ANN_INDL
-upmpf_dc,141.0,Premium on Preferred Stock DC,BAL_ANN_INDL
-deralt_dc,140.0,Derivative Assets Long-Term DC,BAL_ANN_INDL
-rmum,139.0,Auditors' Remuneraton,IS_ANN_FS
-ragr_fn,137.0,Resale Agreements FN,BAL_ANN_FS
-rcp_fn,137.0,Restructuring Costs Pretax FN,IS_ANN_INDL
-xdvre_dc,137.0,Expense - Development (Real Estate) DC,IS_ANN_FS
-uaox_dc,136.0,Other Assets - Utility DC,BAL_ANN_INDL
-pdvc_fn,134.0,Cash Dividends on Preferred/Preference Stock (Cash Flow) FN,CF_ANN
-xrent_dc,134.0,Rental Expense DC,IS_ANN_INDL
-rvri_dc,129.0,Reserves - Reinsurance (Insurance) DC,BAL_ANN_FS
-invwip_dc,127.0,Inventories - Work In Process DC,BAL_ANN_INDL
-nopi_dc,127.0,Nonoperating Income (Expense) DC,IS_ANN_INDL
-spid_dc,127.0,Other Special Items Diluted EPS Effect DC,IS_ANN_INDL
-ivi_fn,126.0,Investment Income - Total (Insurance) FN,IS_ANN_FS
-bcef_dc,125.0,"Brokerage, Clearing & Exchange Fees DC",IS_ANN_FS
-ds_dc,122.0,Debt - Subordinated DC,BAL_ANN_INDL
+rmum,136.0,Auditors' Remuneraton,IS_ANN_FS
+nieci,120.0,Net Income Effect Capitalized Interest,IS_ANN_INDL
 finlco,118.0,"Finance Division Other Current Liabilities, Total",BAL_ANN_INDL
-xcom_dc,118.0,Communications Expense DC,IS_ANN_FS
-clo,117.0,Contingent Liabilities - Other,BAL_ANN_FS
-aocidergl_fn,117.0,Accum Other Comp Inc - Derivatives Unrealized Gain/Loss FN,BAL_ANN_INDL
-derllt_dc,117.0,Derivative Liabilities Long-Term DC,BAL_ANN_INDL
-setp_fn,116.0,Settlement (Litigation/Insurance) Pretax FN,IS_ANN_INDL
-glp_fn,115.0,Gain/Loss Pretax FN,IS_ANN_INDL
-clg_dc,114.0,Contingent Liabilities - Guarantees DC,BAL_ANN_INDL
-np_dc,112.0,Notes Payable - Short-Term Borrowings DC,BAL_ANN_INDL
-wdd_dc,112.0,Writedowns Diluted EPS Effect DC,IS_ANN_INDL
 finivst,109.0,Finance Division Short-Term Investments,BAL_ANN_INDL
-adrr,107.0,ADR Ratio,DES_ANN
-urectr_dc,107.0,Accounts Receivable - Trade - Utility DC,BAL_ANN_INDL
-txndbr_dc,106.0,Deferred Tax Residual - DC,BAL_ANN_INDL
-xore_dc,106.0,Expense - Other (Real Estate) DC,IS_ANN_FS
-exre_dc,104.0,Exchange Rate Effect DC,CF_ANN
-glcep_fn,102.0,Gain/Loss On Sale Pretax FN,IS_ANN_INDL
-wdp_fn,98.0,Writedowns Pretax FN,IS_ANN_INDL
-aocipen_fn,97.0,Accum Other Comp Inc - Min Pension Liab Adj FN,BAL_ANN_INDL
-xintd_dc,97.0,Interest Expense - Long-Term Debt DC,IS_ANN_INDL
-irei_dc,96.0,Interest & Related Income - Reinsurance (Insurance) DC,IS_ANN_FS
-tlcf_dc,96.0,Tax Loss Carry Forward DC,BAL_ANN_INDL
-idits_dc,94.0,Interest & Dividend Income - Trading Securities DC,IS_ANN_FS
-lcuacu_dc,94.0,Loans/Claims/Advances - Customer DC,BAL_ANN_FS
-crvnli_dc,92.0,Reserves for Claims (Losses) - Nonlife (Insurance) DC,BAL_ANN_FS
-cfere_dc,89.0,Commissions & Fees - (Real Estate) DC,IS_ANN_FS
-fatp_dc,88.0,"Property, Plant, & Equipment Land & Improvements at Cost DC",BAL_ANN_FS
-fopt,86.0,Funds From Operations - Total,CF_ANN
-fsrco,86.0,Sources of Funds - Other,CF_ANN
-fuseo,86.0,Uses of Funds - Other,CF_ANN
-pstk_dc,86.0,Preferred/Preference Stock (Capital) - Total DC,BAL_ANN_INDL
-vpo_fn,81.0,Investments - Permanent - Other FN,BAL_ANN_FS
-tdc_dc,81.0,Deferred Income Taxes - Net (Cash Flow) DC,CF_ANN
-dfxa_dc,79.0,Depreciation of Tangible Fixed Assets DC,IS_ANN_INDL
-ui_dc,79.0,Unearned Income DC,BAL_ANN_FS
-fsrct,77.0,Sources of Funds - Total,CF_ANN
-fuset,77.0,Uses of Funds - Total,CF_ANN
-iarei_dc,76.0,Investment Assets - Real Estate (Insurance) DC,BAL_ANN_FS
-pstkn_dc,76.0,Preferred/Preference Stock - Nonredeemable DC,BAL_ANN_INDL
-tdslg_dc,76.0,Trading/Dealing Account Securities - Local Governments DC,BAL_ANN_FS
-dtea_dc,75.0,Extinguishment of Debt After-tax DC,IS_ANN_INDL
-rlt_dc,75.0,Reinsurance Liabilities - Total DC,BAL_ANN_FS
-cfbd_dc,74.0,Commissions & Fees - (Broker/Dealer) DC,IS_ANN_FS
-dcom_dc,74.0,Deferred Compensation DC,BAL_ANN_INDL
-accrt_dc,73.0,ARO Accretion Expense DC,IS_ANN_INDL
-dtep_dc,73.0,Extinguishment of Debt Pretax DC,IS_ANN_INDL
-txdfo_dc,73.0,Deferred Taxes-Foreign DC,IS_ANN_INDL
-upstksf_dc,73.0,Preferred/Preference Stock Sinking Fund Requirement DC,BAL_ANN_INDL
-idiis_dc,71.0,Interest & Dividend Income - Investment Securities DC,IS_ANN_FS
-prebl_dc,69.0,Premiums - Reinsurance (Business Line) DC,IS_ANN_FS
-arce,68.0,As Reported Core - After-tax,IS_ANN_INDL
-arced,68.0,As Reported Core - Diluted EPS Effect,IS_ANN_INDL
-arceeps,68.0,As Reported Core - Basic EPS Effect,IS_ANN_INDL
-itcc_fn,68.0,Investment Tax Credit - Net (Cash Flow) - Utility FN,CF_ANN
+clfc,107.0,Contingent Liabilities - Forward & Future Contracts,BAL_ANN_FS
+clo,107.0,Contingent Liabilities - Other,BAL_ANN_FS
+adrr,96.0,ADR Ratio,DES_ANN
 acqniintc,67.0,Not found,Not found
-aldo_dc,67.0,Long-term Assets of Discontinued Operations DC,BAL_ANN_INDL
-intpn_dc,64.0,Interest Paid - Net DC,CF_ANN
-ist_dc,63.0,Investment Securities -Total DC,BAL_ANN_FS
-prsho_dc,63.0,Redeem Pfd Shares Outs (000) - DC,BAL_ANN_INDL
-prstkpc_dc,62.0,Purchase of Preferred/Preference Stock (Cash Flow) DC,CF_ANN
-rceps_dc,62.0,Restructuring Costs Basic EPS Effect DC,IS_ANN_INDL
-bcrbl_dc,60.0,Benefits & Claims - Reinsurance (Business Line) DC,IS_ANN_FS
-gdwlia_dc,60.0,Impairments of Goodwill After-tax DC,IS_ANN_INDL
-ivi_dc,60.0,Investment Income - Total (Insurance) DC,IS_ANN_FS
-uxinst,59.0,Interest On Short-Term Debt - Utility,IS_ANN_INDL
-islg_dc,59.0,Investment Securities - Local Governments DC,BAL_ANN_FS
-udmb_dc,58.0,Debt (Mortgage Bonds) - Utility DC,BAL_ANN_INDL
-wcapc,57.0,Working Capital Change - Other - Increase/(Decrease),CF_ANN
-dvrre_dc,57.0,Development Revenue (Real Estate) DC,IS_ANN_FS
-gdwlip_dc,57.0,Impairments of Goodwill Pretax DC,IS_ANN_INDL
-iire_dc,57.0,Investment Income (Real Estate) DC,IS_ANN_FS
-tstk_dc,57.0,Treasury Stock - Total (All Capital) DC,BAL_ANN_INDL
-xstf_dc,57.0,Staff Expense (Income Account) DC,IS_ANN_FS
-uapt_fn,56.0,Accounts Payable - Utility FN,BAL_ANN_INDL
-xintopt_fn,56.0,Implied Option Expense FN,IS_ANN_INDL
-prodv_dc,56.0,Proposed Dividends DC,BAL_ANN_FS
-xuwrei_dc,56.0,Underwriting Expense - Reinsurance DC,IS_ANN_FS
-txdi_dc,54.0,Income Taxes - Deferred DC,IS_ANN_INDL
-idist_fn,53.0,Interest & Dividend Income - Short-Term Investments FN,IS_ANN_FS
-spieps_dc,53.0,Other Special Items Basic EPS Effect DC,IS_ANN_INDL
-islgm_dc,52.0,Investment Securities - Local Governments (Market) DC,BAL_ANN_FS
-udvp_dc,52.0,Preferred Dividend Requirements DC,IS_ANN_INDL
-xindb_dc,52.0,Interest Expense - Deposits - Banks DC,IS_ANN_FS
-iati_fn,51.0,Investment Assets - Total (Insurance) FN,BAL_ANN_FS
-stkco_dc,51.0,Stock Compensation Expense DC,IS_ANN_INDL
-aqeps_dc,50.0,Acquisition/Merger Basic EPS Effect DC,IS_ANN_INDL
-fdfr_dc,50.0,Federal Funds Purchased DC,BAL_ANN_FS
-re_fn,49.0,Retained Earnings FN,BAL_ANN_INDL
-lcacl_dc,49.0,Loans/Claims/Advances - Commercial DC,BAL_ANN_FS
-txndb_dc,49.0,Net Deferred Tax Asset (Liab) - Total - DC,BAL_ANN_INDL
-amc_fn,48.0,Amortization (Cash Flow) - Utility FN,CF_ANN
-dvintf_dc,48.0,Dividends & Interest Receivable (Cash Flow) DC,CF_ANN
-usubpstk_dc,48.0,Subsidiary Preferred Stock at Carrying Value DC,BAL_ANN_INDL
-ibki_dc,47.0,Investment Banking Income DC,IS_ANN_FS
-wdeps_dc,47.0,Writedowns Basic EPS Effect DC,IS_ANN_INDL
-csho_fn,46.0,Common Shares Outstanding FN,BAL_ANN_INDL
-dtep_fn,46.0,Extinguishment of Debt Pretax FN,IS_ANN_INDL
-dbi_dc,45.0,Death Benefits - Insurance DC,IS_ANN_INDL
-irnli_dc,45.0,Interest & Related Income - Non-Life (Insurance) DC,IS_ANN_FS
-opiri_dc,45.0,Operating Income - Reinsurance DC,IS_ANN_FS
-tdsmm_dc,44.0,Trading/Dealing Account Securities - Money Market DC,BAL_ANN_FS
-gld_dc,43.0,Gain/Loss Diluted EPS Effect DC,IS_ANN_INDL
-rvupi_dc,43.0,Reserves for Unearned Premiums (Insurance) DC,BAL_ANN_FS
-txds_dc,43.0,Deferred Taxes-State DC,IS_ANN_INDL
-txpd_dc,43.0,Income Taxes Paid DC,CF_ANN
-dptc_fn,42.0,Deposits - Total - Customer FN,BAL_ANN_FS
-ialti_dc,41.0,Investment Assets - Loans - Total (Insurance) DC,BAL_ANN_FS
-islgc_dc,41.0,Investment Securities - Local Governments (Cost) DC,BAL_ANN_FS
-setd_dc,40.0,Settlement (Litigation/Insurance) Diluted EPS Effect DC,IS_ANN_INDL
-txfo_dc,40.0,Income Taxes - Foreign DC,IS_ANN_INDL
-ip_fn,39.0,Investment Property FN,BAL_ANN_FS
-transa_fn,39.0,Cumulative Translation Adjustment FN,BAL_ANN_FS
-lcag_dc,39.0,Loans/Claims/Advances - Government DC,BAL_ANN_FS
-nrtxt_fn,38.0,Nonrecurring Income Taxes After-tax FN,IS_ANN_INDL
-iobd_dc,38.0,Income - Other (Broker Dealer) DC,IS_ANN_FS
-lcacr_dc,38.0,Loans/Claims/Advances - Consumer DC,BAL_ANN_FS
-ist_fn,37.0,Investment Securities -Total FN,BAL_ANN_FS
-xindc_dc,37.0,Interest Expense - Deposits - Customer DC,IS_ANN_FS
-arceeps_fn,36.0,As Reported Core - Basic EPS Effect FN,IS_ANN_INDL
-lul3_dc,36.0,Not found,Not found
-tfvl_dc,36.0,Not found,Not found
-ip_dc,35.0,Investment Property DC,BAL_ANN_FS
-nrtxt_dc,35.0,Nonrecurring Income Taxes After-tax DC,IS_ANN_INDL
-scstkc_dc,35.0,Sale of Common Stock (Cash Flow) DC,CF_ANN
-tstkn_dc,35.0,Treasury Stock - Number of Common Shares DC,BAL_ANN_INDL
-capsft_dc,34.0,Capitalized Software DC,BAL_ANN_INDL
-dxd3_dc,34.0,Debt (excl Capitalized Leases) - Due in 3rd Year - DC,BAL_ANN_INDL
-lol2_dc,34.0,Not found,Not found
-cprei_dc,33.0,Claims Paid - Reinsurance DC,IS_ANN_FS
-dfpac_dc,33.0,Deferred Policy Acquisition Costs DC,BAL_ANN_FS
-uspi_dc,33.0,Special Items DC,IS_ANN_INDL
-clt,32.0,Contingent Liabilities - Total,BAL_ANN_FS
-lqpl1_dc,32.0,Not found,Not found
-rstchelt_dc,32.0,Long-Term Restricted Cash & Investments DC,BAL_ANN_INDL
-acominc_dc,31.0,Accumulated Other Comprehensive Income (Loss) DC,BAL_ANN_INDL
-aul3_dc,31.0,Not found,Not found
-dxd2_dc,31.0,Debt (excl Capitalized Leases) - Due in 2nd Year - DC,BAL_ANN_INDL
-dxd5_dc,31.0,Debt (excl Capitalized Leases) - Due in 5th Year - DC,BAL_ANN_INDL
-findlc_dc,31.0,Finance Division Long-Term Debt Current DC,BAL_ANN_INDL
-icapt_fn,30.0,Invested Capital - Total FN,BAL_ANN_INDL
-dxd4_dc,30.0,Debt (excl Capitalized Leases) - Due in 4th Year - DC,BAL_ANN_INDL
-lno_dc,30.0,Not found,Not found
-lcam_dc,29.0,Loans/Claims/Advances - Mortgage DC,BAL_ANN_FS
-txdfed_dc,29.0,Deferred Taxes-Federal DC,IS_ANN_INDL
-wcapc_dc,29.0,Working Capital Change - Other - Increase/(Decrease) DC,CF_ANN
-idiis_fn,28.0,Interest & Dividend Income - Investment Securities FN,IS_ANN_FS
-stbo_dc,28.0,Short-Term Borrowings - Other DC,BAL_ANN_FS
-add3,28.0,Address Line 3,COMPANY
-aol2_dc,27.0,Not found,Not found
-ioi_dc,27.0,Income - Other (Insurance) DC,IS_ANN_FS
-nrtxtd_dc,27.0,Nonrecurring Income Tax Diluted EPS Effect DC,IS_ANN_INDL
-optca_dc,27.0,Options - Cancelled (-) - DC,BAL_ANN_INDL
-rati_dc,27.0,Reinsurance Assets - Total (Insurance) DC,BAL_ANN_FS
-xidoc_dc,27.0,Extraord Items & Discontinued Operations (Cash Flow) DC,CF_ANN
-dfs_fn,26.0,Debt - Finance Subsidiary FN,BAL_ANN_INDL
-secu_fn,25.0,Securities Gains (Losses) - Unrealized FN,BAL_ANN_FS
-tfva_dc,25.0,Not found,Not found
-aocisecgl_dc,24.0,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets DC,BAL_ANN_INDL
-aqpl1_dc,24.0,Not found,Not found
-niintpfc_dc,24.0,Not found,Not found
-niintpfp_dc,24.0,Not found,Not found
-txt_dc,24.0,Income Taxes - Total DC,IS_ANN_INDL
-ano_dc,23.0,Not found,Not found
-cbi_dc,23.0,Claims Incurred - Insurance DC,IS_ANN_INDL
-xoi_dc,23.0,Expenses - Other (Insurance) DC,IS_ANN_FS
-pcl_fn,22.0,Provision - Credit Losses (Income Account) FN,IS_ANN_FS
-bct_dc,22.0,Benefits & Claims - Total (Insurance) DC,IS_ANN_FS
-bltbl_dc,22.0,Benefits - Life - Total (Business Line) DC,IS_ANN_FS
-opili_dc,22.0,Operating Income - Life DC,IS_ANN_FS
-optexd_dc,22.0,Options - Exercised (-) - DC,BAL_ANN_INDL
-rstche_dc,22.0,Restricted Cash & Investments - Current DC,BAL_ANN_INDL
+arce,61.0,As Reported Core - After-tax,IS_ANN_INDL
+arced,61.0,As Reported Core - Diluted EPS Effect,IS_ANN_INDL
+arceeps,61.0,As Reported Core - Basic EPS Effect,IS_ANN_INDL
+county,36.0,County Code,COMPANY
+clt,28.0,Contingent Liabilities - Total,BAL_ANN_FS
+fopt,23.0,Funds From Operations - Total,CF_ANN
+fsrco,23.0,Sources of Funds - Other,CF_ANN
+fsrct,23.0,Sources of Funds - Total,CF_ANN
+fuseo,23.0,Uses of Funds - Other,CF_ANN
+fuset,23.0,Uses of Funds - Total,CF_ANN
 iali,20.0,Investment Assets (Insurance) - Listed Securities-Total,BAL_ANN_FS
 iaui,20.0,Investment Assets (Insurance) - Unlisted Securities - Total,BAL_ANN_FS
-findlt_fn,20.0,Finance Division Debt Long-Term FN,BAL_ANN_INDL
-isfi_dc,20.0,Investment Securities - Fixed Income DC,BAL_ANN_FS
-isfxm_dc,20.0,Investment Securities - Fixed Income (Market) DC,BAL_ANN_FS
-pvpl_dc,20.0,Provision - Pension Liabilities DC,PN_ANN
-ssnp_dc,20.0,Securities Sold Not Yet Purchased DC,BAL_ANN_FS
-gdwlid_dc,19.0,Impairments of Goodwill Diluted EPS Effect DC,IS_ANN_INDL
-llrcr_dc,19.0,Loan Loss Recoveries - Credited to Reserves DC,IS_ANN_FS
-tstkc_dc,19.0,Treasury Stock - Common DC,BAL_ANN_INDL
-irsi_dc,18.0,Interest & Related Income - Sundry (Insurance) DC,IS_ANN_FS
-iseq_dc,18.0,Investment Securities - Equity DC,BAL_ANN_FS
-iseqm_dc,18.0,Investment Securities - Equity (Market) DC,BAL_ANN_FS
-tdst_fn,17.0,Trading/Dealing Account Securities - Total FN,BAL_ANN_FS
-invreh_dc,17.0,Inventory/Stock - Real Estate Held for Development DC,BAL_ANN_FS
-pll_dc,17.0,Provision for Loan/Asset Losses DC,IS_ANN_INDL
-xuwnli_dc,17.0,Underwriting Expense - Non-Life DC,IS_ANN_FS
-cll_dc,16.0,Contingent Liabilities - Letters of Credit DC,BAL_ANN_FS
-dcvsub_dc,16.0,Debt - Subordinated Convertible,BAL_ANN_INDL
-iati_dc,16.0,Investment Assets - Total (Insurance) DC,BAL_ANN_FS
-iseqc_dc,16.0,Investment Securities - Equity (Cost) DC,BAL_ANN_FS
-isgr_dc,16.0,Not found,Not found
-pltbl_dc,16.0,Premiums - Life - Total (Business Line) DC,IS_ANN_FS
-reuna_fn,15.0,Retained Earnings - Unadjusted FN,BAL_ANN_INDL
-cpnli_dc,15.0,Not found,Not found
-donr_dc,15.0,Nonrecurring Disc Operations - DC,IS_ANN_INDL
-finnp_dc,15.0,Finance Division Notes Payable DC,BAL_ANN_INDL
-invrm_dc,15.0,Inventories - Raw Materials DC,BAL_ANN_INDL
-iore_dc,15.0,Income - Other (Real Estate) DC,IS_ANN_FS
-isfxc_dc,15.0,Investment Securities - Fixed Income (Cost) DC,BAL_ANN_FS
-pstkl_dc,15.0,Preferred Stock Liquidating Value DC,BAL_ANN_INDL
-seteps_dc,15.0,Settlement (Litigation/Insurance) Basic EPS Effect DC,IS_ANN_INDL
-spstkc_dc,15.0,Sale of Preferred/Preference Stock (Cash Flow) DC,CF_ANN
-prvt,14.0,Policy Reserves - Total (Statutory),BAL_ANN_FS
-esopt_fn,14.0,Preferred ESOP Obligation - Total - FN,BAL_ANN_INDL
-invt_fn,14.0,Inventories - Total FN,BAL_ANN_FS
-chs_dc,14.0,Cash & Deposits - Segregated DC,BAL_ANN_FS
-iaeq_dc,14.0,Investment Assets - Equity Securities (Insurance) DC,BAL_ANN_FS
-iamli_dc,14.0,Investment Assets - Mortgage Loans (Insurance) DC,BAL_ANN_FS
-irli_dc,14.0,Interest & Related Income - Life (Insurance) DC,IS_ANN_FS
-optosey_dc,14.0,Options Outstanding - End of Year - DC,BAL_ANN_INDL
-unopinc_dc,14.0,Nonoperating Income (Net) - Other DC,IS_ANN_INDL
-upstk_dc,14.0,Preferred Stock at Carrying Value DC,BAL_ANN_INDL
-xuwli_dc,14.0,Underwriting Expense - Life DC,IS_ANN_FS
-rdip_fn,13.0,In Process R&D Expense FN,IS_ANN_INDL
-ceiexbill_dc,13.0,Cost & Earnings in Excess of Billings DC,BAL_ANN_INDL
-gleps_dc,13.0,Gain/Loss Basic EPS Effect DC,IS_ANN_INDL
-invrei_dc,13.0,Inventory/Stock - Real Estate Under Development DC,BAL_ANN_FS
-ipti_dc,13.0,Insurance Premiums - Total (Insurance) DC,IS_ANN_INDL
-optprcca_dc,13.0,Options Cancelled - Price - DC,BAL_ANN_INDL
-pri_dc,13.0,Premiums Written - Reinsurance DC,IS_ANN_FS
-stkcpa_dc,13.0,After-tax stock compensation - DC,IS_ANN_INDL
-gdwlip_fn,12.0,Impairments of Goodwill Pretax FN,IS_ANN_INDL
-acqniintc_dc,12.0,Not found,Not found
-clfc_dc,12.0,Contingent Liabilities - Forward & Future Contracts DC,BAL_ANN_FS
-finivst_dc,12.0,Finance Division Short-Term Investments DC,BAL_ANN_INDL
-pstkr_dc,12.0,Preferred/Preference Stock - Redeemable DC,BAL_ANN_INDL
-xs_dc,12.0,Not found,Not found
-arced_fn,11.0,As Reported Core - Diluted EPS Effect FN,IS_ANN_INDL
-dltp_dc,11.0,Long-Term Debt - Tied to Prime DC,BAL_ANN_INDL
-gdwlieps_dc,11.0,Impairments of Goodwill Basic EPS Effect DC,IS_ANN_INDL
-invfg_dc,11.0,Inventories - Finished Goods DC,BAL_ANN_INDL
-invres_dc,11.0,Inventory/Stock - Real Estate Held for Sale DC,BAL_ANN_FS
-rdip_dc,11.0,In Process R&D Expense DC,IS_ANN_INDL
-ris_dc,11.0,Revenue/Income - Sundry DC,IS_ANN_FS
-rvbti_dc,11.0,Reserves for Benefits - Life - Total (Insurance) DC,BAL_ANN_FS
-ucaps_dc,11.0,Paid in Capital - Other DC,BAL_ANN_INDL
-xuwoi_dc,11.0,Underwriting Expense - Other DC,IS_ANN_FS
-msvrv,10.0,Mandatory Securities Valuation Reserve (Statutory),BAL_ANN_FS
-cgti_dc,10.0,Capital Gains - Total (Insurance) DC,IS_ANN_FS
-rdipa_dc,10.0,In Process R&D Expense After-tax DC,IS_ANN_INDL
-updvp_dc,10.0,Preference Dividend Requirements DC,IS_ANN_INDL
-vpo_dc,10.0,Investments - Permanent - Other DC,BAL_ANN_FS
-arce_fn,9.0,As Reported Core - After-tax FN,IS_ANN_INDL
-clg_fn,9.0,Contingent Liabilities - Guarantees FN,BAL_ANN_INDL
-apc_dc,9.0,Not found,Not found
-bast_dc,9.0,Average Short-Term Borrowings DC,BAL_ANN_INDL
-billexce_dc,9.0,Billings in Excess of Cost & Earnings DC,BAL_ANN_INDL
-optprcex_dc,9.0,Options Exercised - Price - DC,BAL_ANN_INDL
-sal_dc,9.0,Separate Account Liabilities DC,BAL_ANN_FS
-arc_dc,8.0,Not found,Not found
-clis_dc,8.0,Contingent Liabilities - Interest Rate Swaps DC,BAL_ANN_FS
-rari_dc,8.0,Not found,Not found
-rvti_dc,8.0,Reserves - Total DC,BAL_ANN_FS
-tdsce_dc,8.0,Trading/Dealing Account Securities - Corporate Equity DC,BAL_ANN_FS
-txc_dc,8.0,Income Taxes - Current DC,IS_ANN_FS
-txeqa_dc,8.0,Tax - Equivalent Adjustment DC,IS_ANN_FS
-xago_dc,8.0,Administrative & General Expense - Other DC,IS_ANN_FS
-am_fn,7.0,Amortization of Intangibles FN,IS_ANN_FS
-artfs_fn,7.0,Accounts Receivable/Debtors - Total FN,BAL_ANN_FS
-cdvc_dc,7.0,Cash Dividends on Common Stock (Cash Flow) DC,CF_ANN
-dted_dc,7.0,Extinguishment of Debt Diluted EPS Effect DC,IS_ANN_INDL
-itci_dc,7.0,Investment Tax Credit (Income Account) DC,IS_ANN_INDL
-ppevo,6.0,"Property, Plant, & Equipment - Other Changes (Schedule V)",BAL_ANN_INDL
-ppevr,6.0,"Property, Plant & Equipment - Retirements (Schedule V)",BAL_ANN_INDL
-dd1_fn,6.0,Debt - Due in 1st Year FN,BAL_ANN_INDL
-acchg_dc,6.0,Accounting Changes - Cumulative Effect DC,IS_ANN_INDL
-cgri_dc,6.0,Not found,Not found
-dlto_dc,6.0,Other Long-term Debt DC,BAL_ANN_INDL
-dvp_dc,6.0,Dividends - Preferred/Preference DC,IS_ANN_INDL
-iaeqci_dc,6.0,Investment Assets (Insurance) - Equity Securities (Cost) DC,BAL_ANN_FS
-iaeqmi_dc,6.0,Investment Assets (Insurance) - Equity Securities (Market) DC,BAL_ANN_FS
-pidom_dc,6.0,Pretax Income - Domestic DC,IS_ANN_INDL
-rcl_dc,6.0,Reserves for Credit Losses (Assets) DC,BAL_ANN_FS
-txfed_dc,6.0,Income Taxes - Federal DC,IS_ANN_INDL
-txw_dc,6.0,Excise Taxes DC,IS_ANN_INDL
-nat,5.0,Nonadmitted Assets - Total (Statutory),BAL_ANN_FS
-bctbl_dc,5.0,Benefits & Claims - Other (Business Line) DC,IS_ANN_FS
-dptb_dc,5.0,Deposits - Total - Banks DC,BAL_ANN_FS
-isng_dc,5.0,Investment Securities - National Governments DC,BAL_ANN_FS
-isngm_dc,5.0,Investment Securities - National Governments (Market) DC,BAL_ANN_FS
-nrtxteps_dc,5.0,Nonrecurring Income Tax Basic EPS Effect DC,IS_ANN_INDL
-pobl_dc,5.0,Premiums - Other (Business Line) DC,IS_ANN_FS
-saa_dc,5.0,Separate Account Assets DC,BAL_ANN_FS
-sbdc_dc,5.0,Securities Borrowed & Deposited by Customers DC,BAL_ANN_FS
-dpvio,4.0,Depreciation (Accumulated) - Other Changes (Schedule VI),BAL_ANN_INDL
-dpvir,4.0,Depreciation (Accumulated) - Retirements (Schedule VI),BAL_ANN_INDL
-dvpibb,4.0,Depreciation (Accumulated) - Beginning Balance (Schedule VI),BAL_ANN_INDL
-xdepl,4.0,Depletion Expense (Schedule VI),IS_ANN_INDL
-xdp,4.0,Depreciation Expense (Schedule VI),IS_ANN_INDL
-iarei_fn,4.0,Investment Assets - Real Estate (Insurance) FN,BAL_ANN_FS
-iire_fn,4.0,Investment Income (Real Estate) FN,IS_ANN_FS
-xstf_fn,4.0,Not found,Not found
-dcs_dc,4.0,Debt - Consolidated Subsidiary DC,BAL_ANN_INDL
-nieci_dc,4.0,Net Income Effect Capitalized Interest DC,IS_ANN_INDL
-nopio_dc,4.0,Nonoperating Income (Expense) - Excluding Interest Income DC,IS_ANN_INDL
-rvbci_dc,4.0,Reserves for Benefits - Life - Claims (Insurance) DC,BAL_ANN_FS
-dpacb,3.0,Depreciation (Accumulated) Buildings,BAL_ANN_INDL
-dpacc,3.0,Depreciation (Accumulated) Construction in Progress,BAL_ANN_INDL
-dpacli,3.0,Depreciation (Accumulated) Land & Improvements,BAL_ANN_INDL
-dpacls,3.0,Depreciation (Accumulated) - Leases,BAL_ANN_INDL
-dpacme,3.0,Depreciation (Accumulated) Machinery & Equipment,BAL_ANN_INDL
-dpacnr,3.0,Depreciation (Accumulated) - Natural Resources,BAL_ANN_INDL
-dpaco,3.0,Depreciation (Accumulated) Other,BAL_ANN_INDL
-ppenb,3.0,"Property, Plant, & Equipment - Buildings (Net)",BAL_ANN_INDL
-ppenli,3.0,"Property, Plant, & Equipment - Land & Improvements (Net)",BAL_ANN_INDL
-ppenls,3.0,"Property, Plant, & Equipment - Leases (Net)",BAL_ANN_INDL
-ppenme,3.0,"Property, Plant, & Equipment - Machinery & Equipment (Net)",BAL_ANN_INDL
-ppennr,3.0,"Property, Plant, & Equipment - Natural Resources (Net)",BAL_ANN_INDL
-ppeno,3.0,"Property, Plant, & Equipment - Other (Net)",BAL_ANN_INDL
-idits_fn,3.0,Interest & Dividend Income - Trading Securities FN,IS_ANN_FS
-rvupi_fn,3.0,Not found,Not found
-tstk_fn,3.0,Treasury Stock - Total (All Capital) FN,BAL_ANN_FS
-aoloch_dc,3.0,Assets & Liabilities - Other - Net Change DC,CF_ANN
-arb_dc,3.0,Not found,Not found
-batr_dc,3.0,Benefits Assumed - Total DC,IS_ANN_FS
-bctr_dc,3.0,Benefits Ceded - Total DC,IS_ANN_FS
-cnltbl_dc,3.0,Claims - Non-Life - Total (Business Line) DC,IS_ANN_FS
-cstke_dc,3.0,Not found,Not found
-dltsub_dc,3.0,Not found,Not found
-dteeps_dc,3.0,Not found,Not found
-iasci_dc,3.0,Not found,Not found
-isngc_dc,3.0,Investment Securities - National Governments (Cost) DC,BAL_ANN_FS
-llwocr_dc,3.0,Loan Loss Written Off - Charged to Reserves DC,IS_ANN_FS
-patr_dc,3.0,Premiums Assumed - Total DC,IS_ANN_FS
-pctr_dc,3.0,Premiums Ceded - Total DC,IS_ANN_FS
-pvon_dc,3.0,Provisions - Other (Net) DC,IS_ANN_FS
-rdipd_dc,3.0,Not found,Not found
-tdsng_dc,3.0,Trading/Dealing Account Securities - National Governments DC,BAL_ANN_FS
-uaoloch_dc,3.0,Other Assets & Liabilities - Net Change (Statement of Cash Flows) DC,CF_ANN
-xi_dc,3.0,Extraord Items DC,IS_ANN_INDL
-tstkme,2.0,Treasury Stock Book Value - Memo Entry,BAL_ANN_INDL
-ucaps_fn,2.0,Paid in Capital - Other FN,BAL_ANN_INDL
-acox_dc,2.0,Current Assets - Other - Sundry DC,BAL_ANN_INDL
-acqlntal_dc,2.0,Not found,Not found
-che_dc,2.0,Cash & Short-Term Investments DC,BAL_ANN_INDL
-clfx_dc,2.0,Contingent Liabilities - Foreign Exchange Commitments DC,BAL_ANN_FS
-dpdc_dc,2.0,Deposits - Demand - Customer DC,BAL_ANN_FS
-excadj_dc,2.0,Exchange Adj (Liabilities) DC,BAL_ANN_FS
-idis_dc,2.0,Interest & Dividend Income - Sundry DC,IS_ANN_FS
-ipc_dc,2.0,Not found,Not found
-li_dc,2.0,Not found,Not found
-ptbl_dc,2.0,Not found,Not found
-rlp_dc,2.0,Not found,Not found
-rvsi_dc,2.0,Reserves - Sundry (Insurance) DC,BAL_ANN_FS
-sc_dc,2.0,Securities In Custody DC,BAL_ANN_FS
-tdscd_dc,2.0,Trading/Dealing Account Securities - Corporate Debt DC,BAL_ANN_FS
-xido_dc,2.0,Extraord Items & Discontinued Operations DC,IS_ANN_INDL
-aocisecgl_fn,1.0,Accum Other Comp Inc - Unreal G/L Ret Int in Sec Assets FN,BAL_ANN_INDL
-apb_dc,1.0,Not found,Not found
-balr_dc,1.0,Benefits Assumed - Life DC,IS_ANN_FS
-banlr_dc,1.0,Benefits Assumed - Nonlife DC,IS_ANN_FS
-bclr_dc,1.0,Benefits Ceded - Life DC,IS_ANN_FS
-bcnlr_dc,1.0,Benefits Ceded - Nonlife DC,IS_ANN_FS
-cpdoi_dc,1.0,Not found,Not found
-dcvsr_dc,1.0,Debt - Senior Convertible DC,BAL_ANN_INDL
-depc_dc,1.0,Depreciation & Depletion (Cash Flow) DC,CF_ANN
-diladj_dc,1.0,Not found,Not found
-dvc_dc,1.0,Dividends Common/Ordinary DC,IS_ANN_INDL
-eiea_dc,1.0,Equity in Earnings - After-Tax DC,IS_ANN_FS
-finaco_dc,1.0,"Finance Division Other Current Assets, Total DC",BAL_ANN_INDL
-finao_dc,1.0,"Finance Division Other Long-Term Assets, Total DC",BAL_ANN_INDL
-finch_dc,1.0,Finance Division - Cash DC,BAL_ANN_INDL
-findlt_dc,1.0,Finance Division Debt Long-Term DC,BAL_ANN_INDL
-finlco_dc,1.0,"Finance Division Other Current Liabilities, Total DC",BAL_ANN_INDL
-finlto_dc,1.0,"Finance Division Other Long Term Liabilities, Total DC",BAL_ANN_INDL
-finrecc_dc,1.0,Finance Division Current Receivables DC,BAL_ANN_INDL
-finreclt_dc,1.0,Finance Division Long-Term Receivables DC,BAL_ANN_INDL
-finrev_dc,1.0,Finance Division Revenue DC,IS_ANN_INDL
-finxint_dc,1.0,Finance Division Interest Expense DC,IS_ANN_INDL
-finxopr_dc,1.0,Finance Division Operating Expense DC,IS_ANN_INDL
-glcea_dc,1.0,Gain/Loss On Sale After-tax DC,IS_ANN_INDL
-glcep_dc,1.0,Gain/Loss On Sale Pretax DC,IS_ANN_INDL
-gphbl_dc,1.0,Group Premiums - Health (Business Line) DC,IS_ANN_FS
-iapli_dc,1.0,Investment Assets - Policy Loans (Insurance) DC,BAL_ANN_FS
-invofs_dc,1.0,Not found,Not found
-iphbl_dc,1.0,Individual Premiums - Health (Business Line) DC,IS_ANN_FS
-lcox_dc,1.0,Current Liabilities - Other - Sundry DC,BAL_ANN_INDL
-nco_dc,1.0,Net Charge-Offs DC,IS_ANN_INDL
-nparl_dc,1.0,Nonperforming Assets - Restructured Loans DC,BAL_ANN_FS
-opini_dc,1.0,Operating Income - Non-Life DC,IS_ANN_FS
-palr_dc,1.0,Premiums Assumed - Life DC,IS_ANN_FS
-panlr_dc,1.0,Premiums Assumed - Nonlife DC,IS_ANN_FS
-pclr_dc,1.0,Premiums Ceded - Life DC,IS_ANN_FS
-pcnlr_dc,1.0,Premiums Ceded - Nonlife DC,IS_ANN_FS
-pnlbl_dc,1.0,Premiums - Nonlife - Total (Business Line) DC,IS_ANN_FS
-pnli_dc,1.0,Not found,Not found
-ppenc_dc,1.0,"Property, Plant, & Equipment - Construction in Progress (Net) DC",BAL_ANN_INDL
-ppphbl_dc,1.0,Personal Property & Casualty Premiums - Homeowners (Business Line) DC,IS_ANN_FS
-reajo_dc,1.0,Retained Earnings - Other Adj DC,BAL_ANN_INDL
-rlri_dc,1.0,Reinsurers' Liability for Reserves (Insurance) DC,BAL_ANN_FS
-rvno_dc,1.0,Not found,Not found
-tstkp_dc,1.0,Treasury Stock - Preferred DC,BAL_ANN_INDL
-txtubmax_dc,1.0,Change In Unrecog Tax Benefits - Max,BAL_ANN_INDL
-txtubmin_dc,1.0,Change In Unrecog Tax Benefits - Min,BAL_ANN_INDL
-urect_dc,1.0,Receivables (Net) DC,BAL_ANN_INDL
-xins_dc,1.0,Interest Expense - Sundry DC,IS_ANN_FS
-add4,1.0,Address Line 4,COMPANY
+uxinst,19.0,Interest On Short-Term Debt - Utility,IS_ANN_INDL
+prvt,10.0,Policy Reserves - Total (Statutory),BAL_ANN_FS
+msvrv,9.0,Mandatory Securities Valuation Reserve (Statutory),BAL_ANN_FS
+add3,3.0,Address Line 3,COMPANY
+nat,1.0,Nonadmitted Assets - Total (Statutory),BAL_ANN_FS
+ppevo,1.0,"Property, Plant, & Equipment - Other Changes (Schedule V)",BAL_ANN_INDL
+ppevr,1.0,"Property, Plant & Equipment - Retirements (Schedule V)",BAL_ANN_INDL
 cshrc,0.0,Common Shares Reserved for Conversion - Convertible Debt,BAL_ANN_INDL
 cshrp,0.0,Common Shares Reserved for Conversion - Preferred Stock,BAL_ANN_INDL
 cshrso,0.0,Common Shares Reserved for Conversion - Stock Options,BAL_ANN_INDL
 cshrt,0.0,Common Shares Reserved for Conversion - Total,BAL_ANN_INDL
 cshrw,0.0,Common Shares Reserved for Conversion - Warrants & Other,BAL_ANN_INDL
+dpacb,0.0,Depreciation (Accumulated) Buildings,BAL_ANN_INDL
+dpacc,0.0,Depreciation (Accumulated) Construction in Progress,BAL_ANN_INDL
+dpacli,0.0,Depreciation (Accumulated) Land & Improvements,BAL_ANN_INDL
+dpacls,0.0,Depreciation (Accumulated) - Leases,BAL_ANN_INDL
+dpacme,0.0,Depreciation (Accumulated) Machinery & Equipment,BAL_ANN_INDL
+dpacnr,0.0,Depreciation (Accumulated) - Natural Resources,BAL_ANN_INDL
+dpaco,0.0,Depreciation (Accumulated) Other,BAL_ANN_INDL
+dpvio,0.0,Depreciation (Accumulated) - Other Changes (Schedule VI),BAL_ANN_INDL
+dpvir,0.0,Depreciation (Accumulated) - Retirements (Schedule VI),BAL_ANN_INDL
+dvpibb,0.0,Depreciation (Accumulated) - Beginning Balance (Schedule VI),BAL_ANN_INDL
+ppenb,0.0,"Property, Plant, & Equipment - Buildings (Net)",BAL_ANN_INDL
+ppenli,0.0,"Property, Plant, & Equipment - Land & Improvements (Net)",BAL_ANN_INDL
+ppenls,0.0,"Property, Plant, & Equipment - Leases (Net)",BAL_ANN_INDL
+ppenme,0.0,"Property, Plant, & Equipment - Machinery & Equipment (Net)",BAL_ANN_INDL
+ppennr,0.0,"Property, Plant, & Equipment - Natural Resources (Net)",BAL_ANN_INDL
+ppeno,0.0,"Property, Plant, & Equipment - Other (Net)",BAL_ANN_INDL
 tsafc,0.0,Total Sources/Applications of Funds (Cash Flow),CF_ANN
+tstkme,0.0,Treasury Stock Book Value - Memo Entry,BAL_ANN_INDL
 ufretsd,0.0,Funds for Retirement of Securities & Short-Term Debt (Cash Flow),CF_ANN
 unwcc,0.0,Working Capital (Use) - Increase (Decrease) (Cash Flow),CF_ANN
 ustdnc,0.0,Short-Term Debt - Decrease (Increase) (Cash Flow),CF_ANN
 utfdoc,0.0,Total Funds From Operations (Cash Flow),CF_ANN
 utfosc,0.0,Total Funds from Outside Sources (Cash Flow),CF_ANN
 uwkcapc,0.0,Working Capital (Source) - Decrease (Increase) (Cash Flow),CF_ANN
+wcapc,0.0,Working Capital Change - Other - Increase/(Decrease),CF_ANN
 wcapch,0.0,Working Capital Change - Total,CF_ANN
-acchg_fn,0.0,Accounting Changes - Cumulative Effect FN,IS_ANN_INDL
-dvc_fn,0.0,Dividends Common/Ordinary FN,IS_ANN_FS
-dvp_fn,0.0,Dividends - Preferred/Preference FN,IS_ANN_FS
-dvrre_fn,0.0,Development Revenue (Real Estate) FN,IS_ANN_FS
-fca_fn,0.0,Foreign Exchange Income (Loss) FN,IS_ANN_INDL
-idit_fn,0.0,Interest & Related Income - Total FN,IS_ANN_FS
-lcao_fn,0.0,Loans/Claims/Advances - Other FN,BAL_ANN_FS
-pvcl_fn,0.0,Provision - Credit Losses (Balance Sheet) FN,BAL_ANN_FS
-rrp_fn,0.0,Reversal - Restructruring/Acquisition Pretax FN,IS_ANN_INDL
-txeqii_fn,0.0,Tax - Equivalent Interest Income (Gross) FN,IS_ANN_FS
-unwcc_fn,0.0,Working Capital (Use) - Increase (Decrease) (Cash Flow) FN,CF_ANN
-vpac_fn,0.0,Investments - Permanent - Associated Companies FN,BAL_ANN_FS
-xt_fn,0.0,Expense - Total FN,IS_ANN_FS
-aco_dc,0.0,Current Assets - Other - Total DC,BAL_ANN_INDL
-amdc_dc,0.0,Not found,Not found
-ao_dc,0.0,Assets - Other DC,BAL_ANN_FS
-aox_dc,0.0,Assets - Other - Sundry DC,BAL_ANN_INDL
-bastr_dc,0.0,Average Short-Term Borrowings Rate DC,BAL_ANN_INDL
-bkvlps_dc,0.0,Book Value Per Share DC,BAL_ANN_INDL
-capxv_dc,0.0,"Capital Expend Property, Plant & Equipment Schd V DC",CF_ANN
-ceq_dc,0.0,Common/Ordinary Equity - Total DC,BAL_ANN_INDL
-ceql_dc,0.0,Common Equity - Liquidation Value DC,BAL_ANN_INDL
-ceqt_dc,0.0,Common Equity - Tangible DC,BAL_ANN_INDL
-chech_dc,0.0,Cash & Cash Equivalents - Increase/(Decrease) DC,CF_ANN
-cllc_dc,0.0,Contingent Liabilities - Loan Commitments DC,BAL_ANN_FS
-cshfd_dc,0.0,Common Shares Used to Calc EPS - Fully Diluted DC,IS_ANN_INDL
-cshi_dc,0.0,Common Shares Issued DC,BAL_ANN_INDL
-csho_dc,0.0,Common Shares Outstanding DC,BAL_ANN_INDL
-cshpri_dc,0.0,Common Shares Used to Calculate EPS Basic DC,IS_ANN_INDL
-cshr_dc,0.0,Common/Ordinary Shareholders DC,BAL_ANN_INDL
-cshrc_dc,0.0,Common Shares Reserved for Conversion - Convertible Debt DC,BAL_ANN_INDL
-cshrt_dc,0.0,Common Shares Reserved for Conversion - Total DC,BAL_ANN_INDL
-cshrw_dc,0.0,Common Shares Reserved for Conversion - Warrants & Other DC,BAL_ANN_INDL
-cstk_dc,0.0,Common/Ordinary Stock (Capital) DC,BAL_ANN_INDL
-cstkcv_dc,0.0,Common Stock-Carrying Value DC,BAL_ANN_INDL
-dcpstk_dc,0.0,Convertible Debt & Preferred Stock DC,BAL_ANN_INDL
-dcvt_dc,0.0,Debt - Convertible DC,BAL_ANN_INDL
-dfs_dc,0.0,Debt - Finance Subsidiary DC,BAL_ANN_INDL
-do_dc,0.0,Discontinued Operations DC,IS_ANN_INDL
-dpacb_dc,0.0,Depreciation (Accumulated) Buildings DC,BAL_ANN_INDL
-dpacc_dc,0.0,Depreciation (Accumulated) Construction in Progress DC,BAL_ANN_INDL
-dpacls_dc,0.0,Depreciation (Accumulated) - Leases DC,BAL_ANN_INDL
-dpacme_dc,0.0,Depreciation (Accumulated) Machinery & Equipment DC,BAL_ANN_INDL
-dpacnr_dc,0.0,Depreciation (Accumulated) - Natural Resources DC,BAL_ANN_INDL
-dpact_dc,0.0,"Depreciation, Depletion & Amortization (Accumulated) DC",BAL_ANN_INDL
-dptc_dc,0.0,Deposits - Total - Customer DC,BAL_ANN_FS
-dptic_dc,0.0,Deposits - Time - Customer DC,BAL_ANN_FS
-dpvieb_dc,0.0,Depreciation (Accumulated) - Ending Balance (Schedule VI) DC,BAL_ANN_INDL
-dpvio_dc,0.0,Depreciation (Accumulated) - Other Changes (Schedule VI) DC,BAL_ANN_INDL
-dpvir_dc,0.0,Depreciation (Accumulated) - Retirements (Schedule VI) DC,BAL_ANN_INDL
-dudd_dc,0.0,Debt - Unamortized Debt Discount & Other DC,BAL_ANN_INDL
-dvpa_dc,0.0,Preferred Dividends in Arrears DC,BAL_ANN_INDL
-dvpibb_dc,0.0,Depreciation (Accumulated) - Beginning Balance (Schedule VI) DC,BAL_ANN_INDL
-ea_dc,0.0,Exchange Adj (Assets) DC,BAL_ANN_FS
-ebit_dc,0.0,Not found,Not found
-ebitda_dc,0.0,Earnings Before Interest DC,IS_ANN_INDL
-emp_dc,0.0,Employees DC,BAL_ANN_INDL
-epsfi_dc,0.0,EPS (Diluted) - Incl Extraord Items DC,IS_ANN_INDL
-epsfx_dc,0.0,EPS (Diluted) - Excl Extraord Items DC,IS_ANN_INDL
-epspi_dc,0.0,EPS (Basic) Incl Extraord Items DC,IS_ANN_INDL
-epspx_dc,0.0,EPS (Basic) Excl Extraord Items DC,IS_ANN_INDL
-esopct_dc,0.0,ESOP Obligation (Common) - Total DC,BAL_ANN_INDL
-fato_dc,0.0,"Property, Plant, & Equipment Other at Cost DC",BAL_ANN_INDL
-fopo_dc,0.0,Funds from Operations - Other DC,CF_ANN
-fsrco_dc,0.0,Sources of Funds - Other DC,CF_ANN
-fuseo_dc,0.0,Uses of Funds - Other DC,CF_ANN
-govgr_dc,0.0,Government Grants DC,IS_ANN_FS
-gplbl_dc,0.0,Not found,Not found
-gprbl_dc,0.0,Group Premiums - Retirement Benefits (Business Line) DC,IS_ANN_FS
-iafxi_dc,0.0,Not found,Not found
-iasti_dc,0.0,Not found,Not found
-ib_dc,0.0,Income Bef Extraord Items DC,IS_ANN_INDL
-ibadj_dc,0.0,Income Bef Extraord Items - Adj for Com Stk Equiv DC,IS_ANN_INDL
-ibc_dc,0.0,Not found,Not found
-ibcom_dc,0.0,Income Bef Extraord Items - Available for Common DC,IS_ANN_INDL
-icapt_dc,0.0,Invested Capital - Total DC,BAL_ANN_INDL
-initb_dc,0.0,Income - Non-interest - Total (Bank) DC,IS_ANN_FS
-ipabl_dc,0.0,Individual Premiums - Annuity (Business Line) DC,IS_ANN_FS
-iplbl_dc,0.0,Individual Premiums - Life (Business Line) DC,IS_ANN_FS
-ipv_dc,0.0,Investment Property (Valuation) DC,BAL_ANN_FS
-issc_dc,0.0,Investment Securities - Sundry (Cost) DC,BAL_ANN_FS
-issm_dc,0.0,Investment Securities - Sundry (Market) DC,BAL_ANN_FS
-issu_dc,0.0,Investment Securities - Sundry DC,BAL_ANN_FS
-lco_dc,0.0,Current Liabilities - Other - Total DC,BAL_ANN_INDL
-lct_dc,0.0,Current Liabilities - Total DC,BAL_ANN_INDL
-lo_dc,0.0,Liabilities - Other - Total DC,BAL_ANN_INDL
-mrct_dc,0.0,Rental Commitments - Minimum - 5 Year Total DC,BAL_ANN_INDL
-nat_dc,0.0,Not found,Not found
-ni_dc,0.0,Net Income (Loss) DC,IS_ANN_INDL
-nio_dc,0.0,Net Items - Other DC,IS_ANN_FS
-nit_dc,0.0,Net Item - Total DC,IS_ANN_FS
-oiadp_dc,0.0,Operating Income After Depreciation DC,IS_ANN_INDL
-oibdp_dc,0.0,Operating Income Before Depreciation DC,IS_ANN_INDL
-opioi_dc,0.0,Operating Income - Other DC,IS_ANN_FS
-optgr_dc,0.0,Options - Granted - DC,BAL_ANN_INDL
-optprcgr_dc,0.0,Options Granted - Price - DC,BAL_ANN_INDL
-pi_dc,0.0,Pretax Income DC,IS_ANN_INDL
-ppegt_dc,0.0,"Property, Plant & Equipment - Total (Gross) DC",BAL_ANN_INDL
-ppenb_dc,0.0,"Property, Plant, & Equipment - Buildings (Net) DC",BAL_ANN_INDL
-ppenli_dc,0.0,"Property, Plant, & Equipment - Land & Improvements (Net) DC",BAL_ANN_INDL
-ppenls_dc,0.0,"Property, Plant, & Equipment - Leases (Net) DC",BAL_ANN_INDL
-ppenme_dc,0.0,"Property, Plant, & Equipment - Machinery & Equipment (Net) DC",BAL_ANN_INDL
-ppennr_dc,0.0,"Property, Plant, & Equipment - Natural Resources (Net) DC",BAL_ANN_INDL
-ppeno_dc,0.0,"Property, Plant, & Equipment - Other (Net) DC",BAL_ANN_INDL
-ppevbb_dc,0.0,"Property, Plant & Equipment - Beginning Balance (Schedule V) DC",BAL_ANN_INDL
-ppeveb_dc,0.0,"Property, Plant, & Equipment - Ending Balance (Schedule V) DC",BAL_ANN_INDL
-ppevo_dc,0.0,"Property, Plant, & Equipment - Other Changes (Schedule V) DC",BAL_ANN_INDL
-ppevr_dc,0.0,"Property, Plant & Equipment - Retirements (Schedule V) DC",BAL_ANN_INDL
-pstkc_dc,0.0,Preferred Stock - Convertible DC,BAL_ANN_INDL
-pstkrv_dc,0.0,Preferred Stock - Redemption Value DC,BAL_ANN_INDL
-pwoi_dc,0.0,Premiums Written - Other DC,IS_ANN_FS
-re_dc,0.0,Retained Earnings DC,BAL_ANN_INDL
-rea_dc,0.0,Retained Earnings - Restatement DC,BAL_ANN_INDL
-reunr_dc,0.0,Retained Earnings - Unrestricted DC,BAL_ANN_INDL
-rll_dc,0.0,Reserve for Loan/Asset Losses DC,BAL_ANN_INDL
-rvdt_dc,0.0,Reserves - Distributable - Total DC,BAL_ANN_FS
-rveqt_dc,0.0,Equity Reserves - Total DC,BAL_ANN_FS
-rvlrv_dc,0.0,Not found,Not found
-seq_dc,0.0,Stockholders Equity - Parent DC,BAL_ANN_INDL
-tstkme_dc,0.0,Treasury Stock Book Value - Memo Entry DC,BAL_ANN_INDL
-uccons_dc,0.0,Contributions in Aid of Construction DC,BAL_ANN_INDL
-unwcc_dc,0.0,Working Capital (Use) - Increase (Decrease) (Cash Flow) DC,CF_ANN
-uopi_dc,0.0,Operating Income - Total - Utility DC,IS_ANN_INDL
-upmpfs_dc,0.0,Premium on Preference Stock DC,BAL_ANN_INDL
-upstkc_dc,0.0,Preference Stock at Carrying Value DC,BAL_ANN_INDL
-ustdnc_dc,0.0,Short-Term Debt - Decrease (Increase) (Cash Flow) DC,CF_ANN
-utxfed_dc,0.0,Current Taxes - Federal (Operating) DC,IS_ANN_INDL
-uwkcapc_dc,0.0,Working Capital (Source) - Decrease (Increase) (Cash Flow) DC,CF_ANN
-uxintd_dc,0.0,Interest on Long-Term Debt DC,IS_ANN_INDL
-xdepl_dc,0.0,Depletion Expense (Schedule VI) DC,IS_ANN_INDL
-xdp_dc,0.0,Depreciation Expense (Schedule VI) DC,IS_ANN_INDL
-xlr_dc,0.0,Staff Expense - Total DC,IS_ANN_INDL
-xnins_dc,0.0,Other Expense - Noninsurance DC,IS_ANN_INDL
-xnitb_dc,0.0,Expense - Noninterest - Total (Bank) DC,IS_ANN_FS
+xdepl,0.0,Depletion Expense (Schedule VI),IS_ANN_INDL
+xdp,0.0,Depreciation Expense (Schedule VI),IS_ANN_INDL
+add4,0.0,Address Line 4,COMPANY

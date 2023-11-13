@@ -326,14 +326,17 @@ count_years = 0
 map_year_change = {}
 
 for year_start in range(2000, 2022):
-    print()
-    print(f'Analysing {year_start}')
-    year_end = year_start + 1
-    res = do_years(year_start, year_end)
-    sumAll += res[3]
-    sumAllBr += res[5]
-    count_years += 1
-    map_year_change[year_start] = res[3]
+    try:
+        print()
+        print(f'Analysing {year_start}')
+        year_end = year_start + 1
+        res = do_years(year_start, year_end)
+        sumAll += res[3]
+        sumAllBr += res[5]
+        count_years += 1
+        map_year_change[year_start] = res[3]
+    except:
+        print(f'Error analysing {year_start}')
 
 print(f'Average change yf M+3: {sumAll/count_years:.2f}%')
 print(f'Average change yf M+3 (if all delisted went bankrupt): {sumAllBr/count_years:.2f}%')
