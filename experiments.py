@@ -73,8 +73,9 @@ def do_years(year_start, year_end):
         dft = df[(df['tic'] == tic) & (df['fyear'] == year)]
         date = dft['datadate'].values[0]
         if month != None : 
+            month += 1
             monthN = month if month <= 12 else month - 12
-            date = f'{year if month <= 12 else year+1}{monthN if monthN > 9 else f"0{monthN}" }30'
+            date = f'{year if month <= 12 else year+1}{monthN if monthN > 9 else f"0{monthN}" }15'
 
         date = pd.to_datetime(date, format='%Y%m%d')
         close = None
