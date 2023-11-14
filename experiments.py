@@ -101,8 +101,6 @@ def do_years(year_start, year_end):
         return dfyear
 
     columns = df.columns.tolist()
-    print(columns)
-
     df.head()
 
 
@@ -168,7 +166,7 @@ def do_years(year_start, year_end):
     print(f'{len(val_cf_ann)} columns in CF_ANN')
 
     # select all rows in rows_start with columns of vals_bal_ann_indl and vals_is_ann_indl different than NaN
-    rows_start_bal_and_is = rows_start[['tic', 'fyear'] + vals_bal_ann_indl + vals_is_ann_indl + val_cf_ann + ['mkvalt', 'prcc_f']]
+    rows_start_bal_and_is = rows_start[['tic', 'fyear'] + vals_bal_ann_indl + vals_is_ann_indl + val_cf_ann + ['gsector', 'mkvalt', 'prcc_f']]
     rows_start_bal_and_is = rows_start_bal_and_is.dropna()
     rows_start_bal_and_is = rows_start_bal_and_is.reset_index(drop=True)
     # print(len(rows_start_bal_and_is))
@@ -180,6 +178,11 @@ def do_years(year_start, year_end):
 
     tickers = rows_start_bal_and_is['tic']
     data = rows_start_bal_and_is
+
+    # one hot encoding sectors
+    data = pd.get_dummies(data, columns=['gsector'])
+
+    print(data.columns.tolist())
 
 
     # Regressor
