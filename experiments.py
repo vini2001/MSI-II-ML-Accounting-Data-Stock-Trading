@@ -308,7 +308,7 @@ def do_years(year_start, year_end):
     changeYfJune = (sumAllYfJune)*100/(count - len(noyf))
     chnageYfM3 = (sumAllYfMPlus3*100)/(count - len(noyf))
     changeYfM3C = (sumAllYfMPlus3CompletedByMkvalt*100)/(count)
-    changeYfM3Br = ((sumAllYfMPlus3 -1*(len(noyf) + (30-count)))*100)/(count)
+    changeYfM3Br = ((sumAllYfMPlus3 -1*(len(noyf) + (30-count)))*100)/(30)
 
     print(f'Average change: {change:.2f}%')
     print(f'Average change yf: {changeYf:.2f}%')
